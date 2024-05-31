@@ -36,9 +36,7 @@ def import_csv(file_path, graph_importer, batch_size=10000):
             if len(batch) >= batch_size:
                 process_batch(batch, graph_importer)
                 print(f"Processed \ rows")  # 输出读取的总行数
-                end = time.time()
                 batch = []
-                print(end - start)
         if batch:
             process_batch(batch, graph_importer)
 
