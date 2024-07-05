@@ -1,445 +1,445 @@
-select ?x where { <凉宫村日> <所属社团> ?x. }
-select ?x where { ?x <主演> <无间道>. ?x <职业> <歌手>. }
+select ?x where { <凉宫春日_（轻小说《凉宫春日系列》中女主角）> <社团> ?x. }
+select ?x where { ?x <代表作品> <无间道_（2002年刘伟强、麦兆辉执导电影）>. ?x <职业> <歌手_（职业名称）>. }
 select ?x where { <诸邑公主> <父亲> ?y. ?y <庙号> ?x. }
-SELECT ?x WHERE { ?document <签署日期> "1776-08-02". ?document <签署者> ?x. ?x <国籍> "英国". }
-select ?x where { <莉薇娅·杜路莎·奥古斯塔> <国家> ?y. ?y <主要宗教> ?x. }
-select ?x where { <用于制作原子弹的金属> <发现时间> ?x. }
-select ?x where { <世界上第一台电子多用途计算机> <重量> ?x. }
-select ?x where { <烤包子_（食品）> <民族> ?y . ?y <宗教> ?x . }
-select ?x where { ?x <招牌动作> "后仰跳投". ?x <总冠军次数> 6. }
-select ?x where { <中国人民大学> <所在城市> ?y. ?y <总人口数量> ?x. }
-select ?x where { <沙丘战役> <所在地> ?y. ?y <气候类型> ?x. }
-SELECT ?x WHERE { ?singer <获得奖项> "金曲奖". ?singer <获得奖项数量> 15. ?singer <身高> ?x. }
-SELECT ?birth_date WHERE { <狭义相对论> <提出者> ?name . ?name <出生日期> ?birth_date . }
-select ?y where { ?x <影响人物> <莫言>. ?x <代表作品> ?y. }
-select ?x where { <波兰首都> <面积> ?x. }
-select ?y where { <钢铁侠_（漫威电影系列角色）> <主演> ?x . ?x <中文名> ?y . }
+select ?x where { ?y <签署日期> "1776-08-02".?y <重要人物> ?x. ?x <国籍> <英国_（大不列颠及北爱尔兰联合王国）>. }
+select ?x where { <莉薇娅·杜路莎·奥古斯塔> <国籍> ?y. ?y <主要宗教> ?x. }
+select ?x where { <原子弹> <材料> ?x. }
+select ?x where { ?y <意义>	"世界上第一台电子多用途计算机" . ?y <重量> ?x. }
+select ?x where { ?y <代表食品>	"烤包子" . ?y <信仰> ?x .}
+select ?x where { <后仰式跳投> <代表人物> ?x. ?x <主要奖项>	"6次NBA总冠军" . }
+select ?x where { <中国人民大学> <所属城市> ?y. ?y <城市总人口> ?x. }
+SELECT ?x WHERE { <沙丘战役> <战役地点> ?y. ?y <气候条件> ?x. }
+select ?x where { ?y <主要成就> "获得15座金曲奖". ?y <身高> ?x. }
+select ?x where { <狭义相对论> <提出者> ?y. ?y <出生日期> ?x. }
+select ?x where { ?y <施影响于>	"莫言" . ?y <代表作品> ?x. }
+select ?x where { <波兰_（波兰共和国）>	<首都> ?y.?y <面积> ?x. }
+select ?x where { <Ironman_（美国2008年小罗伯特·唐尼主演电影）> <主演> ?x. }
 select ?x where { <北京大学> <学术传统> ?x. }
-select ?x where { ?x <迁都地> <北京>. }
-select ?x where { ?x <别名> "现代通话之父". }
-select ?x where { <渡江战役> <参战兵力> ?x. }
-select ?x where { <太平洋> <盐度> ?x. }
-select ?x where { ?x <类型> <游戏系列>. }
-select ?x where { ?y <游戏平台> "PlayStation". ?y <游戏名称> "神秘海域". ?y <生产商> ?x. }
-SELECT ?x WHERE { <方正集团> <口号> ?x. }
-select ?x where { <iPhone> <操作系统> ?x. }
-select ?x where { ?x <进入太空> "第一个" . ?x <地球人> ?y. }
-select ?x where { <十月革命> <发生地点> ?x. }
-select ?x where { <南水北调工程> <涉及地区> ?x. }
-select ?x where { <安卓> <发行商> ?x. }
-select ?x where { <华为> <总裁> ?y. ?y <出生地> ?x. }
-select ?x where { ?x <开发游戏> <刺客信条系列>. }
-select ?x where { <塞尔达传说主角> <登场游戏> ?x. }
-select ?x where { ?x <前作> <零系列>. ?x <发行时间> ?y. }
-select ?x where { ?x <开发者> <微软>. ?x <开发者> <343>. }
-select ?x where { ?x <开发者> <Valve>. ?x <类型> <FPS>. }
-select ?x where { ?x <原作者> <彩虹六号：围攻>. ?x <主题> "末日". }
-SELECT ?x WHERE { ?x <开发游戏> <战舰世界>. ?x <成立时间> ?y. }
-select ?x where { ?x <游戏类型> <文字冒险>. ?x <游戏平台> <PS4>. }
-select ?x where { ?x <主角> <初音>. ?x <开发公司> ?y. }
+select ?x where { ?y <迁都>	"北京" .?y <人物> ?x. }
+select ?x where { ?x <主要成就>	"被尊为现代童话之父" . }
+SELECT ?x WHERE { <渡江战役> <参战方兵力> ?x. }
+select ?x where { <太平洋> <平均盐度> ?x. }
+select ?x where { <任天堂> <主要软件系列> ?x. }
+SELECT ?x WHERE { <神秘海域_（SCE发售的动作冒险系列游戏）> <游戏平台> ?y. ?y <生产商> ?x. }
+select ?x where { <方正_（北大方正集团）>	<公司口号> ?x. }
+select ?x where { <iPhone> <搭载操作系统> ?x. }
+select ?x where { ?x <主要成就>	"第一个进入太空的地球人" . }
+select ?x where { ?y <中文名>	"十月革命" . ?y <地点> ?x. }
+select ?x where { <南水北调> <涉及疆域> ?x. }
+select ?x where { ?y <中文名>	"安卓" .  ?y <发行商> ?x. }
+select ?x where { <华为技术有限公司> <总裁> ?y. ?y <出生地> ?x. }
+select ?x where { <刺客信条_（育碧蒙特利尔工作室开发动作冒险类游戏）>	<开发商> ?x. }
+select ?x where { ?y <中文名>	"塞尔达传说" . ?r <登场作品> ?y. ?r <登场作品> ?x.}
+select ?x where { ?x <所属系列>	<零姓> . }
+select ?x where { ?x <发行商> <微软>. ?x <开发商> <343 Industries>. }
+select ?x where { ?x <开发商>	<Valve> . ?x <游戏类型>	<FPS_（第一人称射击类游戏）> . }
+select ?x where { <彩虹六号：围攻> <同一原作者> ?y. ?x <同一原作者> ?y. ?x <游戏主题> "末日". }
+select ?x where { <战舰世界> <开发商> ?y. ?y <成立时间> ?x. }
+SELECT ?x WHERE { ?x <游戏类型> "文字冒险类". }
+select ?x where { <初音> <游戏主角> ?y. ?y <开发公司> ?x. }
 select ?x where { <黑魂> <发行商> ?x. }
-SELECT ?x WHERE { <第六天魔王> <成就> ?x. }
-select ?x where { <伊达政宗> <出生年代> ?x. }
+select ?x where { <第六天魔王> <成就> ?x. }
+SELECT ?year WHERE { <伊达政宗> <出生年份> ?year. }
 select ?x where { ?x <作品> ?y. ?y <角色> <岛村>. }
-select ?x where { ?x <作者> <宫泽贤治>. ?x <文学体裁> <诗歌>. }
-select ?x where { <船中八策> <提出者> ?y . ?y <参与事件> ?z . ?z <发生时间> ?x . }
-select ?x where { ?x <别名> "猴子". ?x <坟墓所在地> ?y. }
-SELECT ?x WHERE { <大正浪漫> <提出者> ?y. ?y <去世时间> ?x. }
-SELECT ?x WHERE { ?x <平台> <任天堂3DS>. ?x <类型> <游戏>. }
-select ?y where { <三岛由纪夫> <作品> ?x. ?x <发表时间> ?y. }
+select ?x where { <宫泽贤治> <作品类型> ?x. }
+select ?x where { ?y <提出> <船中八策>. ?y <时间> ?x. }
+select ?x where { <猴子_（日本战国时代三英杰之一）> <坟墓> ?x. }
+select ?x where { <大正浪漫> <提出者> ?y. ?y <去世日期> ?x. }
+SELECT ?x WHERE { ?x <游戏平台> "3DS". ?x <类别> "逆转裁判". }
+Skipping question '三岛由纪夫的一篇长篇小说发表于什么时候？' after 4 failed attempts.
 select ?x where { <镰仓幕府> <灭亡时间> ?x. }
 select ?x where { ?x <职业> <动画监督>. ?x <职业> <演出>. }
-select ?x where { ?x <主角> <生化危机>. }
+select ?x where { ?x <登场作品> <生化危机>. }
 select ?x where { <T病毒> <别名> ?x. }
-select ?x where { ?game <中文名> "命运石之门". ?game <平台> ?x. }
-select ?x where { ?x <出生地> <东京> . ?x <身高> "152cm" . ?x <职业> <声优> . }
-select ?x where { ?x <绰号> "水濑祈". }
+select ?x where { <命运石之门> <游戏平台> ?x. }
+select ?x where { ?x <出生地> <东京>. ?x <身高> "152". }
+select ?x where { <水濑祈> <绰号> ?x. }
 select ?x where { <天元突破> <监督> ?x. }
-select ?x where { <士官长_（Halo系列游戏角色）> <出生地> ?x. }
+select ?x where { <士官长> <籍贯> ?x. }
 select ?x where { <3ds> <特色> ?x. }
-select ?x where { <街机版偶像大师> <发行时间> ?x. }
-select ?x where { <四松堂集> <收藏地点> ?x. }
-select ?x where { <北京大学图书馆> <建馆时间> ?x. }
+SELECT ?x WHERE { ?game <游戏名称> "街机版偶像大师". ?game <发行时间> ?x. }
+select ?x where { <四松堂集> <藏于> ?x. }
+select ?x where { <北京大学图书馆> <成立时间> ?x. }
 select ?x where { <新西兰> <所属洲> ?x. }
 select ?x where { <新西兰> <主要宗教> ?x. }
-select ?x where { <足球运动员> <马里诺维奇> <所属球队> ?x. }
-select ?x where { <足球运动> <最高赛事> ?x. }
-select ?x where { <金垃圾奖> <所属领域> ?x. }
+select ?x where { <足球运动员马里诺维奇> <所属球队> ?x. }
+select ?x where { <足球> <最高赛事> ?x. }
+select ?x where { <金垃圾奖> <领域> ?x. }
 select ?x where { <意大利> <国土面积> ?x. }
 select ?x where { <天主教> <创始地点> ?x. }
-select ?x where { <天主教教徒> <宗教禁忌> ?x. }
-select ?x where { <蜡笔小新> <出版时间> ?x. }
-SELECT ?x WHERE { <蜡笔小新> <总集数> ?x. }
-select ?x where { ?x <人物> <小山义治>. ?x <类型> <动漫>. }
+select ?x where { <天主教> <教徒禁忌> ?x. }
+SELECT ?x WHERE { <蜡笔小新> <首次出版日期> ?x. }
+SELECT ?x WHERE { <蜡笔小新> <总集数> ?x . }
+select ?x where { ?x <人物名称> "小山义治". ?x <所属作品> ?y. }
 select ?x where { <鲁迅> <主要成就> ?x. }
-select ?x where { ?x <作品名称> <希望>. ?x <所属诗集> ?y. }
-select ?x where { ?x <发明> <鼠标>. ?x <发明人> ?y. ?y <毕业院校> ?x. }
-select ?x where { ?x <别名> "目前卓有成就的日本指挥家之一". }
-select ?x where { ?x <别名> "中国“硅谷”". }
-Skipping question '以极简主义为理念的这家公司其总部位于何处？' after 4 failed attempts.
-select ?x where { ?x <竣工时间> 1421. ?x <类别> <历史博物馆>. }
-select ?x where { <张择端> <代表作品> ?y . ?y <称号> "中国十大传世名画之一" . ?y <名称> ?x . }
-SELECT ?x WHERE { ?x <继任者> <明成祖>. }
-select ?x where { ?x <别名> "玉奴". ?x <职务> <贵妃>. }
-select ?x where { ?x <包括> <乐毅列传>. ?x <作者> <司马迁>. }
-select ?x where { ?y <名言> "无颜见江东父老". ?y <出处作品> ?x. ?x <文学体裁> ?z. }
+select ?x where { <希望_（散文诗）> <所属诗集> ?x. }
+select ?x where { <鼠标的发明人> <毕业院校> ?x. }
+select ?x where { ?y <主要成就> "卓有成就的日本指挥家". ?y <别名> ?x. }
+select ?x where { ?x <别名> "中国硅谷". }
+select ?x where { ?x <理念> "极简主义". ?x <总部地点> ?headquarters. }
+select ?x where { ?x <竣工时间> "1421". ?x <类别> <历史博物馆_（公共建筑）>. }
+select ?x where { <张择端> <代表作品> ?x. ?x <称号> "中国十大传世名画之一". }
+select ?x where { ?x <继任> <明成祖朱棣>. }
+select ?x where { <玉奴> <本名> ?x. }
+select ?x where { ?x <包括> <乐毅列传>. ?x <作者> <司马迁>. ?x <文学体裁> <纪传体通史>. }
+select ?x where { <无颜见江东父老> <出处> ?y. ?y <文学体裁> ?x. }
 select ?x where { <项羽本纪> <文学体裁> ?x. }
-select ?x where { <宋微子世家> <文学体裁> ?x. <曹相国世家> <文学体裁> ?x. }
-select ?x where { ?x <名言警句> "瓮牖绳枢之子". }
-select ?y where { ?x <书名> "心学四诀". ?x <作者> ?z. ?z <别名> ?y. }
-select ?x where { ?x <创立> "阳明心学". ?x <成就> "成功剿灭南赣盗贼". ?x <时代> "明代". }
-select ?x where { ?x <电话区号> "5910599". ?x <省会> ?y. }
-SELECT ?person WHERE { ?person <主要著作> "信用媒介论". }
-select ?x where { ?x <导演> <圆谷英二>. }
-select ?x where { ?x <导演> <刘伟强>. ?x <主演> <郭富城>. ?x <主演> <郑伊健>. }
-select ?x where { <武安君_（战国时期军事家）> <主要成就> ?x. }
+select ?x where { <宋微子世家> <文学体裁> ?x. } select ?x where { <曹相国世家> <文学体裁> ?x. }
+select ?x where { <瓮牖绳枢之子> <出处> ?x. }
+select ?x where { <心学四诀> <作者> ?y. ?y <别名> ?x. }
+select ?x where { ?x <创立> "阳明心学". ?x <成功> "剿灭南赣盗贼". ?x <时代> "明代". }
+select ?x where { ?x <电话区号> "5910599". ?x <类型> <省份>. ?x <省会> ?y. }
+select ?x where { ?x <代表作品> <信用媒介论> . }
+SELECT ?x WHERE { ?x <导演> <圆谷英二>. ?x <类型> <特摄片>. }
+select ?x where { ?y <导演> <刘伟强>. ?y <主演> <郭富城>. ?y <主演> <郑伊健>. ?y <作品名称> ?x. }
+select ?x where { <战国时期武安君> <主要成就> ?x. }
 select ?x where { <天主教> <教理> ?x. }
-select ?x where { <夏洛特黄蜂队的控球后卫> <毕业院校> ?x. }
+select ?x where { <夏洛特黄蜂队> <控球后卫> ?y. ?y <毕业院校> ?x. }
 select ?x where { <H1N1猪流感> <症状> ?x. }
-select ?x where { <南阳三大宝> <别名> ?x . ?x <同义词> "烫画". }
+select ?x where { <南阳三大宝> <又称> ?x. ?x <中文名> "烫画". }
 select ?x where { <我们的答案> <歌手> ?y. ?y <经纪公司> ?x. }
 select ?x where { <姬世晓> <民族> ?y. ?y <官方语言> ?x. }
-SELECT ?x WHERE { ?x <代表作品> "红楼梦散". ?x <出生地> ?y. }
+SELECT ?x WHERE { ?x <出生地> <红楼梦散>. }
 select ?x where { <粤台经贸合作试验区> <车牌号> ?x. }
-SELECT ?x WHERE { ?x <称号> "中国之父". ?x <出生日期> ?y. }
-select ?x where { <湖南> <方言> ?x. }
-select ?x where { <荧惑> <直径> ?x. }
+select ?x where { ?x <称号> "中国之父". ?x <出生日期> ?y. }
+select ?x where { ?x <所属地区> <湖南>. }
+select ?x where { <荧惑_（行星）> <直径> ?x. }
 select ?x where { <何大仁> <毕业院校> ?y. ?y <创办时间> ?x. }
-select ?x where { ?x <所在地> <漳州>. ?x <类型> <大学>. }
-select ?x where { <枸杞> <用途> ?x. }
-select ?x where { <追梦赤子心> <演唱者> ?x. }
-select ?x where { <阿里音乐人> <成员> ?x. }
+select ?x where { ?x <城市> <漳州>. ?x <类型> <大学>. }
+select ?x where { ?y <食材> <枸杞>. ?y <食材> <雏鸽>. ?y <菜肴口味> ?x. }
+select ?x where { ?x <歌曲名> "追梦赤子心". ?x <歌手> ?y. }
+select ?x where { <阿里音乐人> <组成> ?x. }
 select ?x where { <李渊> <主要成就> ?x. }
 select ?x where { <晋阳起兵> <发生时间> ?x. }
-select ?x where { ?x <别名> "意见派". }
+select ?x where { <意见派> <别称> ?x. }
 select ?x where { <福尔摩斯> <作者> ?y. ?y <民族> ?x. }
 select ?x where { ?x <使用语言> <意大利语>. ?x <使用货币> <欧元>. }
-select ?x where { <首都> <邮政区码> ?x. }
-select ?x where { <文化苦旅_（余秋雨作品）> <作者> ?y . ?y <毕业院校> ?x . }
-select ?x where { ?x <创始人> <马化腾>. ?x <创始人> <陈一丹>. ?x <员工数量> ?y. }
+select ?x where { <中华人民共和国首都> <邮政区码> ?x. }
+select ?x where { <文化苦旅的作者> <毕业院校> ?x. }
+select ?x where { <马化腾> <创立公司> ?y. ?y <员工数> ?x. }
 select ?x where { <北京大学> <学术传统> ?x. }
 select ?x where { <白居易> <诞辰> ?x. }
-select ?x where { <白氏长庆集> <卷数> ?x. }
+select ?x where { <白氏长庆集> <卷数> ?x . }
 select ?x where { <貘屏赞> <所属集子> ?x. }
-select ?x where { <忆江南三首> <时代> ?x. }
+select ?x where { <忆江南三首> <所属时代> ?x. }
 select ?x where { <苏轼> <谥号> ?x. }
-select ?x where { ?x <别名> "苏仙". }
+select ?x where { ?x <别称> "苏仙". }
 select ?x where { <掷凫猎兔> <作者> ?x. }
-select ?x where { <送欧阳推官赴华州监酒> <文学体裁> ?x. }
+select ?x where { <送欧阳推官赴华州监酒> <体裁> ?x. }
 select ?x where { ?x <主要代表人物> <豪放派>. }
 select ?x where { <陈思成> <毕业院校> ?x. }
-select ?x where { <陈思成> <粉丝称呼> ?x. }
-select ?x where { ?x <丈夫> <陈思成>. }
-select ?x where { ?x <成语> "珠落玉盘". }
-select ?x where { ?x <作者> <白居易>. ?x <文学体裁> <讽喻诗>. }
-select ?x where { ?work <所属作品> <醉中留别杨六兄弟>. ?work <文学体裁> <七言绝句>. }
+select ?x where { <陈思成> <粉丝自称> ?x. }
+select ?x where { <陈思成> <妻子> ?x. }
+select ?x where { <珠落玉盘> <来源> ?x. }
+select ?x where { <白居易> <作品类型> ?x. ?x <名称> ?y. filter regex(?x, "讽喻诗"). }
+select ?x where { ?y <出自> "《醉中留别杨六兄弟》". ?z <出自> ?y. ?z <体裁> "七言绝句". }
 select ?x where { ?x <朝代> <唐代>. ?x <职业> <诗人>. }
-select ?x where { ?x <谥号> "文忠". ?x <朝代> "唐宋". }
+select ?x where { ?x <谥号> "文忠". ?x <时代> "唐宋". ?x <名人类型> "八大家". }
 select ?x where { <醉饱高眠> <作者> ?y. ?y <出生日期> ?x. }
 select ?x where { ?x <别名> "唐宋八大家". ?x <别名> "宋四家". }
-select ?x where { <北京爱情故事吧> <导演> ?y. ?y <职业> ?x. }
-select ?x where { ?x <主演电影> <山花情>. ?x <主演电影> <愤怒的机枪>. }
-select ?x where { ?x <出生地> <沈阳>. ?x <主演电影> <碧海雄心>. }
-select ?x where { ?y <导演> <陈思成>. ?y <主演> <陈思成>. ?x <影视作品> ?y. }
-select ?x where { ?x <上映时间> 2003. ?x <主演> <陈思成>. ?x <主演> <刘涛>. }
-select ?x where { ?x <类型> <剧情剧> . ?x <主演> <陈思成>. }
-select ?x where { ?x <获奖时间> "2013年". ?x <荣誉称号> "最具演技女演员奖". ?x <荣誉称号> "十大正能量女性". }
-select ?x where { ?y <主演> <欢乐颂>. ?y <主演> <芈月传>. ?y <主演> <老有所依>. ?y <配偶> ?x. }
-select ?x where { ?x <主演> <梁咏琪>. ?x <主演> <金城武>. }
-select ?x where { ?x <所属球队> <96黄金一代>. ?x <位置> "得分后卫". }
+select ?x where { <北京爱情故事吧> <导演> ?x. }
+select ?x where { ?x <主演> <山花情>. ?x <主演> <愤怒的机枪>. }
+select ?x where { ?x <出生地> <沈阳>. ?x <主演作品> <碧海雄心>. }
+select ?x where { ?x <导演> <陈思成> . ?x <主演> <陈思成> . }
+select ?x where { ?x <上映时间> "2003". ?x <主演> <陈思成>. ?x <主演> <刘涛>. }
+select ?x where { ?x <主演> <陈思成>. ?x <类型> <剧情剧>. }
+select ?x where { ?x <获得荣誉> "最具演技女演员奖". ?x <获得荣誉> "十大正能量女性". ?x <获得时间> "2013". }
+select ?x where { ?x <主演作品> <欢乐颂_（2016年播出的中国大陆都市情感剧）> . ?x <主演作品> <芈月传_（2015年播出的中国大陆古装剧）> . ?x <主演作品> <老有所依_（2013年播出的中国大陆家庭伦理剧）> . ?x <配偶> ?y. ?y <名字> ?z. }
+select ?x where { ?y <主演> <梁咏琪>. ?y <主演> <金城武>. ?y <电影名称> ?x. }
+select ?x where { <96黄金一代> <位置> ?x. ?x <位置> "得分后卫". }
 select ?x where { <波士顿凯尔特人队> <主场> ?x. }
-select ?x where { ?x <产地> <瑞典>. ?x <类型> <汽车品牌>. }
-select ?x where { ?x <创建> <刺史制度>. }
-select ?x where { <沉默的大多数> <作者> ?y . ?y <妻子> ?x. }
+select ?x where { ?x <产地> <瑞典>. ?x <类型> <汽车牌子>. }
+select ?x where { ?x <创始人> <刺史制度>. }
+select ?x where { <沉默的大多数_（中国文学作品）> <作者> ?y. ?y <配偶> ?x. }
 select ?x where { ?x <称号> "冠军侯". ?x <职业> <军事将领>. }
-SELECT ?x WHERE { <伯克希尔·哈撒韦> <CEO> ?y. ?y <出生地> ?x. }
-select ?x where { ?x <发明或改良> <蒸汽机> . }
-select ?x where { <隋朝> <开国皇帝> ?y. ?y <妻子> ?z. ?z <民族> ?x. }
+select ?x where { <伯克希尔·哈撒韦> <CEO> ?y. ?y <出生地> ?x. }
+select ?x where { <蒸汽机> <改良者> ?x . }
+select ?x where { <隋朝开国皇帝的妻子> <民族> ?x. }
 select ?x where { ?x <出生地> <维也纳>. ?x <职业> <艺术家>. }
-select ?x where { ?x <所在城市> <上海>. ?x <职业> <三大亨>. }
-select ?x where { <忏悔录> <作者> ?y. ?y <出生地> ?x. }
+select ?x where { ?x <称号> "上海三大亨". }
+select ?x where { <忏悔录> <作者> ?y . ?y <出生地> ?x . }
 select ?x where { <布尔玛> <丈夫> ?x. }
 select ?x where { ?x <证明了> <卡拉比猜想>. }
-select ?x where { ?y <电影名称> "天水围的日与夜". ?y <导演> ?z. ?z <毕业院校> ?x. }
-select ?x where { ?x <起源地> <文艺复兴>. }
-select ?x where { ?x <国籍> <塞尔维亚>. ?x <职业> <网球运动员>. }
-select ?x where { ?x <兄弟> <赤木晴子>. ?x <位置> ?y. }
-select ?x where { <开往中国的慢船> <作者> ?y. ?y <国籍> ?x. }
+select ?x where { <天水围的日与夜> <导演> ?y. ?y <毕业院校> ?x. }
+select ?x where { <文艺复兴> <起源国家> ?x. }
+SELECT ?x WHERE { ?x <国籍> <塞尔维亚>. ?x <职业> <网球运动员>. }
+select ?x where { <赤木晴子的哥哥> <职业> ?x. }
+select ?x where { <开往中国的慢船> <作者> ?x. }
 select ?x where { <死海> <所在国> ?y. ?y <首都> ?x. }
 select ?x where { <马拉多纳> <纹身> ?x. }
-select ?x where { ?x <创始人> "公牛王朝". }
-select ?x where { ?x <球队> "曼联". ?x <擅长脚> "右脚". }
-select ?x where { ?x <主持节目> <新闻联播>. ?x <民族> ?y. }
+select ?x where { ?x <缔造> <公牛王朝>. }
+select ?x where { <曼联> <右脚将> ?x. }
+select ?x where { <新闻联播> <主持人民族> ?x. }
 select ?x where { ?x <出演电影> <一代宗师>. ?x <国籍> <韩国>. }
-select ?x where { <台北> <所属国家> ?y. ?y <国歌> ?x. }
+select ?x where { <台北> <所属国家> ?x. ?x <国歌> ?y. }
 select ?x where { <好望角> <所在城市> ?x. }
-select ?x where { ?x <文学流派> <魔幻现实主义>. }
-select ?x where { <日月神教> <教主> ?y. ?y <绝招> ?x. }
-select ?x where { ?x <所在城市> <合肥>. ?x <职业> <科学家>. }
+select ?x where { ?x <文学流派> <魔幻现实主义>. ?x <代表作品> ?y. }
+select ?x where { <日月神教教主> <绝招> ?x. }
+select ?x where { <合肥> <著名科学家> ?x. }
 select ?x where { <湖南大学> <现任校长> ?x. }
-select ?x where { ?x <名言> "成败一知己，生死两妇人". }
+select ?x where { ?x <成就> "成败一知己，生死两妇人". }
 select ?x where { ?x <时代> "贞观之治". }
-select ?x where { <贾环> <父亲> ?x. }
+select ?x where { <贾环的父亲> <人物原型> ?x. }
 select ?x where { <窦娥冤> <作者> ?x. }
-select ?x where { ?x <丈夫> <孔丘>. }
+SELECT ?x WHERE { <孔丘> <妻子> ?x. }
 select ?x where { <黄河> <主要支流> ?x. }
-select ?x where { <贾琏妻子> <性格> ?x. }
+SELECT ?x WHERE { <贾琏的妻子> <性格特点> ?x. }
 select ?x where { <杨振宁> <毕业院校> ?x. }
-select ?x where { ?x <结拜兄弟> ?y . ?y <哥哥> <薛宝钗>. }
-select ?x where { <苏秦> <师从> ?x. }
+select ?x where { <薛宝钗的哥哥> <结拜兄弟> ?x. }
+select ?x where { <苏秦> <师父> ?x. }
 select ?x where { <韩世忠> <谥号> ?x. }
-SELECT ?x WHERE { ?x <扮演角色> <三圣母>. }
-select ?x where { <李隆基> <年号> ?x. }
-select ?x where { <严嵩> <儿子> ?y . ?y <出生地> ?x . }
+select ?x where { ?x <饰演角色> <三圣母>. }
+select ?x where { <唐玄宗李隆基> <年号> ?x. }
+select ?x where { <严嵩的儿子> <出生地> ?x. }
 select ?x where { <唐僧> <父亲> ?x. }
 select ?x where { <飞机> <发明者> ?x. }
 select ?x where { <千金要方> <作者> ?y. ?y <朝代> ?x. }
 select ?x where { <巴黎圣母院> <建筑风格> ?x. }
-select ?x where { <汉寿亭侯关羽> <字号> ?x. }
+select ?x where { <关羽> <字号> ?x. }
 select ?x where { <清明上河图> <作者> ?x. }
-select ?x where { <杜甫_（唐代诗人）> <代表作品> ?x. }
+select ?x where { <杜甫> <主要作品> ?x. }
 select ?x where { <杨戬> <兵器> ?x. }
-select ?x where { <紫鹃> <主子> ?x. ?x <居住地> <大观园>. }
-select ?x where { <严重急性呼吸综合征> <主要病症> ?x. }
-select ?x where { ?x <主要产地> <香蕉>. }
-select ?x where { ?x <出版日期> "2007-07-01". ?x <作者> <村上春树>. }
+select ?x where { <紫鹃> <主子> ?x. <大观园> <位置> ?y. }
+select ?x where { <SARS> <主要病症> ?x. }
+select ?x where { <香蕉> <主要产地> ?x. ?x <国籍> "中国". }
+SELECT ?x WHERE { ?x <作者> <村上春树>. ?x <出版日期> "2007-07-01". }
 select ?x where { <村上春树> <国籍> ?x. }
-select ?x where { <周杰伦> <外文名> ?x. }
+select ?x where { <周杰伦> <英文名> ?x. }
 select ?x where { <腾讯> <法人> ?y. ?y <毕业院校> ?x. }
-SELECT ?x WHERE { ?player <获得奖项> "NBA最有价值球员奖（2008）". ?player <出生日期> ?x. }
-select ?x where { <科比·布莱恩特> <父亲> ?y . ?y <国籍> ?x . }
-SELECT ?x WHERE { <权力的游戏第五季> <总集数> ?x. }
-select ?x where { <斯大林_（苏联领导人）> <逝世日期> ?x . }
-select ?x where { <黄蓉> <丈夫> ?y. ?y <出生地> ?x. }
-select ?x where { ?x <主演> <张智霖>. ?x <主演> <朱茵>. }
-select ?x where { ?x <导演> <冯柏源>. ?x <主演> <张卫健>. ?x <首播时间> <2002年>. }
-select ?x where { ?y <主演> <朱茵>. ?y <主演> <唐嫣>. ?y <经典角色> ?x. }
-select ?x where { <杜兰特_（美国职业篮球运动员）> <球衣号码> ?x. }
-select ?x where { <意大利> <面积> ?x. }
-select ?x where { <意大利> <所在洲> ?x. }
+SELECT ?x WHERE { ?y <获得奖项> "NBA最有价值球员奖（2008）". ?y <出生日期> ?x. }
+select ?x where { <乔·布莱恩特> <国籍> ?x. }
+SELECT ?x WHERE { <权力的游戏第五季> <集数> ?x. }
+select ?x where { <斯大林> <逝世日期> ?x. }
+SELECT ?x WHERE { ?y <配偶> <黄蓉>. ?y <出生地> ?x. }
+select ?x where { ?y <演员> <张智霖>. ?y <演员> <朱茵>. ?x <主演> ?y. }
+SELECT ?x WHERE { ?x <导演> <冯柏源>. ?x <主演> <张卫健>. ?x <首播时间> "2002". }
+select ?x where { ?y <主演> <朱茵>. ?y <主演> <唐嫣>. ?y <登场作品> ?x. }
+select ?x where { <杜兰特> <球衣号码> ?x. }
+select ?x where { <意大利> <国家面积> ?x. }
+select ?x where { <意大利> <所属洲> ?x. }
 select ?x where { <德国> <首都> ?x. }
-select ?x where { <张敬轩> <经纪公司> ?y. ?y <董事长> ?x. }
+SELECT ?x WHERE { <张敬轩> <签约公司> ?y. ?y <董事长> ?x. }
 select ?x where { <王菲> <信仰> ?x. }
-select ?x where { <红豆> <填词人> ?y. ?y <中文名> ?x. }
+select ?x where { <红豆> <填词> ?y. ?y <填词人> ?x. }
 Skipping question '专辑《唱游》中有多少首歌？' after 4 failed attempts.
-select ?x where { ?y <歌手> <李荣浩>. ?y <填词人> <黄伟文>. ?y <歌曲> ?x. }
+select ?x where { <李荣浩> <填词> ?x. }
 select ?x where { <李白> <祖籍> ?y. ?y <电话区号> ?x. }
-select ?x where { <送崔十二游天竺寺> <作者> ?x. ?x <朝代> ?y. }
-select ?x where { <李白> <墓葬地点> ?x. }
-select ?x where { <帝京篇_（古代文学作品）> <作者> ?y. ?y <庙号> ?x. }
-SELECT ?x WHERE { ?event <事件名称> "9·11事件". ?event <袭击形式> ?x. }
-Skipping question '本·拉登最知名的罪行造成了多少人受伤？' after 4 failed attempts.
-Skipping question '歌手赵雷在2011年8月7日发行的歌曲是属于什么音乐风格？' after 4 failed attempts.
+select ?x where { <送崔十二游天竺寺> <作者> ?x. }
+select ?x where { <李白> <葬于> ?x. }
+select ?x where { <帝京篇> <作者> ?y. ?y <庙号> ?x. }
+select ?x where { <9·11事件> <袭击形式> ?x. }
+select ?x where { <本·拉登> <知名罪行> ?x. }
+select ?x where { <2011年8月7日> <发行歌曲> ?y. ?y <音乐风格> ?x. }
 select ?x where { <易烊千玺> <代表作品> ?x. }
-select ?x where { <草帽海贼团> <船长> ?y. ?y <霸气> ?x. }
-select ?x where { ?x <导演> <陈凯歌>. ?x <儿子> ?y. ?y <作品> ?x. }
-SELECT ?x WHERE { <兵长（进击的巨人）> <身高> ?x. }
-select ?x where { ?x <官方语言> "拉丁语". ?x <所在洲> ?y. }
-select ?x where { ?y <作者> <南派三叔>. ?y <代表作品> ?x. }
-select ?x where { <澳大利亚> <首都> ?y. ?y <气候类型> ?x. }
-select ?x where { <白胡子> <使用武器> ?x. }
+Skipping question '在尾田荣一郎的漫画《海贼王》中，草帽海贼团船长会使用哪些霸气？' after 4 failed attempts.
+select ?x where { ?y <导演> <陈凯歌>. ?y <儿子> ?x. }
+select ?x where { <兵长_（进击的巨人中的角色）> <身高> ?x. }
+select ?x where { ?x <官方语言> <拉丁语>. ?x <位于洲> ?y. }
+select ?x where { <南派三叔> <代表作品> ?x. }
+select ?x where { <澳大利亚> <首都气候> ?x. }
+select ?x where { <白胡子_（One Piece）> <使用武器> ?x. }
 select ?x where { <郭麒麟> <父亲> ?x. }
-select ?x where { ?x <代表思想> <法家教育思想>. }
-select ?x where { <大连> <所含985高校> ?y. ?y <地址> ?x. }
+select ?x where { ?x <教育思想> <法家>. }
+select ?x where { <大连985高校> <地址> ?x. }
 select ?x where { ?x <导演> <张艺谋>. ?x <主演> <倪妮>. }
-select ?x where { <红高粱家族> <作者> ?y. ?y <毕业院校> ?x. }
-select ?x where { <Cola> <成分> ?x. }
+select ?x where { <红高粱_（小说）> <作者> ?y . ?y <毕业院校> ?x . }
+SELECT ?x WHERE { <Cola> <配料> ?x. }
 select ?x where { <腾讯> <法人> ?y. ?y <毕业院校> ?x. }
-select ?x where { ?x <籍贯> <河南>. ?x <职业> <演员>. ?x <学历> "在校". }
+select ?x where { ?x <职业> <演员_（职业）> . ?x <籍贯> <河南> . ?x <教育状况> <在校学生>. }
 select ?x where { ?x <民族> <维吾尔族>. ?x <职业> <演员>. }
 select ?x where { ?x <主演> <杨幂>. ?x <主演> <迪丽热巴>. }
 select ?x where { <北京大学东门站> <所属地铁线路> ?x. }
-select ?x where { <佐助_（动漫《火影忍者》中的角色）> <妻子> ?y . ?y <配音演员> ?x . }
-select ?x where { <月光·莫利亚> <能力> ?x. }
-select ?x where { ?x <别名> "Laughing gas；dinitrogen oxide". }
+select ?x where { <佐助的妻子> <配音演员> ?x. }
+select ?x where { <月光·莫利亚> <恶魔果实> ?y. ?y <能力> ?x. }
+select ?x where { <Laughing gas；dinitrogen oxide> <化学式> ?x. }
 select ?x where { ?x <导演> <沈腾>. }
-select ?x where { <华为> <官网> ?x. }
-SELECT ?x WHERE { <白羊座> <守护神> ?x. }
-select ?x where { ?x <别名> "黑曼巴". ?x <穿着> ?y. }
+Skipping question '华为的官网是什么？' after 4 failed attempts.
+select ?x where { <白羊座> <守护神> ?x. }
+select ?x where { <黑曼巴_（科比·布莱恩特）> <穿着号码> ?x. }
 select ?x where { <玉米> <别名> ?x. }
-select ?x where { <二战_（第二次世界大战）> <参战国> ?x. ?x <洲> <亚洲>. }
+select ?x where { ?x <参与事件> <二战>. ?x <所在洲> <亚洲>. }
 select ?x where { <日本> <国歌> ?x. }
 select ?x where { <台湾省> <方言> ?x. }
-select ?x where { ?x <所在城市> <深圳>. ?x <类型> <火车站>. }
-select ?x where { <美国> <外文名> ?x. }
-SELECT ?x WHERE { <芝加哥> <别名> ?x. }
+select ?x where { ?x <类型> <火车站> . ?x <城市> <深圳> . }
+select ?x where { <美国> <英文名称> ?x. }
+select ?x where { <芝加哥> <别名> ?x. }
 select ?x where { <旧金山> <气候类型> ?x. }
-select ?slogan where { ?company <公司名称> "谷歌". ?company <口号> ?slogan. }
+select ?x where { <谷歌> <公司口号> ?x. }
 select ?x where { <索尼> <创始人> ?x. }
 select ?x where { <清华大学> <校训> ?x. }
-Skipping question '水的沸点是多少？' after 4 failed attempts.
-select ?x where { <曹县> <外文名> ?x. }
+select ?x where { <水> <沸点> ?x. }
+select ?x where { <曹县> <外文名称> ?x. }
 select ?x where { <龟虽寿> <作者> ?x. }
-select ?x where { <苏炳添> <荣誉> ?x. }
+select ?x where { <苏炳添> <荣誉奖项> ?x. }
 select ?x where { <约塞米蒂国家公园> <植被类型> ?x. }
-SELECT ?x WHERE { <死海> <所在国家> ?x. }
+select ?x where { <死海> <所属国家> ?x. }
 select ?x where { <乞力马扎罗山脉> <主峰> ?x. }
 select ?x where { <塔希提岛> <主要宗教> ?x. }
 select ?x where { ?x <经纪公司> <索尼音乐>. ?x <国籍> <美国>. }
-select ?y where { <渔人码头> <城市> ?x . ?x <机场> ?y . }
-select ?x where { <Android> <成立时间> ?x. }
+select ?x where { <渔人码头> <所在城市> ?y. ?y <机场> ?x. }
+SELECT ?x WHERE { <Android> <开发商> ?x. }
 SELECT ?x WHERE { <老炮儿> <方言> ?x. }
-select ?x where { <大堡礁> <动物> ?x. }
+select ?x where { <大堡礁> <生物种类> ?x. }
 select ?x where { ?x <职业> <数学家>. ?x <职业> <天体力学家>. ?x <国籍> <法国>. }
-select ?x where { <法国首都> <雅称> ?x. }
-select ?x where { ?y <邮政区码> 200000. ?y <市花> ?x. }
-select ?x where { ?x <属于> <黑脸琵鹭>. }
-select ?x where { <北京大学> <地址> ?x. }
-select ?x where { ?x <老师> <贝多芬>. ?x <出生地> <萨尔茨堡>. }
-select ?x where { <被誉为“近代物理学之父”的科学家> <毕业院校> ?x. }
+select ?x where { <法国首都> <别称> ?x. }
+select ?x where { ?y <市花> ?x. ?y <邮政区码> "200000". }
+select ?x where { ?x <属> ?y. ?y <同属> <黑脸琵鹭>. }
+select ?x where { <Peking University> <地址> ?x. }
+select ?x where { <贝多芬> <老师> ?x. ?x <出生地> <萨尔茨堡>. }
+select ?x where { ?x <称号> "近代物理学之父". ?x <毕业院校> ?y. }
 select ?x where { <埃菲尔铁塔> <设计师> ?x. }
-select ?x where { ?x <科学原理> "杠杆原理". }
-select ?x where { ?x <使用语言> <葡萄牙语>. ?x <所在洲> <南美洲>. }
-select ?x where { <新子憧> <声优> ?y. ?y <出道时间> ?x. }
-SELECT ?anime WHERE { ?anime <配音演员> "洲崎绫". ?anime <配音演员> "西明日香". }
+select ?x where { ?x <主要成就> <杠杆原理>. ?x <国籍> ?y. ?y <国籍>. }
+SELECT ?x WHERE { ?x <使用语言> "葡萄牙语". ?x <洲> "南美洲". }
+select ?x where { <新子憧> <声优出道时间> ?x. }
+select ?x where { ?x <主要配音> <洲崎绫>. ?x <主要配音> <西明日香>. }
 select ?x where { ?x <制作公司> <P.A.WORKS>. ?x <类型> <群像剧>. }
-select ?x where { <芜罗亭魔梨威> <登场作品> ?y. ?y <原作者> ?x. }
-select ?x where { <京都动画> <员工人数> ?x. }
-select ?x where { ?y <加入时间> 2003年. ?y <职业> <动画师>. ?y <代表作品> ?x. }
-select ?x where { ?x <类型> <任天堂主要家用机>. }
-select ?x where { ?x <出道年份> <2007>. ?x <职业> <声优歌手>. }
+select ?x where { ?y <登场作品> <芜罗亭魔梨威>. ?y <原名> ?x. }
+select ?x where { <京都动画> <员工数量> ?x. }
+select ?x where { ?y <加入时间> "2003年". ?y <职业> <动画师>. ?y <代表作品> ?x. }
+select ?x where { <任天堂> <主要产品> ?x. }
+select ?x where { ?x <出道时间> "2007年". ?x <职业> <声优>. }
 select ?x where { <大和号战列舰> <开始服役时间> ?x. }
-select ?y where { <星间飞行> <原唱> ?x . ?x <出生地> ?y . }
-select ?x where { ?x <外文名> "PS4". ?x <中文名> ?y. }
-select ?x where { ?y <发行日期> "2001-09-27". ?y <代表作品> ?x. }
-Skipping question '舰桥是用来干什么的？' after 4 failed attempts.
-select ?x where { ?y <出生地> <德岛县>. ?y <职业> <声优>. ?y <姓名> ?x. }
-select ?x where { <马里奥> <兄弟> ?x. }
-select ?x where { ?x <别名> "超级马里奥之父". ?x <代表作品> ?y. }
-select ?x where { ?x <作品时代> "大正浪漫". }
-select ?x where { ?x <信仰宗教> <佛教>. ?x <职业> <教育家>. ?x <国籍> <日本>. }
-SELECT ?y WHERE { ?x <获得诺贝尔文学奖的年份> "1968". ?x <获奖作品> ?y . ?y <作者> ?z . ?z <毕业院校> ?y . }
-select ?x where { ?x <作品名称> "百年孤独". }
+select ?x where { <星间飞行_（电影）> <原唱> ?y. ?y <出生地> ?x. }
+select ?x where { <PlayStation 4> <中文名称> ?x. }
+SELECT ?x WHERE { ?x <发行日期> "2001-09-27". ?x <歌手> <滨崎步>. ?x <类型> <代表作>. }
+select ?x where { <舰桥> <功能> ?x. }
+select ?x where { ?x <出生地> <德岛县>. ?x <职业> <声优>. }
+select ?x where { <马里奥和路易基> <关系> ?x. }
+select ?x where { ?y <别名> "超级马里奥之父". ?y <代表作品> ?x. }
+select ?x where { ?x <作品特点> "大正浪漫". }
+select ?x where { ?x <信仰> <佛教>. ?x <职业> <教育家>. ?x <国籍> <日本>. }
+select ?x where { ?x <获得> "1968年获诺贝尔文学奖". ?x <毕业院校> ?y. }
+select ?x where { <百年孤独> <作者> ?x. }
 select ?x where { ?x <国籍> <日本>. ?x <职业> <偶像歌手>. }
-select ?y where { <カラフル> <原唱> ?x . ?x <中文名> ?y . }
+select ?x where { <カラフル_（歌曲）> <中文名> ?x. }
 select ?x where { <爱情公寓> <导演> ?y. ?y <毕业院校> ?x. }
-select ?x where { <小米> <口号> ?x . }
+select ?x where { <小米> <口号> ?x. }
 select ?x where { <谷歌> <官网网址> ?x. }
-select ?x where { ?x <所属公司> <AXL-ONE>. ?x <得奖情况> ?y. }
-select ?x where { ?x <毕业院校> ?y. ?y <动画导演> <山田尚子>. }
+select ?x where { ?x <所属公司> <AXL-ONE>. ?x <主要奖项> ?y. }
+SELECT ?x WHERE { ?x <毕业院校> ?y. ?y <毕业院校> <山田尚子>. }
 select ?x where { <沙耶之歌> <结局数量> ?x. }
-select ?x where { <柚子社> <日语全称> ?x. }
-select ?x where { ?x <所属公司> "august". ?x <发行时间> ?y. }
-select ?x where { ?x <死因> "新冠". ?x <死亡日期> "2020-02-07". ?x <籍贯> ?y. }
+select ?x where { <柚子社> <全称> ?x. }
+select ?x where { <august> <最新作品> ?x. }
+SELECT ?x WHERE { ?x<死亡日期> <2020-02-07>. ?x<籍贯> ?y. }
 select ?x where { <新型冠状病毒> <主要传播途径> ?x. }
 select ?x where { <遗传物质由核糖核酸组成的病毒> <繁殖方式> ?x. }
 select ?x where { <SARS病毒> <形状> ?x. }
-select ?x where { <胸腺依赖区> <细胞标志> ?x. }
+select ?x where { <分布于胸腺依赖区的细胞> <标志> ?x. }
 select ?x where { <流感> <常见症状> ?x. }
-select ?x where { <空调综合征> <病因> ?x. }
-select ?x where { ?x <传染方式> "空气传染". ?x <传染部位> "肺部、淋巴结" . }
-select ?x where { ?x <发病部位> <胸部>. ?x <就诊科室> <肿瘤科>. }
+select ?x where { <空调综合征> <原因> ?x. }
+select ?x where { ?x <传染途径> "空气传染". ?x <发病部位> <肺部>. ?x <发病部位> <淋巴结>. }
+select ?x where { ?x <涉及症状> <胸部发病>. ?x <医学专科> <肿瘤科>. }
 select ?x where { <新冠> <潜伏期> ?x. }
-select ?x where { <新型冠状病毒肺炎> <病原体> ?y . ?y <遗传物质> ?x . }
-select ?x where { ?x <服务> <发热门诊>. ?x <所在地区> <日照市>. ?x <类型> <定点医院>. }
-select ?x where { <肺泡蛋白沉积症> <预防> ?x. }
+select ?x where { <新型肺炎> <病原体> ?x. }
+select ?x where { <日照市> <发热门诊定点医院> ?x. }
+select ?x where { <肺泡蛋白沉积症> <预防措施> ?x. }
 select ?x where { <新冠> <就诊科室> ?x. }
 select ?x where { <交叉免疫> <定义> ?x. }
 select ?x where { <重症急性呼吸综合征> <临床表现> ?x. }
 select ?x where { <传染病管理制度> <制定部门> ?x. }
 select ?x where { <伤寒> <潜伏期> ?x. }
-select ?x where { <天花疫苗> <研制者> ?x. }
-select ?x where { ?x <参与战役> ?y . ?y <战役名称> "李兰娟" . ?x <参与战役> ?z . ?z <战役名称> "张文宏" . ?x <参与战役> ?w . ?w <战役名称> "钟南山" . }
-select ?x where { <巨细胞病毒感染> <症状> ?x. }
+select ?x where { ?x <研制疫苗> <天花疫苗>. }
+select ?x where { ?x <参与战役> "新冠疫情防控". }
+select ?x where { <巨细胞病毒> <导致疾病> ?x. }
 select ?x where { ?x <易感人群> <巨细胞病毒>. }
-select ?x where { <SARS病毒感染> <症状> ?x. }
+Skipping question '感染SARS病毒可能出现什么表现？' after 4 failed attempts.
 select ?x where { <天花> <发病部位> ?x. }
 select ?x where { <蕈类> <繁殖形式> ?x. }
-select ?x where { <肺结核> <预防措施> ?x. ?x <保持距离> ?x. }
-select ?x where { <白细胞检查> <淋巴细胞计数正常范围> ?x. }
-select ?x where { ?x <症状> "白细胞增多". ?x <症状> "持续性弛张热". }
-Skipping question '新冠患者如果出现了急性呼吸困难、高碳酸血症、口唇发绀，应该如何治疗？' after 4 failed attempts.
+select ?x where { <肺结核感染> <预防措施> ?x. }
+select ?x where { <淋巴细胞计数> <正常范围> ?x. }
+select ?x where { ?x <症状> <白细胞增多>. ?x <症状> <持续性弛张热>. }
+select ?x where { <新冠病毒感染> <治疗> ?x. ?x <症状> <急性呼吸困难>. ?x <症状> <高碳酸血症>. ?x <症状> <口唇发绀>. }
 Skipping question '李文亮医生为什么被称作“疫情吹哨人”?' after 4 failed attempts.
-select ?x where { <新冠疫情> <起始时间> ?x. }
-select ?x where { <西班牙流感> <感染人数> ?x. }
-select ?x where { <流感疫苗> <可能出现的负作用> ?x. }
+select ?x where { <COVID-19> <爆发时间> ?x. }
+SELECT ?num_infected WHERE { <西班牙流感> <感染人数> ?num_infected . }
+select ?x where { <流感疫苗> <可能负作用> ?x. }
 select ?x where { <新冠病毒> <遗传特点> ?x. }
-select ?x where { <N95口罩> <防护效果> ?y. ?x <防护效果> ?y. }
-select ?x where { <N95口罩> <防护级别> ?x. }
-select ?x where { <抗生素> <作用> ?x. }
+select ?x where { <N95口罩> <防护效果> ?x. }
+select ?x where { <N95口罩> <防护效果> ?x. }
+SELECT ?x WHERE { <抗生素> <作用> ?x. }
 select ?x where { <大肠杆菌> <可能导致> ?x. }
 select ?x where { <百日咳> <治疗方法> ?x. }
-select ?x where { ?y <主演> <莱昂纳多>. ?y <上映时间> "2013". ?y <获得奖项> ?x. }
-select ?x where { <第67届金球奖最佳影片> <导演> ?x. }
-select ?x where { <佛跳墙> <原料> ?x. }
-select ?x where { <肯德基> <创始人> ?y. ?y <去世时间> ?x. }
-select ?x where { ?x <技能> <影分身之术>. }
-SELECT ?x WHERE { ?char <动漫作品> "美少女战士". ?char <角色> "小小兔". ?char <宠物特点> ?x. }
-select ?x where { ?x <会> <七十二变>. ?x <使用> <混铁棍>. }
-Skipping question '江泽民在什么时候提出了三个代表重要思想？' after 4 failed attempts.
-select ?x where { ?x <毕业院校> <改革开放的总设计师>. }
-select ?x where { ?x <作品名称> "不能承受的生命之轻". ?x <作者> ?y. }
+SELECT ?x WHERE { ?y <主演> <莱昂纳多>. ?y <上映时间> "2013". ?y <主要成就> ?x. }
+select ?x where { ?y <主要奖项> "第67届金球奖最佳影片". ?y <导演> ?x. }
+select ?x where { <佛跳墙> <所需原料> ?x. }
+select ?x where { <肯德基> <创始人> ?y . ?y <逝世日期> ?x . }
+select ?x where { ?x <作品名称> "影分身之术". }
+select ?x where { <小小兔_（美少女战士）> <特点> ?x. }
+select ?x where { ?x <会> <七十二变>. ?x <使用> <混铁棍>. ?x <登场作品> <西游记>. }
+select ?x where { <江泽民> <重要思想提出时间> ?x. }
+select ?x where { <改革开放_（政策）> <总设计师> <毕业院校> ?x. }
+select ?x where { <不能承受的生命之轻> <作者> ?x. <生活在别处> <作者> ?x. }
 SELECT ?x WHERE { ?x <音乐风格> <说唱>. ?x <歌手> <周杰伦>. }
-select ?x where { ?x <填词人> <林夕>. ?x <演唱者> <孙燕姿>. }
-select ?x where { ?movie <主演> <汤唯>. ?movie <主演> <吴秀波>. ?movie <票房> ?x. }
-select ?x where { <清明上河图_（张择端绘画作品）> <作者> ?y. ?y <馆藏地点> <天津博物馆>. ?y <作品名称> ?x. }
-select ?x where { ?x <出土年份> 1938. ?x <类型> <国宝>. }
+select ?x where { ?x <填词> <林夕>. ?x <演唱者> <孙燕姿>. }
+select ?x where { ?y <主演> <汤唯>. ?y <主演> <吴秀波>. ?y <票房> ?x. }
+select ?x where { <清明上河图> <作者> ?y. ?y <馆藏> <天津博馆>. ?y <作品> ?x. }
+select ?x where { ?x <出土时间> "1938". ?x <类型> <国宝>. }
 select ?x where { <元宵节> <习俗> ?x. }
 select ?x where { ?x <城市> <成都>. ?x <类型> <景点>. }
 Skipping question '《哆啦A梦》中的随意门有什么作用？' after 4 failed attempts.
 select ?x where { <欧若拉女神> <掌管> ?x. }
 select ?x where { ?x <喜欢> <桔梗>. }
-select ?x where { ?x <艺术品名称> "蒙娜丽莎". ?x <所在地> ?y. ?y <名称> "法国". }
-select ?x where { <斯里兰卡> <宗教> ?x. }
+select ?x where { ?x <代表作品> <蒙娜丽莎>. ?x <所在地> ?y. ?y <类型> <博物馆>. }
+select ?x where { <斯里兰卡> <主要宗教> ?x. }
 select ?x where { <柏林墙> <倒塌时间> ?x. }
-select ?x where { <抗美援朝战争> <伤亡人数> ?x. }
+SELECT ?x WHERE { <抗美援朝战争> <战争伤亡人数> ?x. }
 select ?x where { <长城> <总长> ?x. }
-select ?x where { <埃菲尔铁塔> <完工时间> ?x. }
+select ?x where { <埃菲尔铁塔> <竣工日期> ?x. }
 select ?x where { <巴黎圣母院> <建筑风格> ?x. }
-select ?x where { <满汉全席> <包含菜品数量> ?x. }
-select ?x where { <计划生育政策> <政策内容> ?x. }
+SELECT ?x WHERE { <满汉全席> <菜品数量> ?x. }
+select ?x where { <计划生育政策> <定义> ?x. }
 select ?x where { ?x <作者> <孔庆东>. ?x <作者> <叶文曦>. }
-select ?x where { ?x <毕业院校> <北京大学>. ?x <毕业院校> <清华大学>. }
-select ?x where { ?y <出版社> <北京大学出版社>. ?y <定价> "110.00". ?y <书名> ?x. }
-select ?book where { ?book <出版日期> "2012-03-01". ?book <出版社> <北京大学出版社>. }
+select ?x where { ?x <任职校区> <北京大学>. ?x <任职校区> <清华大学>. }
+select ?x where { ?x <定价> "110.00". ?x <出版社> <北京大学出版社>. }
+select ?x where { ?x <出版日期> "2012-03-01". ?x <出版社> <北京大学出版社>. }
 select ?x where { <醉眼看金庸> <作者> ?y. ?y <民族> ?x. }
-select ?x where { <醉眼看金庸> <作者> ?y. ?y <任教学校> ?x. }
-select ?x where { ?y <代表作品> "《醉眼看金庸》". ?y <作者> ?z. ?z <代表作品> ?x. }
-select ?x where { ?x <所属地区> <合肥>. ?x <联盟> "九校联盟". }
+select ?x where { ?y <作品> <醉眼看金庸>. ?y <作者> ?z. ?z <任教大学> ?x. }
+select ?x where { <醉眼看金庸_（书籍）> <作者> ?y. ?y <代表作品> ?x. }
+select ?x where { ?x <所属联盟> "九校联盟". ?x <城市> <合肥>. }
 select ?x where { <北京大学> <学术传统> ?x. }
-select ?x where { <学校代码> "10003", <对应大学> ?x. }
-select ?x where { ?x <代码> "10056". ?x <硕士点数量> ?y. }
-select ?x where { <2006年汉语新词语选目> <作者> ?y. ?y <官方网站> ?x. }
-SELECT ?y WHERE { <危险化学品经营企业安全管理培训教程> <作者> ?x. ?x <主要成就> ?y. }
-select ?x where { ?y <著作> <探寻遗失的文明之古埃及>. ?y <教授> ?x. }
-select ?x where { <蒙特卡罗分析法> <提出者> ?x. }
+select ?x where { ?x <学校代码> "10003". }
+SELECT ?x WHERE { ?x <学校代码> "10056". ?x <硕士点数量> ?y. }
+select ?x where { <2006年汉语新词语选目> <作者官网> ?x. }
+select ?x where { <危险化学品经营企业安全管理培训教程> <作者> ?y. ?y <主要成就> ?x. }
+select ?x where { <探寻遗失的文明之古埃及> <作者> ?y. ?y <任教大学> ?x. }
+select ?x where { ?x <提出方法> <蒙特卡罗分析法>. }
 select ?x where { <北大耕读社> <成立时间> ?x. }
-select ?x where { ?x <别名> <北京>. }
-select ?x where { ?x <导演> <周星驰>. ?x <类型> <奇幻剧情>. }
+select ?x where { <北京_（中华人民共和国首都）> <别名> ?x. }
+select ?x where { ?x <导演> <周星驰>. ?x <类型> <奇幻剧情片>. }
 select ?x where { ?x <登场人物> <渊虹>. ?x <导演> ?y. }
-SELECT ?x WHERE { <轻音少女剧场版> <导演> ?y. ?y <毕业院校> ?x. }
-select ?x where { <《JOJO的奇妙冒险JOJOLion》的作者> <星座> ?x. }
-select ?x where { ?x <作品名称> "阿尔冯斯·艾尔利克". }
-select ?x where { ?x <创作作品> <七星灯>. }
+select ?x where { <轻音少女剧场版> <导演> ?y. ?y <毕业院校> ?x. }
+select ?x where { <JOJO的奇妙冒险JOJOLion> <作者> ?y. ?y <星座> ?x. }
+select ?x where { ?x <出处> "阿尔冯斯·艾尔利克". }
+select ?x where { <七星灯> <来源> ?x. }
 select ?x where { <北京大学> <地址> ?x. }
-SELECT ?award WHERE { <无间道_（2002年刘伟强、麦兆辉执导电影）> <获奖奖项> ?award. }
+select ?x where { <无间道_（2002年刘伟强、麦兆辉执导电影）> <主要奖项> ?x. }
 select ?x where { ?x <主演> <刘德华>. ?x <主演> <梁朝伟>. }
 select ?x where { ?x <主演> <姜文>. ?x <导演> <姜文>. }
 select ?x where { <阿尔伯特·爱因斯坦> <出生日期> ?x. }
-select ?x where { <归并排序> <发明者> ?y. ?y <主要成就> ?x. }
-select ?x where { <平方取中法_（数学方法）> <创建者> ?y . ?y <血型> ?x . }
+select ?x where { <归并排序的发明者> <主要成就> ?x. }
+SELECT ?x WHERE { <平方取中法> <创建者> ?y. ?y <血型> ?x. }
 select ?x where { <2019新型冠状病毒> <命名组织> ?x. }
-select ?x where { <2019新型冠状病毒> <命名组织> ?y. ?y <成立时间> ?x. }
-select ?x where { <流感疫苗> <规定组织> ?x. }
+select ?x where { <2019新型冠状病毒> <命名组织> <成立时间> ?x. }
+SELECT ?x WHERE { <流感疫苗> <规定组织> ?x. }
 select ?x where { <ADCC> <性质> ?x. }
-select ?x where { <骨髓瘤细胞> <天敌> ?y . ?y <外文名> ?x . }
+select ?x where { <骨髓瘤细胞> <天敌的外文名> ?x. }
 select ?x where { <CIH病毒> <感染对象> ?x. }
-select ?x where { ?x <子类型> <动物>. ?x <子类型> <病毒>. }
-select ?x where { <新型冠状病毒肺炎> <病原体> ?x. ?x <疑似宿主> ?y. }
-Skipping question '新型冠状病毒肺炎临床治疗期中期推荐中成药有哪些？' after 4 failed attempts.
-select ?x where { <木村次郎右卫门> <死于> ?y. ?y <盛行率> ?x. }
-select ?x where { <哮喘> <共同相似疾病> ?x. } select ?x where { <慢性阻塞性肺病> <共同相似疾病> ?x. } select ?x where { <哮喘> <共病> ?x. } select ?x where { <慢性阻塞性肺病> <共病> ?x. }
+select ?x where { <动物> <子类型> ?x. } UNION { <病毒> <子类型> ?x. }
+select ?x where { <新型冠状病毒肺炎> <疑似宿主> ?x. }
+select ?x where { <新型冠状病毒肺炎临床治疗期中期> <推荐中成药> ?x. }
+select ?x where { <木村次郎右卫门> <死因> ?y. ?y <盛行率> ?x. }
+select ?x where { ?x <相似疾病> <哮喘>. ?x <共病> <慢性阻塞性肺病>. }
 select ?x where { <哮喘治疗药物> <化学式> ?x. }
-select ?x where { ?x <涉及症状> <鼻塞>. ?x <就诊科室> <耳鼻喉科>. }
+select ?x where { ?x <涉及症状> <鼻塞>. ?x <科室> <耳鼻喉科>. }
 select ?x where { <流行性感冒> <共同症状> ?x. <军团病> <共同症状> ?x. <肺炎> <共同症状> ?x. }
-select ?x where { ?x <涉及症状> <高热> . ?x <涉及症状> <胸痛> . }
+select ?x where { ?x <涉及症状> <高热>. ?x <涉及症状> <胸痛>. }
 select ?x where { <代谢性酸中毒> <就诊科室> ?x. }
-select ?x where { <甲状腺肿大> <涉及症状> ?x. <腹腔积液> <涉及症状> ?x. }
+select ?x where { ?x <涉及症状> <甲状腺肿大>. ?x <涉及症状> <腹腔积液>. }
 select ?x where { ?x <涉及症状> <口干> . ?x <涉及症状> <心悸> . }
-select ?x where { <婴儿> <吐奶起因> ?x. }
-select ?x where { <2020年第4号政策> <发布时间> ?x. }
+select ?x where { <婴儿吐奶> <起因> ?x. }
+select ?x where { <国家税务总局公告2020年第4号政策> <发布时间> ?x. }
 select ?x where { <甲型H1N1流感> <症状> ?x. }
-select ?x where { ?x <时间> 2015. ?x <疫情> "埃博拉病毒". ?x <死亡人数> ?y. }
+SELECT ?x WHERE { ?x <事件> "2015年埃博拉病毒在西非导致的死亡人数". }
 select ?x where { <N95口罩> <标准> ?x. }
 select ?x where { <病毒性出血热> <症状> ?x. }
 select ?x where { <高血糖> <病因> ?x. }
@@ -447,187 +447,187 @@ select ?x where { <南宁市第四人民医院> <地址> ?x. }
 select ?x where { <肝炎> <传播途径> ?x. }
 select ?x where { <肝炎> <症状> ?x. }
 select ?x where { <肝炎> <病因> ?x. }
-select ?x where { ?x <外文名> "Escherichia coli，E.coli". }
-select ?x where { <CDV_（疾病）> <临床症状> ?x. }
-Skipping question '化学式为C6H12O5的物质的分子量是多少？' after 4 failed attempts.
-select ?x where { ?x <分子式> "C6H12O5". }
+select ?x where { <Escherichia coli，E.coli> <细菌俗称> ?x. }
+select ?x where { ?y <别名> "CDV". ?y <临床症状> ?x. }
+SELECT ?x WHERE { <C6H12O5> <分子量> ?x. }
+select ?x where { <C6H12O5> <英文名> ?x. }
 select ?x where { <鼠疫> <传播途径> ?x. }
-select ?x where { ?x <别名> "水熊虫". ?x <分布区域> ?y. }
-SELECT ?x WHERE { ?x <别名> "水熊虫". ?x <生物分类> ?y. }
+select ?x where { <“水熊虫”> <生物分布区域> ?x. }
+select ?x where { <水熊虫> <分类> ?x. }
 select ?x where { <水熊虫> <拉丁学名> ?x. }
-select ?x where { ?x <发布时间> "2020-02-07". ?x <发布单位> <市场监管总局办公厅>. }
-select ?x where { <2020年2月7日> <发布政策> ?y. ?y <针对对象> ?x. }
+SELECT ?x WHERE { ?x <发布日期> "2020-02-07". ?x <所属机构> <市场监管总局办公厅>. }
+select ?x where { ?x <发布时间> "2020-02-07" . ?x <针对对象> ?y. }
 select ?x where { ?x <别名> "万岛之国". }
 select ?x where { <挪威> <政治体制> ?x. }
-select ?x where { <挪威> <首都机场> ?x. }
+SELECT ?x WHERE { <挪威> <首都机场> ?x. }
 select ?x where { <挪威> <官方货币代码> ?x. }
-SELECT ?x WHERE { ?x <姓名> "汤姆·赫宁". ?x <祖国> ?y. ?y <所在洲> ?continent. }
-select ?x where { <挪威> <国庆节日期> ?x. }
-select ?x where { <声声慢·寻寻觅觅> <作者> ?y. ?y <朝代> ?x. }
-select ?x where { <李清照> <丈夫> ?y. ?y <逝世时间> ?x. }
+select ?x where { <汤姆·赫宁> <祖国> ?x. }
+select ?x where { <挪威> <国庆节日期> ?x . }
+select ?x where { <声声慢·寻寻觅觅> <作者> ?x. }
+select ?x where { <李清照> <丈夫> ?y. ?y <逝世日期> ?x. }
 select ?x where { <李清照> <丈夫职业> ?x. }
 select ?x where { <秦朝> <国土面积> ?x. }
-select ?x where { <秦始皇> <统一货币> ?x. }
+select ?x where { <秦始皇统一六国> <统一货币> ?x. }
 select ?x where { <秦朝> <选官制度> ?x. }
 select ?x where { <秦朝> <首都> ?x. }
-select ?x where { <秦朝> <古都所在地> ?x. }
-select ?x where { <基督山伯爵> <作者> ?x. }
-select ?x where { <丽姬娅> <作者> ?y. ?y <国籍> ?x. }
-select ?x where { <新西兰> <首都> ?y . ?y <面积> ?x . }
-select ?x where { <新西兰首都> <居民数量> ?x. }
+select ?x where { <秦朝的古都> <现在所在地> ?x. }
+select ?x where { <基督山伯爵> <作者> ?y. ?y <国籍> ?x. }
+select ?x where { <丽姬娅> <作者> ?y . ?y <国籍> ?x . }
+select ?x where { <新西兰> <首都> ?y. ?y <面积> ?x. }
+SELECT ?x WHERE { <新西兰首都> <居民人数> ?x. }
 select ?x where { <新西兰> <国花> ?x. }
-select ?x where { <新西兰> <所在洲> ?x. }
+select ?x where { <新西兰> <所属洲> ?x. }
 select ?x where { <伊丽莎白二世> <即位时间> ?x. }
-select ?x where { <伊丽莎白二世> <丈夫> ?y. ?y <出生地> ?x. }
-select ?x where { <小夜曲> <作者> ?y. ?y <出生地> ?x. }
-select ?x where { <莫扎特> <逝世时间> ?x. }
-select ?x where { <莫扎特> <祖国> ?x. ?x <灭亡时间> ?y. }
+select ?x where { <伊丽莎白二世的丈夫> <出生地> ?x. }
+select ?x where { <小夜曲> <作者> ?y. ?y <出生地> ?x . }
+select ?x where { <莫扎特> <逝世日期> ?x. }
+select ?x where { <莫扎特> <祖国> ?x. <莫扎特> <灭亡时间> ?y. }
 select ?x where { <芬兰> <国庆日> ?x. }
 select ?x where { <芬兰> <国土面积> ?x. }
 select ?x where { <亚马孙河> <发源地> ?x. }
-select ?x where { ?x <国家> <亚马孙河>. ?x <官方语言> "西班牙语". }
-select ?x where { <我国新型冠状病毒联防联控工作机制科研攻关组> <组长> ?x. }
-select ?x where { <钟南山> <研究方向> ?x. }
-select ?x where { ?x <时间> "2020-01-20" . ?x <事件> "新冠病毒可能人传人" . }
-select ?x where { ?x <参与战役> <非典战役>. ?x <参与战役> <新冠病毒战役>. ?x <国籍> <中国>. ?x <知名度> "知名". }
-select ?x where { ?x <研究成果> <连花清瘟胶囊可能对新冠病毒有抑制效果>. }
+select ?x where { <亚马孙河> <流经国家> ?y. ?y <官方语言> ?x. }
+select ?x where { ?x <职务> "新型冠状病毒联防联控工作机制科研攻关组组长". }
+SELECT ?x WHERE { <钟南山院士> <研究方向> ?x. }
+SELECT ?x WHERE { ?x <指出> "新冠病毒可能人传人". ?x <日期> "2020-01-20". }
+select ?x where { ?x <参与战役> "非典战役". ?x <参与战役> "新冠病毒战役". ?x <国籍> "中国". }
+select ?x where { ?x <研究成果> "连花清瘟胶囊可能对新冠病毒有抑制效果". }
 select ?x where { <新冠病毒> <首次爆发地点> ?x. }
-SELECT ?x WHERE { ?x <主动表示去> <金银潭医院>. ?x <职业> <院士>. }
-select ?y where { ?x <本名> "钟南山". ?x <参与事件> <金银潭医院>. ?x <籍贯> ?y. }
-select ?x where { ?x <创造> "SARS“零严重后遗症”、无医务人员感染、无二代病人的奇迹". ?x <时间> "十七年前". }
-select ?x where { ?x <毕业院校> ?y. ?x <成就> "SARS“零严重后遗症”、无医务人员感染、无二代病人的奇迹". ?y <时间> "十七年前". }
-select ?x where { <传染病学_（第3版）> <作者> ?y. ?y <重要成果> ?x. }
+select ?x where { ?x <医院> <金银潭医院>. ?x <职业> <院士>. }
+SELECT ?x WHERE { ?y <医院> <金银潭医院>. ?y <院士> ?z. ?z <籍贯> ?x. }
+select ?x where { ?x <创造> "SARS零严重后遗症、无医务人员感染、无二代病人的奇迹". ?x <时间> "十七年前". }
+select ?x where { ?x <主要成就> "SARS“零严重后遗症”、无医务人员感染、无二代病人的奇迹". ?x <毕业院校> ?y. }
+select ?x where { ?x <主要作品> <传染病学第3版>. }
 select ?x where { <咳嗽> <病因> ?x. }
-SELECT ?y WHERE { ?x <参与时间> "1996年5月". ?x <职业> <中国工程院院士>. ?x <毕业院校> ?y. }
-SELECT ?y WHERE { ?x <参与> "疫情防控". ?x <出生日期> <1996-05>. ?x <职业> <中国工程院院士>. ?x <出生地> ?y. }
-select ?x where { ?x <论文名称> "慢性阻塞性肺疾病在中国". }
-select ?x where { ?x <论文名称> "慢性阻塞性肺疾病在中国". }
+select ?x where { ?x <参与疫情防控> "是". ?x <出生日期> "1996-05". ?x <毕业院校> ?y. ?x <职业> <中国工程院院士>. }
+select ?x where { ?y <参与疫情防控> "是". ?y <出生日期> "1996-05". ?y <职称> "中国工程院院士". ?y <籍贯> ?x. }
+select ?x where { ?x <发表作品> <慢性阻塞性肺疾病在中国>. }
+select ?x where { <广州呼吸疾病研究所所长> <籍贯> ?x. }
 select ?x where { <广州呼吸疾病研究所所长> <毕业院校> ?x. }
 select ?x where { <李兰娟> <所属救援队> ?x. }
-select ?x where { <复旦大学附属华山医院感染病科党支部书记、主任> <研究方向> ?x. }
-select ?x where { ?x <参与疫情防控> <复旦大学附属华山医院感染病科党支部书记>. ?x <参与疫情防控> <复旦大学附属华山医院感染病科主任>. }
-select ?x where { <华为> <口号> ?x. }
-select ?x where { ?x <导演> <佩妮莱·费舍尔·克里斯滕森>. ?x <类型> <喜剧>. ?x <国家> <丹麦>. }
-SELECT ?x WHERE { ?y <创始人> ?x . ?y <公司名称> "Porsche AG". ?x <出生日期> ?x. }
-select ?x where { <魔性诱惑> <导演> ?x. }
-select ?x where { <下北阳光灿烂的日子> <主演> ?y. ?y <代表作品> ?x. }
-SELECT ?x WHERE { ?x <逝世日期> "风筝吸雷" . }
-SELECT ?x WHERE { ?x <证明闪电本质是电> . ?x <领导美国独立战争> . }
-select ?x where { <穷理查年鉴> <作者> ?y. ?y <出生日期> ?x. }
-select ?x where { <巴勃罗·鲁伊斯·毕加索> <外文名> ?x. }
+select ?x where { <复旦大学附属华山医院感染病科党支部书记、主任> <主任研究方向> ?x. }
+select ?x where { <复旦大学附属华山医院感染病科党支部书记、主任> <参与疫情防控> ?x. }
+select ?x where { <华为> <公司口号> ?x. }
+select ?x where { ?y <导演> <佩妮莱·费舍尔·克里斯滕森>. ?y <类型> <喜剧>. ?y <国籍> <丹麦>. ?y <片名> ?x. }
+select ?x where { <Porsche AG> <创始人> ?y. ?y <出生日期> ?x. }
+SELECT ?x WHERE { ?x <影片名称> "魔性诱惑". ?x <导演> ?y. }
+select ?x where { <下北阳光灿烂的日子> <主演> ?x. }
+select ?x where { <用风筝吸引雷电的科学家> <逝世日期> ?x. }
+select ?x where { ?x <证明> "闪电本质是电". ?x <领导> "美国独立战争". }
+select ?x where { <穷理查年鉴_（英国小说家查尔斯·狄更斯的作品）> <作者> ?y. ?y <出生日期> ?x. }
+SELECT ?x WHERE { <巴勃罗·鲁伊斯·毕加索> <外文名> ?x. }
 select ?x where { <巴勃罗·鲁伊斯·毕加索> <出生日期> ?x. }
-SELECT ?x WHERE { <三个音乐家> <作者> ?y. ?y <职业> ?x. }
-select ?x where { <哭泣的女人> <作者> ?y. ?y <出生日期> ?x. }
+select ?x where { <三个音乐家_（绘画作品）> <作者> ?y . ?y <流派> ?x . }
+SELECT ?y WHERE { ?x <作品> <哭泣的女人>. ?x <作者> <出生日期> ?y. }
 select ?x where { ?x <学术传统> "思想自由，兼容并包". }
-select ?x where { ?university <学校代码> "10001". ?scholar <奖项> <长江学者>. ?scholar <所在学校> ?university. }
+Skipping question '学校代码是10001的大学，目前有多少位长江学者？' after 4 failed attempts.
 Skipping question '“思想自由兼容并包”的大学有多少文科资深教授？' after 4 failed attempts.
 select ?x where { ?x <校庆日> "思想自由兼容并包". }
 select ?x where { <嬴政> <治国思想> ?x. }
 select ?x where { ?x <继承人> <嬴政>. }
-select ?x where { <师说_（中国古代文学名著）> <作者> ?y. ?y <去世时间> ?x. }
-select ?x where { <让车同轨，书同文> <提出者> ?x . }
-select ?x where { <李星辰> <出生日期> ?x . }
-select ?x where { <小飞侠> <父亲> ?x. }
-select ?x where { <小飞侠> <入选方式> ?x. }
-select ?x where { <小飞侠> <出生地> ?y. ?y <州长> ?x. }
-select ?x where { <科比24> <作者> ?y. ?y <别名> ?x. }
-select ?x where { <毛泽东> <信仰> ?x . }
-select ?y where { ?x <代表作品> <沁园春雪>. ?x <毕业院校> ?y. }
+select ?x where { <师说的作者> <去世日期> ?x. }
+select ?x where { ?x <称号> "让车同轨，书同文". }
+SELECT ?x WHERE { <李星辰> <出生日期> ?x. }
+select ?x where { ?x <儿童> <小飞侠>. ?x <父亲> ?y. }
+select ?x where { ?y <NBA选秀> ?x. ?y <选秀对象> "小飞侠". }
+select ?x where { <小飞侠_（美国电影）> <州长> ?x. }
+select ?x where { ?y <作者> ?z. ?y <作品> <科比24_（科比·布莱恩特传记）>. ?z <别名> ?x. }
+select ?x where { <毛泽东> <信仰> ?x. }
+select ?x where { <沁园春雪> <作者> ?y. ?y <毕业院校> ?x. }
 select ?x where { <逃学威龙2> <主演> ?y. ?y <出生地> ?x. }
 select ?x where { <逃学威龙2> <主演> ?y. ?y <身高> ?x. }
-select ?x where { ?x <角色> <黑暗精灵米莉雅>. ?x <作品> ?y. ?y <类型> <动漫>. }
-select ?x where { ?x <作者> <村上老师>. }
-select ?x where { <日本> <市花> ?x. ?x <名称> "百合". }
+select ?x where { ?x <动漫角色> <黑暗精灵米莉雅>. }
+select ?x where { ?x <创作者> <村上春树>. ?x <作品名称> ?y. }
+select ?x where { ?x <市花> <百合>. ?x <所属国家> <日本>. }
 Skipping question '你竟然连sos团团长的声优都认识，太厉害了，那你知道她的身材如何吗？' after 4 failed attempts.
-select ?x where { <娜可露露> <出处> ?x. }
-select ?y where { <战国四大名将之首> <成就> ?y. }
-select ?x where { <闪电> <形成过程> ?x. }
-select ?x where { ?x <演员> "嘟嘟". ?x <演员> "黄海波". ?x <合作电视剧> ?y. ?y <名称> ?z. }
-select ?x where { ?y <毕业院校> <北京大学>. ?y <著作> ?x. }
-select ?x where { ?x <登场人物> <岩永琴子>. ?x <作品类型> <漫画>. }
-Skipping question '老子提出的“道”又可以分成哪三种？' after 4 failed attempts.
-select ?x where { ?x <子女> <炮姐>. ?x <称谓> "母上大人". }
-select ?x where { ?x <关系> <同学> . ?x <作品> <魔法禁书目录> . ?x <角色> <御坂美琴> . }
-select ?x where { ?x <作品> <魔法禁书目录>. ?x <属性> "桃花属性". ?x <表现> "爆表". }
+select ?x where { <娜可露露_（王者荣耀英雄）> <原作> ?x. }
+select ?x where { ?x <主要成就> ?y. ?y <描述> "战国四大名将之首". }
+select ?x where { <闪电> <形成原理> ?x. }
+select ?x where { ?x <主演> <嘟嘟>. ?x <主演> <黄海波>. ?x <类型> <电视>. }
+select ?x where { ?y <毕业院校> <北京大学>. ?y <作家> "李文杰". ?y <著作> ?x. }
+SELECT ?x WHERE { ?x <登场作品> <岩永琴子>. }
+select ?x where { <老子> <提出> ?x. }
+SELECT ?x WHERE { ?x <称号> "炮姐的母上大人". }
+select ?x where { <御坂美琴> <同学> ?x. }
+SELECT ?x WHERE { ?y <作品名称> "魔法禁书目录". ?y <角色属性> "桃花属性爆表". ?y <角色名称> ?x. }
 select ?x where { <吹雪酱> <身高> ?x. }
-select ?x where { ?x <游戏伙伴> <秃头披风侠>. ?x <喜好> ?y. }
-Skipping question '琦玉老师今年多大？' after 4 failed attempts.
-select ?x where { <梅花> <受灾害> ?x. }
-select ?x where { <李翔宇> <所获奖项> ?x. }
-select ?x where { ?x <国籍> <俄罗斯>. ?x <职业> <探险家>. ?x <成就> <单骑横跨欧亚大陆>. }
+select ?x where { <秃头披风侠> <角色关系> ?x. }
+select ?x where { ?x <年龄_（年龄）> ?y. ?x <别称> "琦玉老师". ?y ?x. }
+select ?x where { <梅花> <主要灾害> ?x. }
+select ?x where { <李翔宇> <获得奖项> ?x. }
+select ?x where { ?x <国籍> <俄罗斯>. ?x <成就> "单骑横跨欧亚大陆". }
 select ?x where { <语嫣姐> <代表作品> ?x. }
 select ?x where { <幽城幻剑录> <发布时间> ?x. }
-select ?x where { ?char <登场作品> <天地劫>. ?char <登场作品> <神魔至尊传>. ?char <登场作品> <幽城幻剑录>. ?char <角色姓名> ?x. }
-select ?x where { <长方形> <计算公式> ?x. }
+select ?x where { ?y <登场作品> <天地劫>. ?y <登场作品> <神魔至尊传>. ?y <登场作品> <幽城幻剑录>. ?y <中文名> ?x. }
+select ?x where { <长方形> <计算方法> ?x. }
 Skipping question '等边三角形的面积怎么算？' after 4 failed attempts.
 select ?x where { <藏马> <生日> ?x. }
-select ?x where { ?x <配音> <飞影的妹妹>. }
-SELECT ?x WHERE { ?x <定义> "里番". }
-select ?x where { <无限流> <开山鼻祖> ?x. }
-select ?x where { ?x <类别> <腐女>. }
-SELECT ?x WHERE { ?outbreak <名称> "埃博拉疫情". ?outbreak <死亡人数> ?x. }
-SELECT ?x WHERE { <流感> <死亡人数> ?x. }
-select ?x where { ?x <症状> <烦躁不安>. }
-select ?x where { ?y <症状> "多尿、夜尿增多". ?y <病因> ?x. }
-select ?x where { <发炎> <原因> ?x. }
-select ?x where { <打呼噜> <预防措施> ?x. }
-select ?x where { <牛屎牙膏> <用途> ?x. }
-select ?x where { ?x <涉及症状> <面色青紫> . ?x <涉及症状> <间歇性血尿> . }
-select ?x where { <真命天女症> <症状> ?x. }
-select ?x where { <世界艾滋病日> <标志> ?x. }
-select ?x where { <世界艾滋病日> <发起机构> ?x. }
-select ?x where { <总流鼻血> <就诊科室> ?x. }
-SELECT ?x WHERE { ?x <别名> "T病毒". }
-select ?x where { <暴君病毒> <危害> ?x. }
+select ?x where { <飞影的妹妹> <配音演员> ?x. }
+select ?x where { <里番> <解释> ?x. }
+select ?x where { <无限流的开山鼻祖> <真名> ?x. }
+select ?x where { <腐女> <特征> ?x. }
+select ?x where { <埃博拉疫情> <死亡人数> ?x. }
+SELECT ?x WHERE { <流感> <每年死亡人数> ?x. }
+select ?x where { <烦躁不安> <症状原因> ?x. }
+Skipping question '表现为"多尿、夜尿增多"的疾病通常由什么引起？' after 4 failed attempts.
+Skipping question '人为什么会发炎？' after 4 failed attempts.
+Skipping question '怎样才能不打呼噜？' after 4 failed attempts.
+Skipping question '牛屎牙膏是啥，能吃吗？' after 4 failed attempts.
+Skipping question '哪些疾病既涉及面色青紫又涉及间歇性血尿？' after 4 failed attempts.
+Skipping question '真命天女症有何表现？' after 4 failed attempts.
+Skipping question '世界艾滋病日的标志是什么？' after 4 failed attempts.
+Skipping question '世界艾滋病日是什么机构发起的？' after 4 failed attempts.
+Skipping question '我总流鼻血应该挂号哪个科？' after 4 failed attempts.
+Skipping question 'T病毒又叫什么？' after 4 failed attempts.
+Skipping question '暴君病毒有什么危害？' after 4 failed attempts.
 select ?x where { <RNA病毒> <繁殖方式> ?x. }
-SELECT ?x WHERE { <T病毒> <病原> ?x . }
-select ?x where { <手足口病> <传播途径> ?x. }
-select ?x where { <幼儿常见疾病> <传播方式> ?x. }
-select ?x where { ?x <常见人群> "15～40岁女性". }
+select ?x where { <T病毒> <病原组成> ?x. }
+select ?x where { <手足口病> <传播方式> ?x. }
+select ?x where { ?x <多发群体> "幼儿". ?x <传播途径> ?y. }
+select ?x where { ?x <常见于人群> "15～40岁女性". }
 select ?x where { <华为公司> <经营范围> ?x. }
 select ?x where { <资生堂> <官网> ?x. }
 select ?x where { <格兰芬多> <象征元素> ?x. }
 select ?x where { ?x <粉丝称号> "鲸鱼". }
-SELECT ?x WHERE { ?x <别名> "牛油果". }
-select ?x where { ?x <代表作品> <小美人鱼铜像>. ?x <国籍> <丹麦>. }
+select ?x where { <牛油果> <别称> ?x. }
+select ?x where { <小美人鱼铜像> <作者> ?x. }
 select ?x where { <路遥> <毕业院校> ?x. }
 select ?x where { <安卓系统> <开发公司> ?x. }
-select ?x where { <加减消元法> <出现于> ?x. }
-select ?x where { <九章算术> <数学公式> ?x. ?x <名称> "勾股定理". }
-select ?x where { <国际货币基金组织> <总部> ?x. }
+select ?x where { <加减消元法> <首次出现于> ?x. }
+select ?x where { <九章算术> <数学公式> ?x. }
+SELECT ?headquarter WHERE { <国际货币基金组织> <总部> ?headquarter. }
 select ?x where { <国际货币基金组织> <设立机构> ?x. }
 select ?x where { <世界无烟日> <设立机构> ?x. }
 select ?x where { <世界卫生组织> <组织架构> ?x. }
-select ?x where { ?y <规定> "临床用血手册". ?y <相关标准> ?x. }
+select ?x where { <临床用血手册> <相关标准> ?y. ?y <官网> ?x. }
 select ?x where { ?x <主演> <孔刘>. ?x <类型> <灾难片>. ?x <所属地区> <韩国>. }
-select ?x where { ?x <出生地> <蚌埠>. ?x <性别> "男". ?x <职业> <歌手>. }
-select ?x where { ?x <创始人> <知乎>. ?x <毕业院校> <东南大学>. }
-select ?x where { <被誉为中国古典小说的最高峰的著作> <别名> ?x. }
-select ?x where { ?x <中文名> "魅可". ?x <隶属于> ?y. ?z <隶属于> ?y. ?z <中文名> ?w. }
-select ?x where { <蒙牛纯甄> <生产企业> ?y. ?y <是否上市公司> ?x. }
-select ?x where { <菠萝科学奖> <主办机构> ?y. ?y <愿景> ?x. }
-select ?x where { <海蟾明悟弘道真君> <民间传说人物> ?y. ?y <主要成就> ?x. }
+select ?x where { ?x <出生地> <蚌埠>. ?x <职业> <男歌手>. }
+select ?x where { ?x <毕业院校> <东南大学>. ?x <创立网站> <知乎>. }
+SELECT ?x WHERE { <被誉为中国古典小说的最高峰的著作> <别名> ?x. }
+select ?x where { ?y <中文名> "魅可". ?y <隶属于> ?x. }
+select ?x where { <蒙牛纯甄> <生产企业> ?x. ?x <是否上市> "是". }
+select ?x where { ?y <主办活动> <菠萝科学奖>. ?y <愿景> ?x. }
+select ?x where { ?x <主要成就> "被封为海蟾明悟弘道真君". ?x <民间传说人物> "元世祖". }
 select ?x where { <嫦娥> <配偶> ?y. ?y <主要成就> ?x. }
-select ?x where { ?x <参演作品> <天外飞仙>. ?x <参演作品> <伪装者>. }
-select ?x where { ?x <神话故事> <八仙过海>. ?x <骑乘> "毛驴". }
-select ?x where { ?y <儿子> <张翠山>. ?y <拥有> ?x. ?x <特点> "非常厉害". }
-select ?x where { ?x <师傅> <杨露禅>. ?x <创立> <太极拳>. }
-select ?x where { ?x <历届帮主> <丐帮>. ?x <驻地> <襄阳>. }
+select ?x where { ?y <参演作品> <天外飞仙>. ?y <参演作品> <伪装者>. ?y <著名演员> ?x. }
+select ?x where { <八仙过海> <神仙> ?x. ?x <交通工具> "毛驴". }
+select ?x where { <张翠山的儿子> <拥有> ?x. ?x <属性> "非常厉害的武器". }
+select ?x where { ?y <徒弟> ?x . ?y <自创武术> <太极拳> . }
+SELECT ?x WHERE { ?x <帮派> <丐帮>. ?x <驻地> "襄阳". ?x <驻守时间> "数十年". }
 select ?x where { <乙型肝炎病毒> <常用检测手段> ?x. }
-select ?x where { <乙肝疫苗> <可能出现不良反应> ?x. }
+select ?x where { <乙肝疫苗> <不良反应> ?x. }
 select ?x where { ?x <分子式> "C143H230N42O37S7". }
-select ?x where { <二分裂> <生物过程> ?x. }
-select ?x where { ?x <发明> <二氨基庚二酸>. }
-select ?x where { <伞菌> <分布区域> ?x. }
+select ?x where { <二分裂> <存在方式> ?x. }
+select ?x where { ?x <发明物> <二氨基庚二酸>. }
+select ?x where { <伞菌> <主要分布区域> ?x. }
 select ?x where { <伤寒杂病论> <作者> ?x. }
-select ?x where { <医学> <免疫> ?x. }
-select ?x where { <激发体液免疫反应> <因素> ?x. }
+select ?x where { <免疫> <医学术语> ?x. }
+select ?x where { <体液免疫反应> <激发因素> ?x. }
 select ?x where { <免疫共沉淀> <缺点> ?x. }
 select ?x where { <satellite virus> <病毒形状> ?x. }
-select ?x where { ?x <呼吸方式> "有氧呼吸" . ?x <生物特征> "无核膜" . }
+select ?x where { ?x <呼吸方式> "有氧呼吸". ?x <是否有核膜> "无". }
 select ?x where { <葡萄籽> <提取物> ?x. }
-select ?x where { ?x <增殖方式> "二分裂、芽殖" . ?x <亚群数量> 4. }
-select ?x where { ?x <位置> "舌的背面、特别是舌尖和侧缘". ?x <功能> "味觉感受" . }
+select ?x where { ?x <亚群数量> "四个". ?x <增殖方式> "二分裂". ?x <增殖方式> "芽殖". }
+select ?x where { <舌> <位置> ?x. ?x <用途> "味觉的感受器". }
 select ?x where { <extremophile> <生存环境> ?x. }
 Skipping question '分子量为444.45的物质，其主要有哪些应用？' after 4 failed attempts.
 select ?x where { <天花病毒感染> <常见症状> ?x. }
@@ -635,370 +635,370 @@ select ?x where { ?y <别名> "肉灵芝". ?y <成分> ?x. }
 select ?x where { <2019-nCoV> <命名时间> ?x. }
 select ?x where { <2019新冠病毒> <命名来源> ?x. }
 select ?x where { <Coronavirus> <特点> ?x. }
-SELECT ?x WHERE { <非典> <形状> ?x. }
-select ?x where { <FFP2口罩> <替代品> ?x. <KN95口罩> <替代品> ?x. }
-select ?x where { <消毒> <作用> ?x. }
+select ?x where { <非典型肺炎_（SARS）> <病原体形状> ?x. }
+select ?x where { ?x <替代> <KN95口罩和FFP2口罩>. }
+select ?x where { <消毒> <目的> ?x. }
 select ?x where { <人类疱疹病毒> <发病部位> ?x. }
 select ?x where { <A型流感病毒的亚型病毒> <特点> ?x. }
 select ?x where { <己糖磷酸途径> <作用> ?x. }
 select ?x where { <生物界RNA合成> <催化剂> ?x. }
 select ?x where { <RNA病毒> <繁殖方式> ?x. }
 select ?x where { <烟草花叶病毒> <病毒级别> ?x. }
-select ?x where { ?y <病毒名称> "T2phage". ?y <头部形状> ?x. }
+select ?x where { <T2phage> <头部形状> ?x. }
 select ?x where { <T-lymphocyte> <来源> ?x. }
 select ?x where { <T淋巴细胞> <分布位置> ?x. }
-Skipping question 'C40H56的溶解度是？' after 4 failed attempts.
+select ?x where { <C40H56> <溶解度> ?x. }
 select ?x where { <迟发型超敏反应> <本质> ?x. }
 select ?x where { <primary syphilis> <symptoms> ?x. }
-select ?x where { <梅毒螺旋体> <引起病毒> ?y. ?y <传染性> ?x. }
+select ?x where { <梅毒螺旋体（TP）> <传染性> ?x. }
 select ?x where { <丁型病毒性肝炎> <易感人群> ?x. }
 select ?x where { <Peking University> <校庆日期> ?x. }
-select ?x where { <海淀区清华园> <校长> ?x. }
+select ?x where { <清华大学> <校长> ?x. }
 select ?x where { <骆驼牌香烟> <推出时间> ?x. }
-select ?x where { <羊驼> <外文名> ?x. }
-select ?x where { <玫瑰三红汤> <原料拉丁学名> ?x. }
-select ?y where { ?x <别名> "第27届 台湾电影金马奖最佳女主角". ?x <别名> ?y. }
-select ?x where { <窗里窗外> <作者> ?y . ?y <星座> ?x . }
+select ?x where { <羊驼_（动物）> <英文名> ?x. }
+select ?x where { <玫瑰三红汤> <原料> ?y. ?y <拉丁学名> ?x. }
+select ?x where { ?y <主要奖项> "第27届 台湾电影金马奖最佳女主角". ?y <别名> ?x. }
+select ?x where { <窗里窗外_（李劼作品）> <作者星座> ?x. }
 select ?x where { <New Dragon Gate Inn> <语言> ?x. }
 select ?x where { <梁家辉> <出生日期> ?x. }
-select ?y where { ?x <本名> "Tony Leung Ka Fai". ?x <出生日期> ?y. }
-select ?x where { <RNA合成> <催化剂> ?x. }
-select ?x where { ?y <配偶> <江嘉年>. ?y <外文名> ?x. }
-SELECT ?x WHERE { ?x <类型> <彩色电影>. ?x <主演> <张曼玉>. ?x <主演> <梁家辉>. }
-select ?y where { <Tony Leung Ka Fai> <配偶> ?y. }
-select ?x where { ?x <合作演员> <刘嘉玲>. ?x <合作演员> <许志豪>. ?x <合作演员> <梁家辉>. }
-select ?x where { <我对你说> <作者> ?x. }
-select ?x where { <我对你说> <出版时间> ?x. }
-select ?x where { <寒战_（2012年上映的香港动作片）> <内地票房> ?x. }
-select ?x where { ?x <合作演员> <陈奕迅>. ?x <合作演员> <吴君如>. ?x <合作演员> <梁家辉>. }
-select ?x where { ?x <别名> "江湖告急". }
-select ?x where { <江湖告急> <外文名> ?x. }
-select ?x where { <第18届香港电影金像奖> <最佳女主角> ?x. }
-select ?x where { ?y <本名> "三姑". ?x <妻子> ?y. }
+select ?x where { <Tony Leung Ka Fai> <出生日期> ?x. }
+Skipping question '生物界什么可以做为RNA合成的催化剂？' after 4 failed attempts.
+Skipping question '江嘉年的丈夫的外文名是？' after 4 failed attempts.
+Skipping question '张曼玉和梁家辉合作的彩色电影是？' after 4 failed attempts.
+Skipping question 'Tony Leung Ka Fai的妻子是？' after 4 failed attempts.
+Skipping question '刘嘉玲、许志豪和梁家辉合作的电影是？' after 4 failed attempts.
+Skipping question '《我对你说》的作者是？' after 4 failed attempts.
+Skipping question '《我对你说》的出版时间是？' after 4 failed attempts.
+Skipping question '《寒战》的内地票房有多少呀？' after 4 failed attempts.
+Skipping question '陈奕迅、吴君如和梁家辉合作的电影是？' after 4 failed attempts.
+Skipping question '《江湖告急》又被叫做什么？' after 4 failed attempts.
+Skipping question '《江湖告急》的英文名是什么？' after 4 failed attempts.
+select ?x where { ?x <主要奖项> "第18届香港电影金像奖最佳女主角". }
+select ?x where { ?x <称谓> "三姑的丈夫". }
 select ?x where { ?x <出演电影> <大内密探零零狗>. ?x <出演电影> <专钓大鳄>. ?x <出演电影> <天下第一媒婆>. }
-select ?x where { ?x <获奖> <第40届**电影金马奖最佳女主角>. }
-select ?x where { <北京> <面积> ?x. }
+select ?x where { ?x <获奖> <第40届台湾电影金马奖最佳女主角>. }
+select ?x where { <北平> <面积> ?x. }
 select ?x where { <洛阳> <电话区号> ?x. }
-select ?x where { <洛阳> <别名> ?x . }
+select ?x where { <洛阳> <别名> ?x. }
 select ?x where { <苹果> <成立时间> ?x. }
 select ?x where { <单侧鼻塞> <症状> ?x. }
 select ?x where { <赫伯特·威廉·康> <职业> ?x. }
-select ?x where { ?x <战斗伙伴> <吴军伟>. }
+select ?x where { <吴军伟> <战斗伙伴> ?x. }
 select ?x where { <三公仔小儿七星茶> <服用方法> ?x. }
-select ?x where { <海晏县人民医院> <地理位置> ?x. }
+select ?x where { <海晏县人民医院> <地点> ?x. }
 select ?x where { ?x <姓名> "盛田昭夫". }
-select ?x where { <胸水> <相关症状> ?x. }
+select ?x where { <胸水> <相关症结> ?x. }
 select ?x where { <放线菌病> <病因> ?x. }
 select ?x where { <昌乐县人民医院红河分院> <地理位置> ?x. }
 select ?x where { <临沂市妇幼保健院附院> <地理位置> ?x. }
 select ?x where { <紫烬灰链霉菌> <所属界> ?x. }
-select ?x where { <朝阳二三四医院> <地址> ?x. }
-select ?x where { <岑巩县人民医院> <地址> ?x. }
-select ?x where { <惠来县第三人民医院> <地理位置> ?x. }
-select ?x where { <白化病> <疾病原因> ?x. }
-select ?x where { <肛肠外科> <处理> ?x. }
+select ?x where { <朝阳二三四医院> <地理位置> ?x. }
+select ?x where { <岑巩县人民医院> <地理位置> ?x. }
+select ?x where { <惠来县第三人民医院> <位置> ?x. }
+select ?x where { <白化病> <导致> ?x. }
+select ?x where { <肛肠外科> <处理疾病> ?x. }
 select ?x where { <室颤> <症状> ?x. }
-select ?x where { <肛**肥大> <影响部位> ?x. }
-select ?x where { <大连妇女儿童医疗中心> <地理位置> ?x. }
-select ?x where { <口臭> <定义> ?x. }
+select ?x where { <肛乳头肥大> <影响部位> ?x. }
+select ?x where { <大连妇女儿童医疗中心> <位置> ?x. }
+select ?x where { <口臭> <解释> ?x. }
 select ?x where { <曹操> <代表作品> ?x. }
-select ?x where { <曹操> <葬地> ?x. }
+select ?x where { <曹**后> <安葬地点> ?x. }
 select ?x where { <曹操> <历史功绩> ?x. }
-select ?x where { <司马懿> <死亡时间> ?x. }
+select ?x where { <司马懿> <死亡日期> ?x. }
 select ?x where { <上官剑南> <作者> ?y. ?y <毕业院校> ?x. }
-select ?x where { ?y <民族> <汉族>. ?y <获得荣誉> "法国政府荣誉军团骑士头衔". ?y <获得荣誉> "香港大紫荆勋章". ?y <英文名> ?x. }
-select ?x where { <射雕三部曲> <作者> ?y . ?y <出生日期> ?x . }
+select ?x where { ?x <荣誉称号> "法国政府荣誉军团骑士" . ?x <荣誉称号> "香港大紫荆勋章" . ?x <民族> "汉族". ?x <英文名> ?y. }
+select ?x where { <射雕三部曲的作者> <出生日期> ?x. }
 select ?x where { <京东创始人> <毕业院校> ?x. }
-select ?x where { ?x <职业> <校长> . ?x <代言品牌> <众创学院>. }
-select ?x where { ?x <荣誉> "2015年全球50位最伟大领导者之一". ?x <毕业院校> <人大校友>. ?x <出生日期> ?y. }
-select ?x where { ?x <毕业院校> <宿迁市钟吾初级中学>. ?x <国籍> <中国>. ?x <职业> <企业家>. ?x <知名度> "知名". }
-select ?x where { ?x <婚姻关系> <京东_（中国电子商务公司）>. }
-select ?x where { <广州垂直马拉松系列赛> <决赛举办地> ?y. ?y <建筑高度> ?x. }
-SELECT ?year WHERE { <朗文外研社新概念英语1> <出版社> ?publisher . ?publisher <成立时间> ?year . }
-select ?x where { ?x <宗旨> "为教学科研服务" . ?x <所在地> <北京>. }
-SELECT ?x WHERE { ?x <发明者> "道布森". }
-select ?x where { <道布森式望远镜> <发明者> ?y. ?y <出生地> ?x. }
-select ?x where { ?y <出生日期> "1915-09-14". ?y <出生地> <北京>. ?y <毕业院校> <UC Berkeley>. ?y <国籍> <美国>. ?y <职业> <天文学家>. ?y <主要成就> ?x. }
-select ?x where { ?y <发明者> <道布森式望远镜>. ?y <母校> ?z. ?z <官网地址> ?x. }
-select ?x where { <二沙岛> <所属河流> ?y. ?y <流域面积> ?x. }
-select ?x where { <珠江> <鱼类> ?y . ?y <别称> "面鱼" . ?y <拉丁学名> ?x . }
-select ?x where { ?x <分布于> <长江>. ?x <分布于> <珠江>. ?x <分布于> <澜沧江>. ?x <分布于> <伊洛瓦底江>. ?x <属于> <裂腹鱼属>. }
-select ?x where { <李慧珠> <执导作品> ?x. ?x <首播日期> "2014-12-03". ?x <首播平台> <湖南卫视>. }
-SELECT ?x WHERE { ?x <改编自> <金庸的代表作>. ?x <出品公司> <于正工作室>. ?x <出品公司> <华夏视听环球传媒集团有限公司>. ?x <首播时间> ?y. }
-select ?y where { ?x <毕业院校> <迦密中学>. ?x <获奖> "万千星辉颁奖典礼最佳男主角". ?x <出生日期> ?y. }
-select ?x where { ?y <主演> <保持通话>. ?y <籍贯> <广东中山>. ?y <身高> ?x. }
-select ?x where { ?y <主演> "保持通话". ?y <主演> "反贪风暴2014". ?y <主演> "人间小团圆". ?y <外文名> ?x. }
-select ?x where { ?x <绰号> "古仔". ?x <职业> <香港男演员>. ?x <毕业院校> ?y. ?y <类别> <中学>. }
-select ?x where { ?movie <主演> <古天乐>. ?movie <主演> <刘德华>. ?movie <主演> <袁咏仪>. ?movie <监制> <陈可辛>. ?movie <类型> <剧情片>. ?movie <上映时间> ?x. }
-select ?x where { ?y <获奖> "香港小姐冠军". ?y <获奖> "国际华裔小姐亚军". ?y <毕业院校> ?x. }
-select ?y where { ?x <别名> "靓靓". ?x <配偶> ?y. }
-select ?y where { ?x <主演> <乱世艳阳天>. ?x <主演> <龙门镖局>. ?x <属相> ?y. }
-select ?x where { <中国合伙人> <导演> ?y. ?y <出生地> ?x. }
-select ?x where { <吴君如> <配偶> ?y . ?y <英文名> ?x . }
-select ?x where { <HBV_（乙型肝炎病毒）> <检测手段> ?x. }
+select ?x where { <众创学院> <校长> ?y. ?y <品牌代言人> ?x. }
+select ?x where { ?y <主要成就> "2015年全球50位最伟大领导者之一". ?y <毕业院校> <人大>. ?y <出生日期> ?x. }
+select ?x where { ?x <毕业院校> <宿迁市钟吾初级中学>. ?x <职业> <知名中国企业家>. }
+select ?x where { ?x <女婿> <京东_（中国电子商务公司）>. }
+select ?x where { <广州垂直马拉松系列赛> <决赛举办地点> ?y. ?y <建筑高度> ?x. }
+select ?x where { <朗文外研社新概念英语1> <出版社> ?y. ?y <成立时间> ?x. }
+select ?x where { ?x <宗旨> "为教学科研服务". ?x <所在地> <北京>. }
+select ?x where { <道布森式望远镜> <发明者> ?x. }
+select ?x where { <道布森式望远镜> <发明者> ?x. ?x <出生地> ?y. }
+SELECT ?成就 WHERE { ?x <出生日期> "1915-09-14". ?x <出生地> <北京_.中国>. ?x <毕业院校> <UC Berkeley>. ?x <国籍> <美国>. ?x <主要成就> ?成就. }
+select ?x where { ?y <发明> <道布森式望远镜>. ?y <母校> ?x. ?x <网址> ?z. }
+select ?x where { ?y <景点> <二沙岛>. ?y <所属江> <珠江>. ?x <流域面积> <珠江>. }
+select ?x where { ?y <别名> "面鱼". ?y <分布区域> "珠江". ?y <拉丁学名> ?x. }
+select ?x where { ?x <分布区域> "长江". ?x <分布区域> "珠江". ?x <分布区域> "澜沧江". ?x <分布区域> "伊洛瓦底江". ?x <属于> "裂腹鱼属". }
+SELECT ?x WHERE { ?x <导演> <李慧珠>. ?x <首播时间> "2014-12-03". }
+select ?x where { ?y <改编自> <金庸的代表作>. ?y <出品公司> <于正工作室>. ?y <出品公司> <华夏视听环球传媒集团有限公司>. ?y <上映时间> ?x. }
+select ?x where { <迦密中学> <毕业时间> ?x. }
+SELECT ?x WHERE { ?y <主演> ?x. ?x <籍贯> <广东中山>. ?x <身高> ?z. }
+select ?x where { ?y <主演> "保持通话". ?y <主演> "反贪风暴2014". ?y <主演> "人间小团圆". ?y <英文名> ?x. }
+Skipping question '绰号为“古仔”的香港男演员是哪所中学的校友？' after 4 failed attempts.
+SELECT ?date WHERE { ?movie <主演> <古天乐>. ?movie <主演> <刘德华>. ?movie <主演> <袁咏仪>. ?movie <监制> <陈可辛>. ?movie <类型> <剧情片>. ?movie <上映时间> ?date. }
+select ?x where { ?y <主要成就> "获得香港小姐冠军". ?y <主要成就> "国际华裔小姐亚军". ?y <毕业院校> ?x. }
+select ?x where { ?y <别名> "靓靓". ?y <婚配> ?x. }
+select ?x where { ?x <主演作品> <乱世艳阳天>. ?x <主演作品> <龙门镖局>. ?x <属相> ?y. }
+SELECT ?x WHERE { <中国合伙人（2013年中国电影）> <导演> ?y. ?y <出生地> ?x. }
+select ?x where { ?y <妻子> <吴君如>. ?y <英文名> ?x . }
+select ?x where { <HBV> <检测手段> ?x. }
 select ?x where { <禽流感> <易感人群> ?x. }
-select ?x where { ?x <发现地点> <加利福尼亚州>. ?x <发现时间> 1969. ?x <多发人群> ?y. }
-select ?x where { <atelectasis> <clinical_manifestation> ?x. }
-select ?x where { <非特异性间质性肺炎> <是否传染> ?x. }
-select ?x where { <韦格纳肉芽肿> <忌食> ?x. }
-select ?x where { ?y <CAS注册号> "59870". ?y <化学式> ?x. }
-select ?x where { ?x <化学式> "C10H15N5O3". ?x <给药方式> ?y. }
+select ?x where { <1969年在美国加州被发现的肠道病毒> <多发群体> ?x. }
+select ?x where { <atelectasis> <临床表现> ?x. }
+select ?x where { <非特异性间质性肺炎> <传染性> ?x. }
+select ?x where { <韦格纳肉芽肿> <饮食禁忌> ?x. }
+select ?x where { ?drug <CAS注册号> "59870" . ?drug <化学式> ?x . }
+select ?x where { ?x <化学式> "C10H15N5O3". }
 select ?x where { <孔雀石绿> <摩尔质量> ?x. }
 select ?x where { <慢性阻塞性肺病> <可能原因> ?x. }
-select ?x where { <沙门氏菌感染症> <预防措施> ?x. }
-select ?x where { ?x <症状> "腹泻或腹痛、呕吐、胸痛". ?x <可通过> "微生物培养" . ?x <诊断方式> "微生物培养". }
+select ?x where { <沙门氏菌感染症> <预防方法> ?x. }
+select ?x where { ?x <可能症状> "腹泻或腹痛" . ?x <可能症状> "呕吐" . ?x <可能症状> "胸痛" . ?x <诊断方式> "微生物培养". }
 select ?x where { <肺炎> <每年死亡人数> ?x. }
-select ?x where { ?x <可通过腰椎穿刺诊断> <神经内科疾病>. }
-select ?x where { ?x <并发疾病> <癫痫> . ?x <并发疾病> <脑水肿> . ?x <并发疾病> <听觉障碍> . }
-select ?x where { <脑膜炎> <治疗方法> ?x. }
-select ?x where { <蜂窝组织炎> <所属专科> ?x. }
+select ?x where { <腰椎穿刺> <用途> ?x. }
+select ?x where { ?x <可能并发> <癫痫>. ?x <可能并发> <脑水肿>. ?x <可能并发> <听觉障碍>. }
+select ?x where { <脑膜炎> <治疗药物> ?x. }
+select ?x where { <蜂窝组织炎> <医学专科> ?x. }
 select ?x where { <小儿乳蛾> <发病部位> ?x. }
-select ?x where { <系统性红斑狼疮与多发性肌炎重叠的疾病> <发病因素> ?x. }
-select ?x where { <2019-nCov> <发现地点> ?x. }
-select ?x where { <2019-nCov> <病例出现时间> ?x. }
-select ?x where { <2019新型冠状病毒> <由谁命名> ?x. }
-select ?x where { ?x <发生时间> 2018. ?x <发生地点> ?y. ?x <疫情> <埃博拉>. }
-SELECT ?x WHERE { <2019年埃博拉疫情> <死亡人数> ?x. }
-select ?x where { <Coronavirus> <特点> ?x. }
-select ?x where { <Coronavirus> <病毒科> ?x. }
-select ?x where { <Coronavirus> <平均直径> ?x. }
-select ?x where { <非典> <种类> ?x. }
+Skipping question '临床表现为系统性红斑狼疮与多发性肌炎重叠的疾病一般是由什么因素造成？' after 4 failed attempts.
+Skipping question '2019-nCov的病例最早在哪里被发现？' after 4 failed attempts.
+Skipping question '2019-nCov的病例最早何时出现？' after 4 failed attempts.
+Skipping question '2019新型冠状病毒是由哪个组织命名的？' after 4 failed attempts.
+Skipping question '2018年的埃博拉疫情发生在哪里？' after 4 failed attempts.
+Skipping question '2019年的埃博拉疫情导致了多少人的死亡？' after 4 failed attempts.
+Skipping question 'Coronavirus的特点是什么？' after 4 failed attempts.
+Skipping question 'Coronavirus属于哪个病毒科？' after 4 failed attempts.
+Skipping question 'Coronavirus的平均直径是多少？' after 4 failed attempts.
+Skipping question '非典属于什么种类的病毒？' after 4 failed attempts.
 select ?x where { <SARS> <主要病症> ?x. }
-select ?x where { <SARS病毒> <形状特点> ?x. }
+SELECT ?x WHERE { <SARS病毒> <形状特点> ?x. }
 select ?x where { <RNA病毒> <繁殖方式> ?x. }
 select ?x where { <RNA病毒> <营养类型> ?x. }
-select ?x where { ?x <别名> "DNA病毒". }
+select ?x where { <DNA病毒> <别名> ?x. }
 Skipping question 'C2HCl3的相对分子质量是多少？' after 4 failed attempts.
 select ?x where { <C2HCl3> <储存方法> ?x. }
-select ?x where { <β毒素_（BT毒蛋白）> <功能> ?x. }
-select ?x where { <过敏> <原因> ?x. }
+select ?x where { <bt毒蛋白> <功用> ?x. }
+select ?x where { <过敏> <引发因素> ?x. }
 select ?x where { <禽流感> <传播途径> ?x. }
 select ?x where { <卢浮宫> <所在地气候类型> ?x. }
-select ?x where { <三圣母> <扮演者> ?x. }
+select ?x where { ?y <扮演角色> <三圣母>. ?y <演员> ?x. }
 select ?x where { <汉寿亭侯关羽> <主要成就> ?x. }
 select ?x where { <马可·波罗游记> <作者> ?x. }
-select ?x where { <李清照> <代表作品> ?x. }
+select ?x where { <李清照> <主要作品> ?x. }
 select ?x where { <嫦娥> <丈夫> ?x. }
 select ?x where { <书圣> <主要成就> ?x. }
-select ?x where { <刘彻> <死后安葬地点> ?x. }
-SELECT ?x WHERE { ?x <名言> "成败一知己，生死两妇人". }
-select ?x where { ?y <陵墓> <端陵>. ?y <所属皇帝> ?z. ?z <在位时间> ?x. }
-select ?x where { <紫鹃_（红楼梦人物）> <主子> ?y . ?y <住处> ?x . ?x <地点> <大观园> . }
-select ?x where { <留声机> <发明者国籍> ?x. }
-select ?x where { <薛宝钗> <哥哥> ?y. ?y <别名> ?x. }
-select ?x where { <本草纲目> <作者> ?y. ?y <朝代> ?x. }
-select ?x where { ?x <父亲> <严嵩>. }
-select ?x where { <包子> <发明者> ?y. ?y <主要成就> ?x. }
-select ?x where { <贾琏> <妻子> ?y . ?y <丫鬟> ?x . }
-select ?x where { ?x <症状> <下肢水肿>. ?x <症状> <胸水>. }
+select ?x where { <刘彻> <去世后安葬地点> ?x. }
+select ?x where { <成败一知己，生死两妇人> <人物> ?x. ?x <官职> ?y. }
+select ?x where { <端陵> <陵寝皇帝> ?y. ?y <在位时间> ?x. }
+select ?x where { <大观园> <主人> ?x. }
+select ?x where { <留声机> <发明者> ?x. }
+select ?x where { <薛宝钗的哥哥> <外号> ?x. }
+select ?x where { <本草纲目> <作者> ?x. ?x <朝代> ?y. }
+select ?x where { <严嵩> <儿子> ?y . ?y <别名> ?x . }
+select ?x where { <包子的发明者> <主要成就> ?x. }
+select ?x where { <贾琏> <妻子的丫鬟> ?x. }
+select ?x where { ?x <症状> <下肢水肿> . ?x <症状> <胸水> . }
 select ?x where { ?x <涉及症状> <胸水> . ?x <涉及症状> <肝积水> . }
-select ?x where { ?x <涉及症状> <肝积水> . ?x <涉及症状> <胸腔积液> . }
-select ?x where { ?x <涉及症状> <胸腔积液> . ?x <涉及症状> <肝源性水肿> . }
-select ?x where { ?x <相关疾病> <肝源性水肿>. ?x <相关疾病> <肾损害>. }
-select ?x where { ?x <涉及症状> <斑疹> . ?x <涉及症状> <淋巴结肿大> . }
-select ?x where { ?x <涉及症状> <淋巴结肿大> . ?x <涉及症状> <疱疹> . }
-select ?x where { ?x <涉及症状> <淋巴结肿大> . ?x <涉及症状> <疱疹> . }
-select ?x where { ?x <涉及症状> <鼻粘膜肿胀> . ?x <涉及症状> <单侧鼻腔阻塞> . }
+select ?x where { ?x <涉及症状> <肝积水>. ?x <涉及症状> <胸腔积液>. }
+select ?x where { ?x <涉及症状> <胸腔积液>. ?x <涉及症状> <肝源性水肿>. }
+select ?x where { ?x <涉及疾病> <肝源性水肿>. ?x <涉及疾病> <肾损害>. }
+select ?x where { ?x <涉及症状> <斑疹>. ?x <涉及症状> <淋巴结肿大>. }
+select ?x where { ?x <涉及症状> <淋巴结肿大>. ?x <涉及症状> <疱疹>. }
+select ?x where { ?x <涉及症状> <淋巴结肿大>. ?x <涉及症状> <疱疹>. }
+select ?x where { ?x <涉及症状> <鼻粘膜肿胀>. ?x <涉及症状> <单侧鼻腔阻塞>. }
 select ?x where { ?x <涉及症状> <单侧鼻腔阻塞>. ?x <涉及症状> <阵发性鼻塞>. }
-select ?x where { ?x <涉及症状> <下肢肿胀>. ?x <涉及症状> <下肢乏力>. ?x <涉及症状> <下肢浅静脉曲张>. }
-select ?x where { ?x <涉及症状> <下肢浅静脉曲张>. ?x <涉及症状> <下肢或周身软瘫>. }
-select ?x where { ?x <涉及症状> <咽喉痛> . ?x <疫苗预防> <季节性流感>. }
-select ?x where { ?x <涉及症状> <咽喉痛> . ?x <涉及症状> <咳嗽> . }
-select ?x where { ?x <涉及症状> <咳嗽> . ?x <科室> <感染科> . }
-select ?x where { ?x <涉及症状> <支气管痉挛> . ?x <涉及症状> <畏寒> . }
+select ?x where { ?x <涉及症状> <下肢肿胀> . ?x <涉及症状> <下肢乏力> . ?x <涉及症状> <下肢浅静脉曲张>. }
+select ?x where { <下肢浅静脉曲张> <相关病症> ?x. }
+select ?x where { ?x <涉及症状> <咽喉痛>. ?x <涉及症状> <疫苗注射>. ?x <涉及症状> <季节性流感>. }
+select ?x where { ?x <涉及症状> <咽喉痛>. ?x <涉及症状> <咳嗽>. }
+select ?x where { ?x <医学专科> <感染科>. ?x <涉及症状> <咳嗽>. }
+select ?x where { ?x <涉及症状> <支气管痉挛>. ?x <涉及症状> <畏寒>. }
 select ?x where { ?x <涉及症状> <畏寒> . ?x <涉及症状> <阵发性鼻塞> . }
-select ?x where { ?x <症状> <阵发性鼻塞>. ?x <症状> <浑身忽冷忽热>. }
-select ?x where { ?x <涉及症状> <浑身忽冷忽热> . ?x <涉及症状> <咽痛> . }
-select ?x where { ?x <涉及症状> <咽痛> . ?x <涉及症状> <咽部充血> . }
-select ?x where { ?x <涉及症状> <咽部充血> . ?x <涉及症状> <打喷嚏> . }
-select ?x where { ?x <病症表现> "打喷嚏". ?x <病症表现> "发热". ?x <病症表现> "咳嗽". ?x <病症表现> "咯痰". ?x <病症表现> "胸痛". }
-select ?x where { ?x <涉及症状> <感染性发热> . ?x <涉及症状> <伤口感染> . }
-select ?x where { ?x <相关症状> <鼻塞>. ?x <相关症状> <流鼻涕>. }
-select ?x where { ?x <涉及症状> <流鼻涕> . ?x <涉及症状> <瘙痒> . }
-select ?x where { ?x <涉及症状> <瘙痒> . ?x <涉及症状> <咽喉炎> . }
-select ?x where { ?x <涉及症状> <咽喉炎> . ?x <涉及症状> <声音嘶哑> . }
-select ?x where { ?x <可能导致> <声音嘶哑>. ?x <可能导致> <失音>. }
-select ?x where { ?x <涉及症状> <失音> . ?x <涉及症状> <咽部充血> . }
-select ?x where { ?x <相关症状> <打喷嚏>. ?x <相关症状> <过度通气>. }
-select ?x where { ?x <与过度通气相关的症状> ?y. ?x <与干性咳嗽相关的症状> ?z. }
+select ?x where { ?x <涉及症状> <阵发性鼻塞>. ?x <涉及症状> <浑身忽冷忽热>. }
+select ?x where { ?x <临床表现> <浑身忽冷忽热>. ?x <临床表现> <咽痛>. }
+select ?x where { ?x <涉及症状> <咽痛>. ?x <涉及症状> <咽部充血>. }
+select ?x where { ?x <涉及症状> <咽部充血>. ?x <涉及症状> <打喷嚏>. }
+select ?x where { ?x <涉及症状> <打喷嚏>. ?x <涉及症状> <发热伴咳嗽>. ?x <涉及症状> <咯痰>. ?x <涉及症状> <胸痛>. }
+select ?x where { ?x <涉及症状> <感染性发热>. ?x <涉及症状> <伤口感染>. }
+select ?x where { ?x <涉及症状> <鼻塞> . ?x <涉及症状> <流鼻涕> . }
+select ?x where { ?x <涉及症状> <流鼻涕>. ?x <涉及症状> <瘙痒>. }
+select ?x where { ?x <涉及症状> <瘙痒>. ?x <涉及症状> <咽喉炎>. }
+select ?x where { <咽喉炎> <涉及症状> ?x. ?x <涉及症状> <声音嘶哑>. }
+select ?x where { <声音嘶哑> <相关症状> ?x. ?x <相关症状> <失音>. }
+select ?x where { ?x <涉及症状> <失音>. ?x <涉及症状> <咽部充血>. }
+select ?x where { <打喷嚏> <相关症状> ?x. }
+select ?x where { ?x <相关症状> <过度通气>. ?x <相关症状> <干性咳嗽>. }
 select ?x where { ?x <涉及症状> <呼吸浅慢> . ?x <涉及症状> <充血> . }
 select ?x where { ?x <相关症状> <充血>. ?x <相关症状> <哮鸣音>. }
 select ?x where { ?x <涉及症状> <哮鸣音>. ?x <涉及症状> <肺源性呼吸困难>. }
-select ?x where { ?x <涉及症状> <肺源性呼吸困难> . ?x <涉及症状> <中性粒细胞增高> . }
-select ?x where { ?x <涉及症状> <中性粒细胞增高> . ?x <涉及症状> <呼吸抑制> . }
-select ?x where { ?x <涉及症状> <呼吸抑制> . ?x <涉及症状> <心源性呼吸困难> . }
+select ?x where { <肺源性呼吸困难> <相关症状> ?x. <中性粒细胞增高> <相关症状> ?x. }
+select ?x where { ?x <相关症状> <中性粒细胞增高>. ?x <相关症状> <呼吸抑制>. }
+select ?x where { ?x <相关症状> <呼吸抑制> . ?x <相关症状> <心源性呼吸困难> . }
 select ?x where { ?x <涉及症状> <心源性呼吸困难>. ?x <涉及症状> <口唇发绀>. }
-select ?x where { ?x <相关症状> <充血>. ?x <相关症状> <哮鸣音>.}
+select ?x where { ?x <涉及症状> <口唇发绀> . ?x <涉及症状> <三凹征> . }
 select ?x where { ?x <涉及症状> <三凹征>. ?x <涉及症状> <腹式反常呼吸>. }
 select ?x where { ?x <相关症状> <腹式反常呼吸>. ?x <相关症状> <支气管哮喘>. }
 select ?x where { ?x <涉及疾病> <支气管哮喘> . ?x <涉及疾病> <特发性肺纤维化> . }
-select ?x where { ?x <涉及疾病> <特发性肺纤维化> . ?x <涉及疾病> <尿毒症性肺炎> . }
+select ?x where { <特发性肺纤维化> <症状> ?x. } union select ?x where { <尿毒症性肺炎> <症状> ?x. }
 select ?x where { ?x <涉及症状> <尿毒症性肺炎> . ?x <涉及症状> <癔症性躯体障碍> . }
 select ?x where { <低热> <相关症状> ?x. }
 select ?x where { ?x <涉及症状> <发炎> . ?x <涉及症状> <畏寒> . }
 select ?x where { ?x <涉及症状> <畏寒>. ?x <涉及症状> <利尿>. }
-select ?x where { ?x <涉及症状> <利尿> . ?x <涉及症状> <胀痛> . }
+select ?x where { <症状> <涉及> ?x. ?x <涉及症状> <利尿>. ?x <涉及症状> <胀痛>. }
 select ?x where { ?x <相关症状> <胀痛>. ?x <相关症状> <鼻痒>. }
-select ?x where { ?x <症状> <打喷嚏> . ?x <症状> <张口呼吸> . }
+select ?x where { <打喷嚏> <相关症状> ?x. <张口呼吸> <相关症状> ?x. }
 select ?x where { ?x <涉及症状> <张口呼吸> . ?x <涉及症状> <局部压痛> . }
-select ?x where { ?x <相关症状> <局部压痛>. ?x <相关症状> <结痂>. }
+select ?x where { <局部压痛> <相关症状> ?x. <结痂> <相关症状> ?x. }
 select ?x where { ?x <涉及症状> <结痂> . ?x <涉及症状> <白喉> . }
-select ?x where { <白喉> <相关症状> ?x. <慢性鼻窦炎> <相关症状> ?x. }
-select ?x where { ?x <相关症状> <气短> . ?x <相关症状> <恶心> . }
-select ?x where { ?x <涉及症状> <恶心> . ?x <涉及症状> <牛奶色便> . ?x <涉及症状> <米汤样便> . }
-select ?x where { ?x <涉及症状> <牛奶色便>. ?x <涉及症状> <米汤样便>. ?x <涉及症状> <里急后重>. }
-select ?x where { ?x <涉及症状> <里急后重>. ?x <涉及症状> <病毒性腹泻>. }
-select ?x where { ?x <相关症状> <病毒性腹泻>. ?x <相关症状> <胸闷>. }
+select ?x where { ?x <涉及疾病> <白喉> . ?x <涉及疾病> <慢性鼻窦炎> . }
+select ?x where { <症状> ?x. ?x <与> <气短> . ?x <与> <恶心>. }
+select ?x where { <恶心> <相关症状> ?x. <牛奶色或米汤样便> <相关症状> ?x. }
+select ?x where { ?x <症状> <牛奶色或米汤样便>. ?x <症状> <里急后重>. }
+select ?x where { <里急后重> <相关症状> ?x. <病毒性腹泻> <相关症状> ?x. }
+select ?x where { <病毒性腹泻> <相关症状> ?x. <胸闷> <相关症状> ?x. }
 select ?x where { ?x <相关症状> <胸闷>. ?x <相关症状> <食欲减退>. }
-select ?x where { ?x <涉及症状> <食欲减退> . ?x <涉及症状> <水泻> . ?x <涉及症状> <低血钾> . }
+select ?x where { ?x <涉及症状> <食欲减退>. ?x <涉及症状> <水泻伴低血钾>. }
 select ?x where { ?x <涉及症状> <水泻伴低血钾>. ?x <涉及症状> <腹泻为水样带黏液恶臭无脓血>. }
-select ?x where { ?x <涉及症状> <腹泻为水样带黏液恶臭无脓血> . ?x <涉及症状> <粪便量少> . }
-select ?x where { ?x <涉及症状> <口炎> . ?x <涉及检查> <耳、鼻、咽拭子细菌培养>. }
+select ?x where { ?x <涉及症状> <腹泻>. ?x <症状描述> "水样带黏液恶臭无脓血以及粪便量少". }
+select ?x where { ?x <涉及症状> <口炎>. ?x <涉及症状> <耳>. ?x <涉及症状> <鼻>. ?x <涉及症状> <咽>. ?x <涉及检查> <耳、鼻、咽拭子细菌培养检查>. }
 select ?x where { ?x <涉及症状> <疱疹>. ?x <涉及症状> <呼吸困难>. }
-select ?x where { ?x <涉及症状> <呼吸困难> . ?x <涉及症状> <吞咽痛> . }
+select ?x where { ?x <相关症状> <呼吸困难>. ?x <相关症状> <吞咽痛>. }
 select ?x where { ?x <相关症状> <吞咽痛>. ?x <相关病症> <吞咽痛>. }
-select ?x where { <症状> <相关症状> ?x. ?x <相关症状> <声音嘶哑>. ?x <相关症状> <充血>. }
-select ?x where { ?x <涉及症状> <声音嘶哑> . ?x <涉及症状> <溃疡> . }
-select ?x where { ?x <涉及疾病> <弓形虫病> . ?x <涉及疾病> <流行性感冒> . }
-select ?x where { ?x <涉及疾病> <弓形虫病>. ?x <涉及疾病> <肺炎支原体肺炎>. }
-select ?x where { ?x <涉及疾病> <肺炎支原体肺炎> . ?x <涉及疾病> <急性喉气管支气管炎> . }
-select ?x where { ?x <涉及症状> <急性喉气管支气管炎> . ?x <涉及症状> <血栓性静脉炎> . }
-select ?x where { ?x <涉及疾病> <血栓性静脉炎> . ?x <涉及疾病> <砷中毒> . }
-select ?x where { ?x <相关症状> <呼吸困难>. ?x <相关症状> <恶心>. }
-select ?x where { ?x <涉及症状> <恶心> . ?x <涉及症状> <高碳酸血症>. }
-select ?x where { ?x <涉及症状> <高碳酸血症> . ?x <涉及症状> <血压下降> . }
-select ?x where { ?x <相关症状> <血压下降>. ?x <相关症状> <震颤>. }
-select ?x where { ?x <涉及症状> <震颤> . ?x <涉及症状> <酮症酸中毒> . }
-select ?x where { ?x <涉及症状> <酮症酸中毒> . ?x <涉及症状> <甲状旁腺功能亢进> . }
-select ?x where { ?x <涉及症状> <甲状旁腺功能亢进> . ?x <涉及症状> <高血钾> . }
-select ?x where { ?x <涉及症状> <高血钾> . ?x <涉及症状> <呼吸急促> . }
-select ?x where { ?x <涉及症状> <呼吸急促> . ?x <涉及症状> <脂肪代谢障碍> . }
-select ?x where { ?x <涉及症状> <脂肪代谢障碍> . ?x <涉及疾病> <急性肾上腺皮质功能不全>. }
-select ?x where { ?x <涉及症状> <急性肾上腺皮质功能不全>. ?x <涉及疾病> <肾小管酸中毒>. }
+select ?x where { <充血> <相关症状> ?x. <声音嘶哑> <相关症状> ?x. }
+select ?x where { ?x <涉及症状> <声音嘶哑>. ?x <涉及症状> <溃疡>. }
+select ?x where { ?x <相关疾病> <弓形虫病>. ?x <相关疾病> <流行性感冒>. }
+select ?x where { <弓形虫病> <相关症状> ?x. <肺炎支原体肺炎> <相关症状> ?x. }
+Skipping question '怎样的症状会涉及到肺炎支原体肺炎和急性喉气管支气管炎这些疾病？' after 4 failed attempts.
+Skipping question '哪种症状会与急性喉气管支气管炎以及血栓性静脉炎有关联？' after 4 failed attempts.
+Skipping question '患有血栓性静脉炎和砷中毒会涉及怎样的症状？' after 4 failed attempts.
+Skipping question '与呼吸困难以及恶心相关的症状有什么？' after 4 failed attempts.
+Skipping question '哪种症状会与恶心和高碳酸血症有关？' after 4 failed attempts.
+Skipping question '高碳酸血症以及血压下降会与什么症状相关？' after 4 failed attempts.
+Skipping question '与血压下降以及震颤相关的症状是什么？' after 4 failed attempts.
+Skipping question '哪种症状会涉及到震颤和酮症酸中毒？' after 4 failed attempts.
+Skipping question '出现酮症酸中毒以及甲状旁腺功能亢进会与什么症状有关？' after 4 failed attempts.
+Skipping question '什么症状会涉及到甲状旁腺功能亢进和高血钾这些症状？' after 4 failed attempts.
+select ?x where { ?x <涉及症状> <高血钾>. ?x <涉及症状> <呼吸急促>. }
+select ?x where { ?x <相关症状> <呼吸急促>. ?x <相关症状> <脂肪代谢障碍>. }
+select ?x where { ?x <涉及症状> <脂肪代谢障碍> . ?x <涉及症状> <急性肾上腺皮质功能不全> . }
+select ?x where { ?x <涉及疾病> <急性肾上腺皮质功能不全>. ?x <涉及疾病> <肾小管酸中毒>. }
 select ?x where { ?x <相关症状> <支气管痉挛>. ?x <相关症状> <心动过速>. }
-select ?x where { ?x <涉及症状> <心动过速> . ?x <涉及症状> <紫绀> . }
-select ?x where { ?x <涉及症状> <紫绀> . ?x <涉及症状> <高碳酸血症> . }
-select ?x where { ?x <涉及症状> <高碳酸血症>. ?x <涉及症状> <低血容量休克>. }
-select ?x where { ?x <涉及症状> <低血容量休克> . ?x <涉及症状> <麻痹病症反应> . }
-select ?x where { ?x <涉及症状> <支气管哮喘> . ?x <涉及症状> <胎粪吸入综合征> . }
-select ?x where { ?x <相关症状> <凝血因子功能的障碍>. ?x <相关症状> <胎盘早剥>. }
-select ?x where { ?x <涉及疾病> <回归热> . ?x <涉及疾病> <败血症> . }
-select ?x where { <肺脓肿> <临床表现> ?x. <衣原体肺炎> <临床表现> ?x. }
-select ?x where { ?x <涉及疾病> <衣原体肺炎> . ?x <涉及疾病> <细菌感染> . }
+select ?x where { ?x <涉及症状> <心动过速>. ?x <涉及症状> <紫绀>. }
+select ?x where { <紫绀> <相关症状> ?x. <高碳酸血症> <相关症状> ?x. }
+select ?x where { <高碳酸血症和低血容量休克> <相关症状> ?x. }
+select ?x where { <低血容量休克> <涉及症状> ?x. <麻痹病症反应> <涉及症状> ?x. }
+select ?x where { <支气管哮喘> <相关症状> ?x. <胎粪吸入综合征> <相关症状> ?x. }
+select ?x where { <凝血因子功能障碍> <相关症状> ?x. <胎盘早剥> <相关症状> ?x. }
+select ?x where { <回归热> <涉及症状> ?x. } select ?y where { <败血症> <涉及症状> ?y. }
+select ?x where { ?x <涉及疾病> <肺脓肿>. ?x <涉及疾病> <衣原体肺炎>. }
+select ?x where { <衣原体肺炎> <相关症状> ?x. <细菌感染> <相关症状> ?x. }
 select ?x where { <细菌感染> <涉及症状> ?x. <肺炎球菌脑膜炎> <涉及症状> ?x. }
-select ?x where { ?x <涉及症状> <HIV感染>. ?x <需要测量> <体温>. }
-select ?x where { ?x <涉及症状> <HIV感染>. ?x <涉及症状> <低热>. }
-select ?x where { ?x <可能症状> <低热>. ?x <可能症状> <无力>. }
-select ?x where { ?x <相关病症> <无力>. ?x <相关病症> <脓毒性血栓>. }
-select ?x where { ?x <涉及症状> <腿脚浮肿> . ?x <涉及症状> <儿童偏食> . }
-select ?x where { ?x <涉及症状> <呼吸窘迫综合症>. ?x <涉及症状> <面色苍白>. ?x <检测项目> <血气测定>. }
-select ?x where { ?x <涉及疾病> <病毒性心肌炎> . ?x <涉及疾病> <眼外肌麻痹> . ?x <涉及疾病> <急性心房心肌梗塞> . ?x <涉及检查> ?y. }
+select ?x where { ?x <涉及疾病> <HIV感染>. ?x <出现时需进行> <体温测量>. }
+select ?x where { ?x <涉及症状> <HIV感染> . ?x <涉及症状> <低热> . }
+select ?x where { ?x <可能相关症状> <低热>. ?x <可能相关症状> <无力>. }
+select ?x where { ?x <涉及症状> <无力> . ?x <涉及症状> <脓毒性血栓> . }
+select ?x where { ?x <涉及症状> <腿脚浮肿> . ?x <涉及症状> <儿童偏食> . ?x <类型> <尿液检查> . }
+select ?x where { ?x <涉及疾病> <呼吸窘迫综合症> . ?x <涉及症状> <面色苍白> . ?x <类型> <血气测定>. }
+select ?x where { ?x <涉及疾病> <病毒性心肌炎> . ?x <涉及疾病> <眼外肌麻痹> . ?x <涉及疾病> <急性心房心肌梗塞> . ?x <检查类型> ?y. }
 select ?x where { ?x <涉及疾病> <眼外肌麻痹> . ?x <涉及疾病> <急性心房心肌梗塞> . ?x <涉及疾病> <甲状腺功能减退> . }
 select ?x where { ?x <涉及疾病> <急性心房心肌梗塞> . ?x <涉及疾病> <甲状腺功能减退> . ?x <涉及疾病> <进行性肌萎缩> . }
-select ?x where { ?x <涉及疾病> <甲状腺功能减退> . ?x <涉及疾病> <进行性肌萎缩> . ?x <涉及疾病> <慢性进行性眼外肌瘫痪> . }
-select ?x where { ?x <涉及疾病> <进行性肌萎缩> . ?x <涉及疾病> <慢性进行性眼外肌瘫痪> . ?x <涉及疾病> <眼肌营养不良> . ?x <适合做检查> ?y . }
-select ?x where { ?x <涉及疾病> <慢性进行性眼外肌瘫痪> . ?x <涉及疾病> <眼肌营养不良> . ?x <涉及疾病> <甲状腺功能减退伴发的精神障碍> . ?x <检查方法> ?y. }
-select ?x where { ?x <涉及疾病> <眼肌营养不良>. ?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>. ?x <涉及疾病> <眼外肌肌病>. ?x <涉及检查> ?y. }
-select ?x where { ?x <涉及疾病> <甲状腺功能减退>. ?x <涉及疾病> <精神障碍>. ?x <涉及疾病> <眼外肌肌病>. ?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征>. }
+select ?x where { ?x <适用于疾病> <甲状腺功能减退> . ?x <适用于疾病> <进行性肌萎缩> . ?x <适用于疾病> <慢性进行性眼外肌瘫痪> . }
+select ?x where { ?x <适合检查> <进行性肌萎缩> . ?x <适合检查> <慢性进行性眼外肌瘫痪> . ?x <适合检查> <眼肌营养不良> . }
+select ?x where { ?x <涉及疾病> <慢性进行性眼外肌瘫痪>. ?x <涉及疾病> <眼肌营养不良>. ?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>. ?x <类型> <检查>. }
+select ?x where { ?x <涉及疾病> <眼肌营养不良>. ?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>. ?x <涉及疾病> <眼外肌肌病>. }
+select ?x where { ?x <涉及疾病> <甲状腺功能减退> . ?x <涉及疾病> <精神障碍> . ?x <涉及疾病> <眼外肌肌病> . ?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征> . }
 select ?x where { ?x <涉及疾病> <眼外肌肌病> . ?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征> . ?x <涉及疾病> <小儿预激综合征> . }
 select ?x where { ?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征> . ?x <涉及疾病> <小儿预激综合征> . ?x <涉及疾病> <高嗜酸粒细胞综合征> . }
-select ?x where { ?x <涉及疾病> <小儿预激综合征> . ?x <涉及疾病> <高嗜酸粒细胞综合征> . ?x <涉及疾病> <非阵发性室上性心动过速> . ?x <涉及检查> ?y. }
-SELECT ?检查项目 WHERE { ?检查项目 <涉及疾病> <高嗜酸粒细胞综合征> . ?检查项目 <涉及疾病> <非阵发性交接区性心动过速> . ?检查项目 <涉及疾病> <嗜酸细胞增多性肌痛综合征> . }
-select ?x where { ?x <涉及疾病> <非阵发性交接区性心动过速> . ?x <涉及疾病> <嗜酸细胞增多性肌痛综合征> . ?x <涉及疾病> <进行性肌营养不良症> . ?x <涉及检查> ?y. }
-select ?x where { ?x <涉及疾病> <嗜酸细胞增多性肌痛综合征> . ?x <涉及疾病> <进行性肌营养不良症> . ?x <涉及疾病> <小儿良性先天性肌弛缓综合征> . }
-select ?x where { ?x <涉及疾病> <进行性肌营养不良症> . ?x <涉及疾病> <小儿良性先天性肌弛缓综合征> . ?x <涉及疾病> <肌萎缩侧索硬化症> . ?x <检查方法> ?y. }
-select ?x where { ?x <涉及疾病> <小儿良性先天性肌弛缓综合征>. ?x <涉及疾病> <肌萎缩侧索硬化症>. ?x <涉及疾病> <冠状动脉异位起源>. ?x <涉及检查> ?y. }
-select ?x where { ?x <涉及疾病> <肌萎缩侧索硬化症> . ?x <涉及疾病> <冠状动脉异位起源> . ?x <涉及疾病> <慢性进行性眼外肌麻痹> . ?x <有效检查> ?y. }
-select ?x where { ?x <检测疾病> <冠状动脉异位起源> . ?x <检测疾病> <慢性进行性眼外肌麻痹> . ?x <检测疾病> <小儿先天性肌强直综合征> . }
+select ?x where { ?x <涉及疾病> <小儿预激综合征>. ?x <涉及疾病> <高嗜酸粒细胞综合征>. ?x <涉及疾病> <非阵发**接区性心动过速>. }
+select ?x where { ?x <涉及疾病> <高嗜酸粒细胞综合征> . ?x <涉及疾病> <非阵发性交接区性心动过速> . ?x <涉及疾病> <嗜酸细胞增多性肌痛综合征> . }
+select ?x where { ?x <涉及疾病> <非阵发**接区性心动过速> . ?x <涉及疾病> <嗜酸细胞增多性肌痛综合征> . ?x <涉及疾病> <进行性肌营养不良症> . }
+select ?x where { <嗜酸细胞增多性肌痛综合征> <相关检查> ?x . ?x <进行性肌营养不良症> <相关检查> ?x . ?x <小儿良性先天性肌弛缓综合征> <相关检查> ?x . }
+select ?x where { ?x <涉及疾病> <进行性肌营养不良症> . ?x <涉及疾病> <小儿良性先天性肌弛缓综合征> . ?x <涉及疾病> <肌萎缩侧索硬化症> . }
+select ?x where { ?x <涉及疾病> <小儿良性先天性肌弛缓综合征> . ?x <涉及疾病> <肌萎缩侧索硬化症> . ?x <涉及疾病> <冠状动脉异位起源> . }
+select ?x where { ?x <涉及疾病> <肌萎缩侧索硬化症>. ?x <涉及疾病> <冠状动脉异位起源>. ?x <涉及疾病> <慢性进行性眼外肌麻痹>. ?x <检查方式> ?y. }
+select ?x where { ?x <涉及疾病> <冠状动脉异位起源>. ?x <涉及疾病> <慢性进行性眼外肌麻痹>. ?x <涉及疾病> <小儿先天性肌强直综合征>. }
 select ?x where { <慢性进行性眼外肌麻痹> <涉及检查> ?x. }
-select ?x where { ?x <涉及疾病> <小儿先天性肌强直综合征>. ?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>. ?x <涉及疾病> <脂质沉积性肌病>. ?x <检查方法> ?y. }
-Skipping question '哪种检查对检测嗜酸粒细胞增多性肌痛综合征、脂质沉积性肌病以及小儿克山病有效？' after 4 failed attempts.
-select ?x where { ?x <涉及疾病> <脂质沉积性肌病> . ?x <涉及疾病> <小儿克山病> . ?x <涉及疾病> <老年甲状腺功能减退症> . ?x <涉及检查> ?y. }
+select ?x where { ?x <涉及疾病> <小儿先天性肌强直综合征>. ?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>. ?x <涉及疾病> <脂质沉积性肌病>. }
+select ?x where { ?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征> . ?x <涉及疾病> <脂质沉积性肌病> . ?x <涉及疾病> <小儿克山病> . }
+select ?x where { ?x <涉及疾病> <脂质沉积性肌病> . ?x <涉及疾病> <小儿克山病> . ?x <涉及疾病> <老年甲状腺功能减退症> . }
 select ?x where { ?x <涉及疾病> <小儿克山病> . ?x <涉及疾病> <老年甲状腺功能减退症> . ?x <涉及疾病> <肌萎缩侧索硬化> . }
-select ?x where { ?x <涉及疾病> <老年甲状腺功能减退症> . ?x <涉及疾病> <肌萎缩侧索硬化> . ?x <涉及疾病> <脂质贮积性肌病> . }
-select ?x where { ?x <适用于疾病> <肌萎缩侧索硬化>. ?x <适用于疾病> <脂质贮积性肌病>. ?x <适用于疾病> <脂肪贮积肌病>. }
-select ?x where { ?x <适用于检查> <脂质贮积性肌病>. ?x <适用于检查> <脂肪贮积肌病>. ?x <适用于检查> <肌营养不良>. }
-select ?x where { ?x <涉及症状> <全身过敏> . ?x <涉及症状> <发热皮疹> . ?x <涉及症状> <关节痛> . ?x <涉及症状> <手足湿冷> . ?x <涉及症状> <非感染性发热> . ?x <类型> <医学检查> . }
+select ?x where { ?x <涉及疾病> <老年甲状腺功能减退症>. ?x <涉及疾病> <肌萎缩侧索硬化>. ?x <涉及疾病> <脂质贮积性肌病>. }
+select ?x where { ?x <涉及疾病> <肌萎缩侧索硬化>. ?x <涉及疾病> <脂质贮积性肌病>. ?x <涉及疾病> <脂肪贮积肌病>. }
+select ?x where { ?x <涉及疾病> <脂质贮积性肌病> . ?x <涉及疾病> <脂肪贮积肌病> . ?x <涉及疾病> <肌营养不良> . }
+select ?x where { ?x <涉及症状> <全身过敏>. ?x <涉及症状> <发热皮疹>. ?x <涉及症状> <关节痛>. ?x <涉及症状> <非感染性发热>. ?x <涉及症状> <手足湿冷>. }
 select ?x where { ?x <涉及症状> <热病汗不出>. ?x <涉及症状> <足心发热>. ?x <涉及症状> <面红升火>. }
 select ?x where { ?x <涉及症状> <面红升火> . ?x <涉及症状> <迫血妄行> . ?x <涉及症状> <潮热颧红> . }
-select ?x where { <迫血妄行> <涉及症状> ?y. ?z <涉及症状> ?y. ?z <涉及检查> ?x. }
-select ?x where { ?x <涉及症状> <潮热颧红> . ?x <涉及症状> <持续性发热> . ?x <涉及症状> <中枢性发热> . }
-select ?x where { ?x <涉及症状> <持续性发热>. ?x <涉及症状> <中枢性发热>. ?x <涉及症状> <舌嫩苔厚>. ?x <推荐检查> ?y. }
-select ?x where { <中枢性发热> <涉及检查> ?x . ?x <涉及症状> <舌嫩苔厚> . ?x <涉及症状> <体温调节紊乱> . }
+select ?x where { <迫血妄行> <相关检查> ?x. ?x <相关检查> <潮热颧红>. ?x <相关检查> <持续性发热>. }
+select ?x where { <潮热颧红、持续性发热以及中枢性发热> <需要测量> ?x. }
+select ?x where { ?x <涉及症状> <持续性发热>. ?x <涉及症状> <中枢性发热>. ?x <涉及症状> <舌嫩苔厚>. }
+select ?x where { ?x <涉及症状> <中枢性发热> . ?x <涉及症状> <舌嫩苔厚> . ?x <涉及症状> <体温调节紊乱> . }
 select ?x where { ?x <涉及症状> <舌嫩苔厚> . ?x <涉及症状> <体温调节紊乱> . ?x <涉及症状> <温毒厥脱> . }
-select ?x where { ?x <涉及症状> <体温调节紊乱> . ?x <涉及症状> <温毒厥脱> . ?x <涉及症状> <内热哺热> . }
-select ?x where { ?x <涉及症状> <温毒厥脱> . ?x <涉及症状> <内热哺热> . ?x <涉及症状> <坠胀拒按> . }
-select ?x where { ?x <涉及症状> <内热哺热>. ?x <涉及症状> <坠胀拒按>. ?x <涉及症状> <涕唾稠粘>. ?x <适宜检查> ?y. }
-select ?x where { ?x <涉及症状> <坠胀拒按> . ?x <涉及症状> <涕唾稠粘> . ?x <涉及症状> <苔白而润> . }
-select ?x where { ?x <涉及症状> <涕唾稠粘> . ?x <涉及症状> <苔白而润> . ?x <涉及症状> <夜啼饶哭> . }
-select ?x where { <苔白而润、夜啼饶哭、五心烦热> <症状> ?x. }
-select ?x where { ?x <科室> <呼吸内科> . ?x <相似疾病> <成人呼吸窘迫综合征>. ?x <涉及症状> <高碳酸血症>. }
-select ?x where { ?x <涉及症状> <高碳酸血症> . ?x <涉及症状> <急性呼吸困难> . ?x <涉及症状> <CO2潴留> . }
-select ?x where { ?x <涉及症状> <急性呼吸困难> . ?x <涉及症状> <CO2潴留> . ?x <涉及症状> <口唇发绀> . }
-select ?x where { ?x <涉及症状> <CO2潴留>. ?x <涉及症状> <口唇发绀>. ?x <涉及症状> <低氧血症>. }
-select ?x where { ?x <涉及症状> <口唇发绀>. ?x <涉及症状> <低氧血症>. }
-select ?x where { ?x <科室> <急诊科> . ?x <涉及症状> <创伤> . ?x <涉及检查> <动脉血气分析> . }
-select ?x where { ?x <涉及症状> <创伤> . ?x <涉及症状> <低血容量休克> . ?x <涉及检查> <动脉血气分析> . }
-select ?x where { ?x <涉及症状> <心悸> . ?x <涉及症状> <白细胞增多> . ?x <涉及症状> <暴饮暴食>. }
-select ?x where { ?x <涉及症状> <白细胞增多> . ?x <涉及症状> <暴饮暴食> . ?x <涉及症状> <紧张> . }
-select ?x where { ?x <症状> "暴饮暴食" . ?x <症状> "紧张" . ?x <症状> "胸痛" . }
-select ?x where { ?x <症状> <紧张>. ?x <症状> <胸痛>. ?x <症状> <利尿>. }
-select ?x where { ?x <涉及症状> <胸痛> . ?x <涉及症状> <利尿> . ?x <涉及症状> <胸水> . }
-select ?x where { ?x <涉及症状> <利尿> . ?x <涉及症状> <胸水> . ?x <涉及症状> <气管移位> . }
-select ?x where { ?x <涉及症状> <胸水> . ?x <涉及症状> <气管移位> . ?x <涉及症状> <液气胸> . }
-select ?x where { ?x <涉及症状> <气管移位> . ?x <涉及症状> <液气胸> . ?x <涉及症状> <低蛋白血症> . }
-select ?x where { ?x <相关疾病> <液气胸>. ?x <相关疾病> <低蛋白血症>. ?x <相关疾病> <肝硬化>. }
-select ?x where { ?x <涉及症状> <低蛋白血症> . ?x <涉及症状> <肝硬化> . ?x <涉及症状> <链球菌感染> . }
+select ?x where { <体温调节紊乱、温毒厥脱、内热哺热> <涉及症状> ?x. }
+select ?x where { <温毒厥脱> <医学检查> ?x. <内热哺热> <医学检查> ?x. <坠胀拒按> <医学检查> ?x. }
+select ?x where { <内热哺热> <症状> ?y. <坠胀拒按> <症状> ?y. <涕唾稠粘> <症状> ?y. ?x <涉及症状> ?y. }
+select ?x where { ?x <涉及症状> <坠胀拒按>. ?x <涉及症状> <涕唾稠粘>. ?x <涉及症状> <苔白而润>. ?x <检测方法> ?y. }
+select ?x where { ?x <涉及症状> <涕唾稠粘、苔白而润、夜啼饶哭>. }
+select ?x where { <苔白而润、夜啼饶哭以及五心烦热> <测量指标> ?x. }
+select ?x where { ?x <医学专科> <呼吸内科>. ?x <相关疾病> "成人呼吸窘迫综合征". ?x <可能症状> "高碳酸血症". }
+select ?x where { ?x <涉及症状> <高碳酸血症>. ?x <涉及症状> <急性呼吸困难>. ?x <涉及症状> <CO2潴留>. }
+Skipping question '患者出现急性呼吸困难、CO2潴留以及口唇发绀可能与什么疾病有关？' after 4 failed attempts.
+Skipping question '与CO2潴留、口唇发绀和低氧血症相关的疾病有什么？' after 4 failed attempts.
+Skipping question '哪些病会出现口唇发绀和低氧血症等伴随症状？' after 4 failed attempts.
+Skipping question '属于急诊科，出现创伤需要做动脉血气分析检查的是什么疾病？' after 4 failed attempts.
+Skipping question '什么病会涉及创伤以及低血容量休克症状，要通过动脉血气分析进行检测？' after 4 failed attempts.
+Skipping question '哪种疾病会与心悸、白细胞增多以及暴饮暴食症状有关？' after 4 failed attempts.
+Skipping question '与白细胞增多、暴饮暴食以及紧张这些症状表现相关的是什么病？' after 4 failed attempts.
+Skipping question '什么病会有暴饮暴食、紧张以及胸痛等症状表现？' after 4 failed attempts.
+Skipping question '与紧张、胸痛且利尿症状相关的疾病是哪种？' after 4 failed attempts.
+Skipping question '怎样的病与胸痛、利尿以及胸水有关？' after 4 failed attempts.
+Skipping question '会涉及到利尿、胸水以及气管移位等症状的是什么病？' after 4 failed attempts.
+select ?x where { ?x <涉及症状> <胸水>. ?x <涉及症状> <气管移位>. ?x <涉及症状> <液气胸>. }
+select ?x where { ?x <涉及症状> <气管移位>. ?x <涉及症状> <液气胸>. ?x <涉及症状> <低蛋白血症>. }
+select ?x where { ?x <涉及疾病> <液气胸>. ?x <涉及疾病> <低蛋白血症>. ?x <涉及疾病> <肝硬化>. }
+select ?x where { ?x <涉及疾病> <低蛋白血症> . ?x <涉及疾病> <肝硬化> . ?x <涉及疾病> <链球菌感染> . }
 select ?x where { ?x <涉及疾病> <肝硬化> . ?x <涉及疾病> <链球菌感染> . ?x <涉及疾病> <胸膜间皮瘤> . }
-select ?x where { ?x <科室> <血液科>. ?x <涉及症状> <肺实变>. ?x <涉及症状> <发热>. }
-select ?x where { ?x <症状> "肺实变". ?x <症状> "发热". ?x <症状> "紫绀". }
-select ?x where { ?x <临床表现> <发热>. ?x <临床表现> <紫绀>. ?x <临床表现> <急性病容>. }
-select ?x where { ?x <临床表现> <紫绀> . ?x <临床表现> <急性病容> . ?x <临床表现> <高热> . }
+select ?x where { ?x <医学专科> <血液科>. ?x <涉及疾病> <肺实变>. ?x <涉及疾病> <发热>. }
+select ?x where { ?x <临床表现> "肺实变、发热、紫绀". }
+select ?x where { ?x <涉及症状> <发热> . ?x <涉及症状> <紫绀> . ?x <涉及症状> <急性病容> . }
+select ?x where { ?x <可能症状> <紫绀>. ?x <可能症状> <急性病容>. ?x <可能症状> <高热>. }
 select ?x where { ?x <涉及症状> <急性病容> . ?x <涉及症状> <高热> . ?x <涉及症状> <脓性分泌物> . }
-select ?x where { ?x <相关症状> <高热>. ?x <相关症状> <脓性分泌物>. ?x <相关症状> <血压下降>. }
+select ?x where { ?x <相关症状> <高热> . ?x <相关症状> <脓性分泌物> . ?x <相关症状> <血压下降> . }
 select ?x where { ?x <涉及症状> <脓性分泌物>. ?x <涉及症状> <血压下降>. ?x <涉及症状> <尿急>. }
 select ?x where { ?x <涉及症状> <血压下降> . ?x <涉及症状> <尿急> . ?x <涉及症状> <寒战> . }
-select ?x where { <尿急> <相关疾病> ?y . ?y <相关症状> <肝脾肿大> . ?y <相关症状> <寒战> . ?y <疾病名称> ?x . }
-select ?x where { ?x <涉及症状> <慢性前列腺炎> . ?x <涉及症状> <寒战> . ?x <涉及症状> <肝脾肿大> . }
-select ?x where { ?x <症状> <肝脾肿大>. ?x <症状> <慢性前列腺炎>. ?x <症状> <肝脓肿>. }
+select ?x where { ?x <涉及症状> <尿急>. ?x <涉及症状> <寒战>. ?x <涉及症状> <肝脾肿大>. }
+select ?x where { ?x <涉及疾病> <慢性前列腺炎> . ?x <涉及症状> <寒战> . ?x <涉及症状> <肝脾肿大> . }
+select ?x where { ?x <相关症状> <肝脾肿大症状> . ?x <相关症状> <慢性前列腺炎> . ?x <相关症状> <肝脓肿> . }
 select ?x where { ?x <涉及疾病> <慢性前列腺炎> . ?x <涉及疾病> <肝脓肿> . ?x <涉及疾病> <急性喉气管支气管炎> . }
-select ?x where { ?x <相关疾病> <肝脓肿> . ?x <相关疾病> <急性喉气管支气管炎> . ?x <相关疾病> <肝片形吸虫病> . }
-select ?x where { ?x <涉及症状> <肺淤血>. ?x <涉及症状> <端坐呼吸>. ?x <涉及症状> <哮鸣音>. }
-select ?x where { ?disease <临床表现> ?x. ?disease <名称> "端坐呼吸". ?disease <名称> "哮鸣音". ?disease <名称> "声音嘶哑". }
-select ?x where { ?x <涉及症状> <哮鸣音> . ?x <涉及症状> <声音嘶哑> . ?x <涉及疾病> <肺动脉栓塞> . }
-select ?x where { ?x <涉及症状> <肺动脉栓塞> . ?x <涉及症状> <不稳定型心绞痛> . ?x <涉及症状> <声音嘶哑> . }
-select ?x where { ?x <涉及症状> <低热> . ?x <涉及症状> <流鼻涕> . ?x <涉及检查> <耳、鼻、咽拭子细菌培养>. }
-select ?x where { ?x <涉及症状> <低热>. ?x <涉及症状> <流鼻涕>. ?x <涉及症状> <干咳>. }
-select ?x where { ?x <涉及症状> <口炎>. ?x <涉及症状> <疱疹>. ?x <涉及症状> <肌肉萎缩>. }
-select ?x where { ?x <涉及症状> <疱疹> . ?x <涉及症状> <肌肉萎缩> . ?x <涉及症状> <水肿伴呼吸困难> . ?x <涉及症状> <紫绀> . }
-select ?x where { ?x <涉及症状> <肌肉萎缩> . ?x <涉及症状> <水肿> . ?x <涉及症状> <呼吸困难> . ?x <涉及症状> <紫绀> . ?x <涉及症状> <腿脚浮肿> . }
-select ?x where { ?x <涉及症状> <水肿>. ?x <涉及症状> <呼吸困难>. ?x <涉及症状> <紫绀>. ?x <涉及症状> <腿脚浮肿>. ?x <涉及症状> <端坐呼吸>. }
+select ?x where { ?x <相关疾病> <肝脓肿>. ?x <相关疾病> <急性喉气管支气管炎>. ?x <相关疾病> <肝片形吸虫病>. }
+select ?x where { ?x <涉及症状> <肺淤血> . ?x <涉及症状> <端坐呼吸> . ?x <涉及症状> <哮鸣音> . }
+select ?x where { <端坐呼吸、哮鸣音以及声音嘶哑> <可能疾病> ?x. }
+select ?x where { <肺动脉栓塞> <相关症状> ?x. }
+select ?x where { ?x <涉及疾病> <肺动脉栓塞> . ?x <涉及疾病> <不稳定型心绞痛> . ?x <涉及疾病> <声音嘶哑> . }
+select ?x where { ?x <需做检查> <耳、鼻、咽拭子细菌培养>. ?x <症状> <低热>. ?x <症状> <流鼻涕>. }
+select ?x where { ?x <涉及症状> <低热> . ?x <涉及症状> <流鼻涕> . ?x <涉及症状> <干咳> . }
+select ?x where { ?x <涉及症状> <口炎> . ?x <涉及症状> <疱疹> . ?x <涉及症状> <肌肉萎缩> . }
+select ?x where { ?x <伴随症状> <疱疹> . ?x <伴随症状> <肌肉萎缩> . ?x <伴随症状> <水肿> . ?x <伴随症状> <呼吸困难> . ?x <伴随症状> <紫绀> . }
+select ?x where { ?x <涉及症状> <肌肉萎缩>. ?x <涉及症状> <水肿>. ?x <涉及症状> <呼吸困难>. ?x <涉及症状> <紫绀>. ?x <涉及症状> <腿脚浮肿>. }
+select ?x where { ?x <涉及症状> <水肿> . ?x <涉及症状> <呼吸困难> . ?x <涉及症状> <紫绀> . ?x <涉及症状> <腿脚浮肿> . ?x <涉及症状> <端坐呼吸> . }
 select ?x where { ?x <涉及症状> <腿脚浮肿> . ?x <涉及症状> <端坐呼吸> . ?x <涉及症状> <下肢水肿> . }
-select ?x where { <端坐呼吸> <涉及症状> ?x. <下肢水肿> <涉及症状> ?x. <急性呼吸困> <涉及症状> ?x. }
-select ?x where { ?x <症状> <下肢水肿> . ?x <症状> <急性呼吸困难> . ?x <症状> <浑身忽冷忽热> . }
-select ?x where { ?x <涉及症状> <急性呼吸困难> . ?x <涉及症状> <浑身忽冷忽热> . ?x <涉及症状> <少尿> . }
-select ?x where { ?x <症状> "浑身忽冷忽热" . ?x <症状> "少尿" . ?x <症状> "消瘦" . }
-select ?x where { ?x <涉及症状> <少尿> . ?x <涉及症状> <消瘦> . ?x <涉及症状> <声门水肿> . }
+select ?x where { <端坐呼吸、下肢水肿和急性呼吸困> <类型> ?x. }
+select ?x where { ?x <涉及症状> <下肢水肿>. ?x <涉及症状> <急性呼吸困难>. ?x <涉及症状> <浑身忽冷忽热>. }
+select ?x where { ?x <涉及症状> <急性呼吸困难>. ?x <涉及症状> <浑身忽冷忽热>. ?x <涉及症状> <少尿>. }
+select ?x where { ?x <症状> "浑身忽冷忽热、少尿和消瘦". }
+select ?x where { ?x <症状> <少尿> . ?x <症状> <消瘦> . ?x <症状> <声门水肿> . }
 select ?x where { ?x <涉及症状> <消瘦> . ?x <涉及症状> <声门水肿> . ?x <涉及症状> <蠕动感> . }
-select ?x where { ?x <涉及症状> <声门水肿> . ?x <涉及症状> <蠕动感> . ?x <涉及症状> <肝肿大> . }
-select ?x where { ?x <涉及症状> <蠕动感> . ?x <涉及症状> <肝肿大> . ?x <涉及症状> <低蛋白血症> . }
-select ?x where { ?x <症状> <肝肿大> . ?x <症状> <低蛋白血症> . ?x <症状> <溃疡> . }
+select ?x where { <声门水肿> <涉及症状> ?y. ?y <涉及症状> ?z. ?z <涉及症状> <肝肿大>. ?x <涉及疾病> ?y. ?x <涉及疾病> ?z. }
+select ?x where { ?x <相关症状> <蠕动感> . ?x <相关症状> <肝肿大> . ?x <相关症状> <低蛋白血症>. }
+select ?x where { ?x <涉及症状> <肝肿大> . ?x <涉及症状> <低蛋白血症> . ?x <涉及症状> <溃疡> . }
 select ?x where { ?x <涉及症状> <低蛋白血症> . ?x <涉及症状> <溃疡> . ?x <涉及症状> <耳内流脓> . }
 select ?x where { ?x <涉及症状> <溃疡> . ?x <涉及症状> <耳内流脓> . ?x <涉及症状> <听力减退> . }
 select ?x where { ?x <涉及症状> <耳内流脓> . ?x <涉及症状> <听力减退> . ?x <涉及症状> <氮质血症> . }
-select ?x where { <横纹肌肉瘤> <所属专科> ?x. }
-select ?x where { <梅毒> <传染性> ?x. }
+select ?x where { <横纹肌肉瘤> <医学专科> ?x. }
+SELECT ?x WHERE { <梅毒> <传染性> ?x. }
 select ?x where { <梅毒> <MeSH编号> ?x. }
 select ?x where { <梅毒> <ICD10编号> ?x. }
 select ?x where { <梅毒> <ICD9CM编号> ?x. }
 select ?x where { <梅毒> <eMedicine> ?x. }
-select ?x where { <梅毒> <所属科室> ?x. }
-SELECT ?x WHERE { <梅毒> <DiseasesDB编号> ?x. }
+select ?x where { <梅毒> <医学专科> ?x. }
+select ?x where { <梅毒> <DiseasesDB编号> ?x. }
 select ?x where { <贫血> <传染性> ?x. }
 select ?x where { <灭菌注射用水> <用途标签> ?x. }
-select ?x where { <防风通圣丸> <用途> ?x. }
+select ?x where { <防风通圣丸> <用途标签> ?x. }
 select ?x where { <藿香正气胶囊> <用途标签> ?x. }
-select ?x where { <连花清瘟胶囊> <用途> ?x. }
+select ?x where { <连花清瘟胶囊> <药物用途> ?x. }
 select ?x where { <疏风解毒胶囊> <用途标签> ?x. }
 select ?x where { <解毒胶囊> <用途标签> ?x. }
 select ?x where { <安宫牛黄丸> <用途标签> ?x. }
@@ -1006,30 +1006,30 @@ select ?x where { <小儿腹泻散> <用途标签> ?x. }
 select ?x where { <干咳> <预防措施> ?x. }
 select ?x where { <干咳> <临床表现> ?x. }
 select ?x where { <干咳> <起因> ?x. }
-select ?x where { <症状> <干咳> ?x. }
-select ?x where { <呼吸困难> <预防措施> ?x. }
+select ?x where { <干咳> <诊断方法> ?x. }
+select ?x where { <呼吸困难> <预防> ?x. }
 select ?x where { <呼吸困难> <临床表现> ?x. }
 select ?x where { <呼吸困难> <起因> ?x. }
-select ?x where { <呼吸困难> <MeSH编号> ?x. }
-select ?x where { <呼吸困难> <ICD10编码> ?x. }
-select ?x where { <呼吸困难> <DiseasesDB编码> ?x. }
+Skipping question '呼吸困难的MeSH编号是什么？' after 4 failed attempts.
+Skipping question '呼吸困难的ICD10编码是多少？' after 4 failed attempts.
+SELECT ?code WHERE { <呼吸困难> <DiseasesDB编码> ?code. }
 select ?x where { <呼吸困难> <MedlinePlus编码> ?x. }
 select ?x where { <呼吸困难> <ICD9编码> ?x. }
 select ?x where { <呼吸困难> <诊断方法> ?x. }
-select ?x where { <鼻塞> <是否传染> ?x. }
+select ?x where { <鼻塞> <传染性> ?x. }
 select ?x where { <鼻塞> <预防方法> ?x. }
-select ?x where { ?x <症状> <鼻塞>. ?x <ICD9CM编码> ?y. }
+select ?x where { <鼻塞> <ICD9CM编码> ?x. }
 select ?x where { <鼻塞> <诊断方法> ?x. }
 select ?x where { <腹泻> <传染性> ?x. }
 select ?x where { <腹泻> <英文名称> ?x. }
 select ?x where { <腹泻> <临床表现> ?x. }
 select ?x where { <腹泻> <MeSH编码> ?x. }
 select ?x where { <腹泻> <ICD10编码> ?x. }
-select ?x where { <腹泻> <eMedicine页面> ?x. }
-SELECT ?code WHERE { ?disease <名称> "腹泻". ?disease <DiseasesDB编码> ?code. }
+select ?x where { <腹泻> <eMedicine> ?x. }
+select ?x where { <腹泻> <DiseasesDB编码> ?x. }
 select ?x where { <腹泻> <ICD9编码> ?x. }
-select ?x where { <腹泻> <诊断> ?x. }
-select ?x where { <流涕> <预防方法> ?x. }
+select ?x where { <腹泻> <诊断方法> ?x. }
+select ?x where { <流涕> <预防> ?x. }
 select ?x where { <咽痛> <诊断方法> ?x. }
 select ?x where { <代谢性酸中毒> <传染性> ?x. }
 select ?x where { <代谢性酸中毒> <发病部位> ?x. }
@@ -1037,256 +1037,256 @@ select ?x where { <代谢性酸中毒> <预防> ?x. }
 select ?x where { <代谢性酸中毒> <临床表现> ?x. }
 select ?x where { <低氧血症> <预防> ?x. }
 select ?x where { <低氧血症> <诊断方法> ?x. }
-select ?x where { <呼吸窘迫综合征> <预防措施> ?x. }
-select ?x where { <凝血功能障碍> <预防措施> ?x. }
+select ?x where { <呼吸窘迫综合征> <预防方法> ?x. }
+select ?x where { <凝血功能障碍> <预防> ?x. }
 select ?x where { <凝血功能障碍> <诊断方法> ?x. }
-select ?x where { <支气管肺炎> <症状> ?x. }
-select ?x where { <支气管肺炎> <病因> ?x. }
-select ?x where { <支气管肺炎> <易患群体> ?x. }
-SELECT ?x WHERE { <颈动脉狭窄> <成因> ?x. }
-select ?x where { <胆囊结石> <是否传染> ?x. }
-select ?x where { <胆囊结石患者> <就诊科室> ?x. }
-select ?x where { <胆囊结石> <症状> ?x. }
-select ?x where { ?x <患有疾病> <胆囊结石>. }
+select ?x where { <支气管肺炎> <临床表现> ?x. }
+select ?x where { <支气管肺炎> <引起原因> ?x. }
+select ?x where { ?x <易患疾病> <支气管肺炎>. }
+select ?x where { <颈动脉狭窄> <原因> ?x. }
+select ?x where { <胆囊结石> <传染性> ?x. }
+select ?x where { <胆囊结石> <就诊科室> ?x. }
+select ?x where { <胆囊结石> <常见症状> ?x. }
+select ?x where { ?x <容易患有> <胆囊结石>. }
 select ?x where { <梅毒> <传播途径> ?x. }
-select ?x where { <梅毒> <外文名> ?x. }
+select ?x where { <梅毒> <外文名称> ?x. }
 SELECT ?x WHERE { <梅毒> <MedlinePlus编码> ?x. }
-select ?x where { <贫血> <就诊科室> ?x. }
+select ?x where { ?x <疾病> <贫血>. ?x <科室> <贫血科室>. }
 select ?x where { <贫血> <症状> ?x. }
 select ?x where { <贫血> <原因> ?x. }
 select ?x where { <灭菌注射用水> <药品类型> ?x. }
-select ?x where { <灭菌注射用水> <类型> ?x. }
-select ?x where { <防风通圣丸> <类型> ?x. }
-select ?x where { <藿香正气胶囊> <药品类型> ?x. }
-select ?x where { <连花清瘟胶囊> <药品类型> ?x. }
-select ?x where { <疏风解毒胶囊> <药品类型> ?x. }
-select ?x where { <解毒胶囊> <描述> ?x. }
-select ?x where { <苏合香丸> <类型> ?x. }
-select ?x where { <苏合香丸> <用途> ?x. }
-select ?x where { <安宫牛黄丸> <类型> ?x. }
-select ?x where { <血必净注射液> <药品类型> ?x. }
-select ?x where { <血必净注射液> <类型> ?x. }
-select ?x where { <参附注射液> <药品种类> ?x. }
-select ?x where { <参附注射液> <药剂类型> ?x. }
+select ?x where { <灭菌注射用水> <定义> ?x. }
+select ?x where { <防风通圣丸> <药物类型> ?x. }
+select ?x where { <藿香正气胶囊> <药理作用> ?x. }
+select ?x where { <连花清瘟胶囊> <类型> ?x. }
+select ?x where { <疏风解毒胶囊> <类型> ?x. }
+select ?x where { <解毒胶囊> <性状> ?x. }
+select ?x where { <苏合香丸> <药类> ?x. }
+select ?x where { <苏合香丸> <药用剂型> ?x. }
+select ?x where { <安宫牛黄丸> <药性> ?x. }
+select ?x where { <血必净注射液> <适应症> ?x. }
+select ?x where { <血必净注射液> <药物类型> ?x. }
+select ?x where { <参附注射液> <药品类别> ?x. }
+select ?x where { <参附注射液> <药物剂型> ?x. }
 select ?x where { <生脉注射液> <药品类型> ?x. }
-select ?x where { <生脉注射液> <类型> ?x. }
-select ?x where { <喜炎平注射液> <类型> ?x. }
-select ?x where { <喜炎平注射液> <类别> ?x. }
-select ?x where { <小儿腹泻宁糖浆> <药物类型> ?x. }
-SELECT ?x WHERE { ?x <药品名称> "小儿腹泻散". }
-select ?x where { <小儿腹泻宁(泡腾颗粒)> <类型> ?x. }
-select ?x where { <小儿腹泻宁(泡腾颗粒)> <用途> ?x. }
-select ?x where { <小儿腹泻贴> <药品种类> ?x. }
-select ?x where { <小儿腹泻贴> <剂型> ?x. }
-select ?x where { <小儿腹泻宁合剂> <类型> ?x. }
-select ?x where { <小儿腹泻宁合剂> <剂型> ?x. }
+select ?x where { <生脉注射液> <药剂类型> ?x. }
+select ?x where { <喜炎平注射液> <药品类型> ?x. }
+select ?x where { <喜炎平注射液> <药物类型> ?x. }
+select ?x where { <小儿腹泻宁糖浆> <剂型> ?x. }
+select ?x where { <小儿腹泻散> <药品类别> ?x. }
+select ?x where { <小儿腹泻宁(泡腾颗粒)> <药物类型> ?x. }
+select ?x where { <小儿腹泻宁(泡腾颗粒)> <药物类型> ?x. }
+select ?x where { <小儿腹泻贴> <药品类型> ?x. }
+select ?x where { <小儿腹泻贴> <用途> ?x. }
+select ?x where { <小儿腹泻宁合剂> <药品类别> ?x. }
+select ?x where { <小儿腹泻宁合剂> <用作> ?x. }
 select ?x where { <干咳> <就诊科室> ?x. }
 select ?x where { <干咳> <原因> ?x. }
 select ?x where { <干咳> <定义> ?x. }
-select ?x where { <呼吸困难> <传染性> ?x. }
+SELECT ?x WHERE { <呼吸困难> <传染性> ?x. }
 select ?x where { <呼吸困难> <就诊科室> ?x. }
 select ?x where { <呼吸困难> <引起原因> ?x. }
 select ?x where { <呼吸困难> <症状描述> ?x. }
-select ?x where { ?x <涉及症状> <鼻塞>. ?x <就诊科室> ?y. }
-select ?x where { ?x <症状> <鼻塞>. }
-select ?x where { ?x <症状> <鼻塞>. }
+select ?x where { <鼻塞> <就诊科室> ?x. }
+select ?x where { <鼻塞> <造成> ?x. }
+select ?x where { ?x <引起症状> <鼻塞>. }
 select ?x where { <鼻塞> <症状> ?x. }
-select ?x where { <腹泻> <引起> ?x. }
+select ?x where { ?x <原因> <腹泻> . }
 select ?x where { <腹泻> <就诊科室> ?x. }
 select ?x where { <腹泻> <症状> ?x. }
-select ?x where { <腹泻> <症状描述> ?x. }
+select ?x where { <腹泻> <定义> ?x. }
 select ?x where { <咽痛> <预防方法> ?x. }
-select ?x where { <咽痛> <症状> ?x. }
-select ?x where { <咽痛> <原因> ?x. }
-select ?x where { ?x <症状> <咽痛>. }
-select ?x where { <代谢性酸中毒> <就诊科室> ?x. }
-select ?x where { <代谢性酸中毒> <病因> ?x. }
+select ?x where { <咽痛> <伴随症状> ?x. }
+select ?x where { <咽痛> <引发原因> ?x. }
+select ?x where { <咽痛> <病症类型> ?x. }
+select ?x where { <代谢性酸中毒> <科室> ?x. }
+select ?x where { <代谢性酸中毒> <疾病描述> ?x. }
 select ?x where { <代谢性酸中毒> <引起> ?x. }
 select ?x where { <代谢性酸中毒> <诊断方法> ?x. }
-select ?x where { <代谢性酸中毒> <定义> ?x. }
-select ?x where { <低氧血症> <引起> ?x. }
-select ?x where { <低氧血症> <定义> ?x. }
-select ?x where { <呼吸窘迫综合征> <引起原因> ?x. }
+SELECT ?x WHERE { ?x <定义> "代谢性酸中毒". }
+select ?x where { <低氧血症> <病因> ?x. }
+select ?x where { <低氧血症> <病症类型> ?x. }
+SELECT ?x WHERE { <呼吸窘迫综合征> <病因> ?x. }
 select ?x where { <呼吸窘迫综合征> <定义> ?x. }
-select ?x where { <凝血功能障碍> <引发原因> ?x. }
-select ?x where { <凝血功能障碍> <病症名称> ?x. }
-select ?x where { <低热> <表现> ?x. }
-select ?x where { <低热> <原因> ?x. }
-select ?x where { <低热> <引起原因> ?x. }
+select ?x where { <凝血功能障碍> <病因> ?x. }
+select ?x where { <凝血功能障碍> <类型> ?x. }
+select ?x where { <低热> <表现为> ?x. }
+select ?x where { <低热> <病因> ?x. }
+select ?x where { ?x <引起低热的原因> ?y. }
 select ?x where { <低热> <症状描述> ?x. }
 select ?x where { <高热> <症状描述> ?x. }
 select ?x where { <呼吸衰竭> <就诊科室> ?x. }
 select ?x where { <呼吸衰竭> <原发病症> ?x. }
-select ?x where { <呼吸衰竭> <引发原因> ?x. }
-select ?x where { <肺实变> <英文名> ?x. }
-select ?x where { <肺实变> <原因> ?x. }
+select ?x where { <呼吸衰竭> <病因> ?x. }
+select ?x where { <肺实变> <英文名称> ?x. }
+select ?x where { <肺实变> <引起原因> ?x. }
 select ?x where { <肺实变> <定义> ?x. }
-select ?x where { ?x <别名> "不明原因发热". }
-select ?x where { <不明原因发热> <症状> ?x. }
-select ?x where { <不明原因发热> <引发原因> ?x. }
-select ?x where { <不明原因发热> <属于> ?x. }
+select ?x where { <不明原因发热> <别名> ?x. }
+select ?x where { <不明原因发热> <症状表现> ?x. }
+select ?x where { <引发不明原因发热> <可能原因> ?x. }
+select ?x where { <不明原因发热> <病症> ?x. }
 select ?x where { <咳嗽> <就诊科室> ?x. }
-select ?x where { <咳嗽> <病因> ?x. }
-select ?x where { ?x <涉及症状> <咳嗽>. }
-select ?x where { <恶寒发热> <病因> ?x. }
-select ?x where { <恶寒发热> <病症类型> ?x. }
+select ?x where { <咳嗽> <引起> ?x. }
+select ?x where { <咳嗽> <病症> ?x. }
+select ?x where { <恶寒发热> <引起> ?x. }
+select ?x where { <恶寒发热> <描述> ?x. }
 select ?x where { <倦怠> <引起> ?x. }
 select ?x where { <倦怠> <症状描述> ?x. }
 select ?x where { <脘痞> <病因> ?x. }
 select ?x where { <脘痞> <定义> ?x. }
-select ?x where { ?x <引发症状> <咽干>. }
-select ?x where { <咽干> <病名> ?x. }
+select ?x where { <咽干> <引发原因> ?x. }
+select ?x where { <咽干> <病因> ?x. }
 select ?x where { <便秘> <就诊科室> ?x. }
 select ?x where { <便秘> <引发原因> ?x. }
-select ?x where { <便秘> <类型> ?x. }
-select ?x where { <喘憋> <病因> ?x. }
-Skipping question '东北大厦中尊贵豪华悠景双床房是什么样的？' after 4 failed attempts.
-select ?hotel where { ?hotel <附近> <北京金融街威斯汀大酒店>. ?hotel <距离值> ?distance. filter(?distance <= 1). ?hotel <类型> <酒店>. }
-Skipping question '北京世纪金源饭店附近带收费停车场的景点有哪些' after 4 failed attempts.
+select ?x where { <便秘> <类别> ?x. }
+select ?x where { <喘憋> <原因> ?x. }
+select ?x where { <东北大厦中尊贵豪华悠景双床房> <房型描述> ?x. }
+select ?x where { ?x <附近> <北京金融街威斯汀大酒店>. ?x <距离值> "1公里". ?x <类型> <酒店>. }
+select ?y where { <北京世纪金源饭店> <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <收费停车场> <有>. ?y <类型> <景点>. }
 Skipping question '故宫博物院中的延庆殿有什么历史背景？' after 4 failed attempts.
-Skipping question '沈阳梵高星空艺术馆（益田假日世界店）中的恐怖沙发是什么样的啊？' after 4 failed attempts.
+select ?x where { <沈阳梵高星空艺术馆（益田假日世界店）> <恐怖沙发> ?x. }
 select ?x where { <济南护城河> <联系方式> ?x. }
 select ?x where { <森泊幻想岛> <优待政策> ?x. }
 Skipping question '南京有几家香格里拉品牌的酒店' after 4 failed attempts.
 select ?x where { <润达奇妙萌宠乐园> <最佳游玩时间> ?x. }
-select ?x where { <梅溪湖国际文化艺术中心> <优待政策> ?x. }
+select ?x where { <梅溪湖国际文化艺术中心艺术馆> <优待政策> ?x. }
 select ?x where { <大连远洲大酒店> <联系电话> ?x. }
-select ?x where { ?x <级别> "5A". ?x <所在城市> <济南>. ?x <类型> <风景区>. }
-select ?distance where { <北京国贸大酒店> <距离> ?distance. <北京饭店> <距离> ?distance. }
-select ?x where { <雍和宫> <附近> ?h. ?h <类型> <酒店>. ?h <设施> <充电车位>. }
-select ?hotel where { ?hotel <附近> <景山公园>. ?hotel <提供设施> <高尔夫球场>. }
+select ?x where { ?x <城市> <济南>. ?x <景区等级> "5A". }
+select ?x where { <北京国贸大酒店> <距离> ?x. }
+select ?y where { <雍和宫> <附近> ?cvt. ?cvt <实体名称> ?y. ?y <城市> <北京>. ?y <类型> <酒店>. ?y <服务设施> <充电车位>. }
+select ?x where { ?y <附近> <景山公园>. ?y <提供活动> "高尔夫球". ?y <类型> <宾馆>. ?y <名称> ?x. }
 select ?x where { <外滩> <平均花费> ?x. }
 select ?x where { <沈阳黎明国际酒店> <最早入住时间> ?x. }
-select ?x where { <辽宁省博物馆> <详细地址> ?x . }
-Skipping question '天津的独角兽星空艺术馆附近2公里的景点都有什么呀？' after 4 failed attempts.
-select ?y where { <重庆君豪大饭店> <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <距离值> ?distance. filter(?distance <= 5). ?y <城市> <重庆>. ?y <类型> <景点>. }
+Skipping question '坐落在沈阳的辽宁省博物馆的详细地址是多少？' after 4 failed attempts.
+select ?x where { <天津独角兽星空艺术馆> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?d. filter(?d <= 2). ?x <类型> <景点>. }
+select ?x where { <重庆君豪大饭店> <周边景点> ?x. }
 select ?x where { <凯玄国际大酒店> <最晚退房时间> ?x. }
 select ?x where { <南京城市名人酒店> <入住时间> ?x. }
-Skipping question '可以描述一下青岛台东附近的幻光之城星空艺术馆中水晶柱镜花宫项目吗？' after 4 failed attempts.
-select ?x where { ?x <附近> <颐和园>. ?x <停车费用> "免费". }
-Skipping question '梅里雪山国家公园多少钱？' after 4 failed attempts.
-select ?x where { <湖南省博物馆> <营业时间> ?x. }
-select ?x where { <润达奇妙萌宠乐园> <营业时间> ?x. }
+select ?x where { <青岛台东> <附近景点> ?y. ?y <景点名称> "幻光之城星空艺术馆". ?y <景点项目> "水晶柱镜花宫". ?y <景点描述> ?x. }
+select ?x where { <颐和园> <附近> ?cvt. ?cvt <实体名称> ?y. ?y <城市> <北京>. ?y <类型> <酒店>. ?y <是否提供免费停车> "是". ?y <距离> ?distance. filter(?distance <= 5). }
+select ?x where { <梅里雪山国家公园> <门票价格> ?x. }
+select ?x where { <湖南省博物馆> <开馆时间> ?x. }
+select ?x where { <润达奇妙萌宠乐园> <开园时间> ?x. }
 Skipping question '厦门的时空魔方艺术馆老板电话多少？' after 4 failed attempts.
-select ?y where { <景山公园> <附近> ?cvt. ?cvt <实体名称> ?x. ?x <酒店设施> <室内泳池>. }
+select ?x where { <景山公园> <附近> ?y. ?y <类型> <酒店>. ?y <是否有室内泳池> ?x. }
 select ?x where { <玉龙雪山蓝月谷> <平均价格> ?x. }
-select ?x where { <厦门艾美酒店> <价格> ?x. }
-select ?x where { <森泊幻想岛> <位置> ?x. FILTER regex(?x, "孤山公园") }
-Skipping question '北京国宾酒店附近5公里的景点包括什么？' after 4 failed attempts.
-select ?x where { <奥林匹克森林公园> <联系电话> ?x. }
+select ?x where { <厦门艾美酒店> <平均价格> ?x. }
+Skipping question '森泊幻想岛在孤山公园的什么方向？' after 4 failed attempts.
+select ?x where { <北京国宾酒店> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?distance. filter(?distance <= 5). ?x <类型> <景点>. }
+select ?x where { <奥林匹克森林公园> <电话> ?x. }
 select ?x where { <南京永银钱币博物馆> <优惠政策> ?x. }
-select ?x where { ?x <所属酒店品牌> <索菲特>. ?x <所在城市> <济南>. }
+select ?x where { ?x <隶属于> <索菲特>. ?x <城市> <济南>. }
 select ?x where { <喀纳斯景区> <门票价格> ?x. }
-select ?x where { <武汉华美达光谷大酒店> <wifi情况> ?x. }
+select ?x where { <武汉华美达光谷大酒店> <wifi> ?x. }
 select ?x where { <济南护城河> <级别> ?x. }
-select ?x where { <北京北海公园> <位置> ?x. }
-select ?x where { <广州独角兽星空艺术馆> <所在城市> ?x. }
-select ?x where { <梵高星空艺术馆（益田假日世界店）> <城市> ?x. }
+SELECT ?x WHERE { <北京北海公园> <位置> ?x. }
+select ?x where { <广州独角兽星空艺术馆> <城市> ?x. }
+select ?x where { <梵高星空艺术馆（益田假日世界店）> <所在地> ?x. }
 select ?x where { <库尔勒康城建国国际酒店> <是否有咖啡厅> ?x. }
-select ?x where { <景山公园> <附近酒店> ?y. ?y <酒店名称> ?x. ?x <支付方式> <外汇支付>. }
-Skipping question '据说萤火虫星空艺术馆（钟楼旗舰店）和西安梦幻星空抖乐园（钟楼旗舰店）挨得特别近，请问有多近啊？' after 4 failed attempts.
-select ?x where { <布达拉宫> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <服务> <咖啡>. }
-select ?x where { <天津空中之翼航空飞行跳伞俱乐部> <最佳游玩季节> ?x. }
-select ?x where { <九寨沟> <优待政策> ?x. }
-select ?x where { <重庆·巅峰乐园> <游玩时间> ?x. }
-select ?x where { <北京金茂威斯汀饭店> <是否有网球场> ?x. }
-select ?x where { <辽宁省博物馆> <参观限制条件> ?x. }
-select ?y where { <北京雍和宫> <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <距离值> ?distance. filter(?distance <= 5). ?y <城市> <北京>. ?y <类型> <景点>. }
-select ?x where { <北京中奥马哥孛罗大酒店> <附近> ?cvt. ?cvt <实体名称> ?hotel. ?cvt <距离值> ?distance. filter(?distance <= 5). ?hotel <价格等级> ?price. filter(?price = max(?price)). }
-select ?x where { <成都望江宾馆> <是否提供婚宴服务> ?x. }
-select ?x where { <孤山公园> <级别> ?x. }
-select ?x where { <故宫> <周末开放> ?x. }
-select ?x where { <瑞海姆田园度假村> <接送服务> ?x. }
-select ?x where { <美丽华酒店> <是否允许宠物> ?x. }
-select ?x where { <北京新云南皇冠假日酒店> <附近> ?cvt. ?cvt <实体名称> <故宫博物院>. ?cvt <距离值> ?x. }
-select ?x where { <清华大学艺术博物馆> <展厅名称> ?x. filter regex(?x, "家具"). }
-select ?x where { <丽江泸沽湖景区> <交通方式> ?x. }
+select ?x where { <景山公园> <附近> ?y. ?y <外汇服务> ?x. }
+select ?distance where { <萤火虫星空艺术馆（钟楼旗舰店）> <附近> ?cvt. ?cvt <实体名称> <西安梦幻星空抖乐园（钟楼旗舰店）>. ?cvt <距离值> ?distance. }
+select ?x where { <布达拉宫> <附近的酒店> ?y. ?y <是否有咖啡厅> ?x. }
+select ?x where { <天津空中之翼航空飞行跳伞俱乐部> <最佳季节> ?x. }
+select ?x where { <九寨沟> <优惠政策> ?x. }
+SELECT ?x WHERE { <重庆·巅峰乐园> <所需游玩时间> ?x. }
+select ?x where { <北京金茂威斯汀饭店> <是否有打网球场地> ?x. }
+select ?x where { <辽宁省博物馆> <洞穴岁月展厅> ?x. ?x <参观条件> ?y. }
+Skipping question '北京雍和宫附近5公里的景点包括哪些？' after 4 failed attempts.
+select ?x where { ?x <附近> <故宫>. ?x <价格> ?y. filter(?y > "500"). }
+select ?x where { <成都望江宾馆> <是否有婚宴服务> ?x. }
+select ?x where { <杭州孤山公园> <景点级别> ?x. }
+select ?x where { <故宫> <开放时间> ?x. }
+select ?x where { <瑞海姆田园度假村> <是否提供接送服务> ?x. }
+select ?x where { <美丽华酒店> <是否接受宠物> ?x. }
+select ?x where { <故宫博物院> <距离> ?x. <北京新云南皇冠假日酒店> <距离> ?x. }
+select ?x where { <清华大学艺术博物馆> <展厅名称> ?x. FILTER regex(?x, "家具部分展厅", "i"). }
+select ?x where { <丽江泸沽湖景区> <车辆通行> ?x. }
 select ?x where { <景山公园> <门票价格> ?x. }
 select ?x where { <上海西郊宾馆> <最早入住时间> ?x. }
-Skipping question '萤火虫星空艺术馆（钟楼旗舰店）的奇趣动漫馆项目是什么？' after 4 failed attempts.
-select ?x where { <颐和园> <方位> ?x. FILTER regex(?x, "日坛宾馆", "i") }
-select ?x where { <镇江> <酒店> ?x . ?x <品牌> <喜来登>. }
-select ?x where { <北京金融街威斯汀大酒店> <位置> ?x. ?x <方向> <雍和宫>. }
-Skipping question '东北大厦中豪华悠景大床房能住几个人？' after 4 failed attempts.
-select ?x where { <灵峰山森仙亲子教育农场> <wifi情况> ?x. }
-select ?x where { <丽江> <交通方式> ?x. <泸沽湖> <交通方式> ?x. }
+select ?x where { <萤火虫星空艺术馆（钟楼旗舰店）> <项目> ?x. filter regex(?x, "奇趣动漫馆"). }
+select ?x where { <颐和园> <方向> ?x. }
+select ?x where { ?x <所在地> <镇江>. ?x <隶属品牌> <喜来登>. }
+select ?x where { <北京金融街威斯汀大酒店> <位置> ?x. }
+select ?x where { <东北大厦中豪华悠景大床房> <可住人数> ?x. }
+select ?x where { <灵峰山森仙亲子教育农场> <是否有wifi服务> ?x. }
+select ?x where { <丽江泸沽湖> <合适交通路线> ?x. }
 Skipping question '在常熟有几个金海华丽嘉品牌下的酒店？' after 4 failed attempts.
-select ?x where { ?x <服务> <擦鞋>. ?x <附近地点> <北京国贸大酒店>. }
-select ?x where { <杭州西湖星空魔幻城（星空艺术馆品牌旗舰店）> <游玩时间> ?x. }
-select ?x where { <北京颐和园> <成人门票价格> ?x. }
-Skipping question '北京昆仑饭店周围2公里的景点有哪些？' after 4 failed attempts.
-select ?x where { <湖南省博物馆> <附近> ?a. ?a <实体名称> <梅溪湖国际文化艺术中心艺术馆>. ?a <距离值> ?x. }
+select ?x where { <北京国贸大酒店> <附近> ?y. ?y <是否有擦鞋服务> ?x. }
+select ?x where { <杭州西湖星空魔幻城（星空艺术馆品牌旗舰店）> <最佳游玩时间> ?x. }
+select ?x where { <北京颐和园> <门票价格> ?x. }
+select ?x where { <北京昆仑饭店> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?distance. filter(?distance <= 2). ?x <类型> <景点>. }
+select ?x where { <湖南省博物馆> <距离> ?x. <梅溪湖国际文化艺术中心艺术馆> <距离> ?x. }
 select ?x where { <成都家园国际酒店> <早餐种类> ?x. }
-select ?x where { <济南护城河> <最近酒店距离> ?x. }
-select ?x where { ?x <酒店> . ?x <距离值> 5. ?x <城市> <拉萨>. ?x <地标> <布达拉宫>. }
-select ?hotel where { ?hotel <附近> <绍兴市国际大酒店>. ?hotel <距离值> ?distance. filter(?distance <= 5). ?hotel <类型> <酒店>. }
+select ?distance where { <济南护城河> <附近> ?cvt. ?cvt <实体名称> ?hotel. ?cvt <距离值> ?distance. ?hotel <类型> <酒店>. }orderby(?distance) limit 1
+select ?x where { ?x <附近> <拉萨布达拉宫>. ?x <类型> <酒店>. }
+select ?x where { ?y <附近> <绍兴市国际大酒店>. ?y <距离值> ?z. filter(?z <= 5). ?x <类型> <酒店>. }
 select ?x where { <玉龙雪山蓝月谷> <是否有餐厅> ?x. }
-Skipping question '故宫博物院中的养性殿是什么宫？' after 4 failed attempts.
+select ?x where { <养性殿> <所属宫殿> ?x. }
 select ?x where { <开平潭江半岛酒店> <早餐价格> ?x. }
-select ?x where { <景山公园> <门票优惠政策> ?x. }
+select ?x where { <北京景山公园> <门票优惠政策> ?x. }
 select ?x where { <奥林匹克森林公园> <所在城市> ?x. }
 select ?x where { <珠海来魅力假日酒店> <所在城市> ?x. }
-select ?x where { ?x <城市> <北京>. ?x <类型> <酒店>. ?x <距离值> ?distance. filter(?distance <= 5). ?x <价格> ?price. filter(?price = min(?price)). }
-select ?y where { <厦门星空艺术馆> <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <距离值> ?distance. filter(?distance <= 5). ?y <城市> <厦门>. ?y <类型> <景点>. }
+select ?x where { ?x <附近> <天坛>. ?x <价格> ?y. ?y = "最省钱". } limit 1
+Skipping question '厦门星空艺术馆附近5公里的景点包括什么？' after 4 failed attempts.
 Skipping question '从三亚的亚龙湾希尔顿大酒店出来，想换个地方住，请问附近1公里还有哪些酒店？' after 4 failed attempts.
 Skipping question '西安威斯汀大酒店附近2公里都有什么好玩的？' after 4 failed attempts.
-select ?x where { <广州失恋博物馆> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?distance. filter(?distance <= 5). ?x <城市> <广州>. ?x <类型> <景点>. }
+select ?y where { <广州失恋博物馆> <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <距离值> ?distance. filter(?distance <= 5). ?y <类型> <景点>. }
 select ?x where { <名人国际大酒店> <所在地> ?x. }
-select ?x where { <开封中州国际饭店> <房间类型> ?x. ?x <配备设施> <智能门锁>. }
-select ?hotel where { ?hotel <附近> <天津独角兽星空艺术馆>. ?hotel <类型> <酒店>. ?hotel <房间类型> "双人间". }
-select ?x where { ?x <周边> <南京博物院>. ?x <设施> <健身房>. }
-Skipping question '壶山温泉中的电玩游戏厅什么时候营业啊？' after 4 failed attempts.
-select ?x where { <南京恋爱博物馆> <附近> ?cvt. ?cvt <实体名称> <永银钱币博物馆>. ?cvt <距离值> ?x. }
+select ?x where { <开封中州国际饭店> <房间类型> ?x. ?x <智能门锁> "支持". }
+select ?y where { <天津独角兽星空艺术馆> <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <是否支持双人入住> "是". ?y <类型> <酒店>. }
+select ?y where { ?x <附近> <南京博物院>. ?x <是否有健身房> ?y. ?x <类型> <酒店>. }
+select ?x where { <壶山温泉> <电玩游戏厅> ?y. ?y <营业时间> ?x. }
+select ?distance where { <南京恋爱博物馆> <距离> ?distance. <永银钱币博物馆> <距离> ?distance. }
 select ?x where { <壶山温泉> <是否允许带自拍杆> ?x. }
-select ?x where { <颐和园> <方位> ?y. ?x <方位参照点> <凤凰中心>. }
+select ?x where { <颐和园> <所在位置> ?y. ?y <方位> ?x. }
 select ?x where { <紫金山探险公园> <最佳游玩季节> ?x. }
 select ?x where { <布达拉宫> <地址> ?x. }
-Skipping question '湖南博物馆是免费的吗？' after 4 failed attempts.
-Skipping question '南京绿地洲际酒店附近5公里的景点有哪些？' after 4 failed attempts.
-select ?x where { <江汉路> <附近> ?cvt. ?cvt <实体名称> <梵高星空美术>. ?cvt <是否有母婴室> ?x. }
+select ?x where { <湖南博物馆> <是否免费> ?x. }
+select ?x where { ?y <附近> <南京绿地洲际酒店>. ?y <类型> <景点>. ?y <城市> <南京>. ?y <距离值> ?distance. filter(?distance <= 5). ?y <实体名称> ?x. }
+select ?x where { <江汉路> <附近> ?cvt. ?cvt <实体名称> "梵高星空美术". ?cvt <是否有母婴室> ?x. }
 select ?x where { <思南九天温泉酒店> <详细地址> ?x. }
-select ?x where { <故宫博物院> <等级> ?x. }
+select ?x where { <故宫博物院> <景点等级> ?x. }
 select ?x where { <北京中奥马哥孛罗大酒店> <早餐价格> ?x. }
-select ?x where { <思丽卡尔顿酒店> <退房时间> ?x. }
+select ?x where { <思里卡尔顿酒店> <最晚退房时间> ?x. }
 select ?x where { <御水温泉度假酒店> <平均价格> ?x. }
-Skipping question '可以简短描述一下颐和园中玉澜堂吗？' after 4 failed attempts.
-select ?x where { <九寨沟县> <交通信息> ?x. }
-Skipping question '北京天伦王朝酒店附近2公里的景点包括哪些？' after 4 failed attempts.
+select ?x where { <玉澜堂_（颐和园建筑）> <描述> ?x. }
+select ?x where { <九寨沟县风景区> <交通信息> ?x. }
+select ?x where { <北京天伦王朝酒店> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?distance. filter(?distance <= 2). ?x <类型> <景点>. }
 select ?x where { <苏州吴宫泛太平洋酒店> <是否有游泳池> ?x. }
 select ?x where { <北京伯豪瑞廷酒店> <所属品牌> ?x. }
-select ?x where { <森泊幻想岛> <门票价格> ?x. }
-select ?y where { ?x <城市> <北京> . ?x <类型> <景点> . ?x <价格> ?price . filter(?price < 100). ?x <附近> ?y . ?y <距离值> ?distance . filter(?distance <= 5). }
-select ?x where { <赛里木湖风景区> <所在城市> ?x. FILTER regex(?x, "市$") }
+select ?x where { <森泊幻想岛> <官方门票价格> ?x. }
+select ?y where { ?x <城市> <北京>. ?x <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <距离值> ?distance. ?cvt <门票价格> ?price. filter(?distance <= 5 && ?price < 100). }
+select ?x where { <赛里木湖风景区> <所在城市> ?x. }
 select ?x where { <珠海来魅力假日酒店> <房间设施> ?x. FILTER regex(?x, "影音设备"). }
-select ?x where { <北京> <AAAAA级以上景点> ?x. }
-Skipping question '在北京，国贸大酒店附近5公里的景点有哪些？' after 4 failed attempts.
-SELECT ?hotel WHERE { ?hotel <所在城市> <上虞区>. ?hotel <隶属于> <上虞宾馆>. }
+select ?x where { ?x <城市> <北京>. ?x <景点等级> "AAAA及以上". }
+select ?x where { ?x <附近> <北京国贸大酒店>. ?x <类型> <景点>. }
+select ?x where { ?x <城市> <上虞区>. ?x <类型> <酒店>. ?x <隶属公司> <上虞宾馆>. }
 select ?x where { <九寨沟风景区> <所在城市> ?x. }
-select ?x where { <纳木错> <是否有婴儿车租赁> ?x. }
-select ?x where { <天坛公园> <位置> ?y. <北京饭店> <位置> ?z. ?x <方位> ?z. ?y <方位> ?x. }
+select ?x where { <纳木错> <是否提供婴儿车租赁> ?x. }
+select ?x where { <北京饭店> <位置> ?x. }
 select ?x where { <天津金皇大酒店> <联系电话> ?x. }
-select ?x where { <北京嘉里大酒店> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?distance. filter(?distance <= 5). ?x <城市> <北京>. ?x <类型> <景点>. }
-Skipping question '贵阳世纪金源大饭店的平均价格是多少？' after 4 failed attempts.
-select ?x where { <西安梦幻星空抖乐园（钟楼旗舰店）> <附近> ?x. ?x <类型> <酒店>. }
-select ?x where { <大庆市博物馆> <联系电话> ?x. }
-select ?x where { <长春安哥拉巨兔体验馆> <是否有无线网> ?x. }
-select ?x where { <西湖风景名胜区> <所在城市> ?x. }
-select ?x where { <时空魔方艺术馆> <是否需要门票> ?x. }
-select ?x where { <丽江泸沽湖景区> <交通信息> ?x. }
-select ?y where { <北京金茂威斯汀大饭店> <附近> ?cvt. ?cvt <实体名称> ?y. ?cvt <距离值> ?distance. filter(?distance <= 5000). ?y <城市> <北京>. ?y <类型> <景点>. ?y <价格> ?price. filter(?price < 100). }
-SELECT ?x WHERE { ?x <城市> <天津>. ?x <设施> <KTV>. }
-select ?x where { ?x <城市> <大连>. ?x <停车场服务> "免费停车". }
-select ?x where { <蓝月谷> <最佳旅行时间> ?x. }
-select ?x where { <喀纳斯景区> <建议游玩时长> ?x. }
-select ?x where { ?x <城市> <拉萨>. ?x <酒店品牌> <瑞吉>. }
-select ?x where { <湖南省博物馆> <建议游玩时长> ?x . }
-select ?x where { <流动的永恒> <展览地点> ?x. }
-select ?x where { ?x <所在地> <故宫博物院>. }
-select ?x where { <北京国家大剧院> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?distance. filter(?distance <= 2). ?x <类型> <住宿>. }
-select ?x where { <金狮国际酒店> <房间类型> ?x. filter contains(?x, "5人"). }
+select ?x where { <北京嘉里大酒店> <附近> ?cvt. ?cvt <实体名称> ?x. ?cvt <距离值> ?distance. filter(?distance <= 5). ?x <类型> <景点>. }
+select ?x where { <贵阳世纪金源大饭店> <平均价格> ?x. }
+select ?x where { <西安梦幻星空抖乐园（钟楼旗舰店）> <附近> ?x. }
+select ?x where { <大庆市博物馆> <电话> ?x. }
+select ?x where { <长春安哥拉巨兔体验馆> <是否有无线网络> ?x. }
+select ?x where { <西湖风景名胜区> <所在地> ?x. }
+select ?x where { <厦门时空魔方艺术馆> <是否需要门票> ?x. }
+select ?x where { <丽江泸沽湖景区> <交通信息> ?x . }
+select ?x where { ?x <类型> <景点>. ?x <城市> <北京>. ?x <价格> ?y. filter(?y < 100 && ?y > 0). ?x <距离> ?d. filter(?d <= 5000). }
+select ?x where { ?x <城市> <天津>. ?x <设施> <KTV>. ?x <类型> <酒店>. }
+select ?x where { ?x <城市> <大连>. ?x <提供服务> <免费停车>. ?x <类型> <酒店>. }
+select ?x where { <蓝月谷> <最佳游览时间> ?x. }
+select ?x where { <喀纳斯景区> <建议游玩时间> ?x. }
+select ?x where { ?x <品牌> <瑞吉> . ?x <城市> <拉萨>. ?x <类型> <酒店>. }
+select ?x where { <湖南省博物馆> <建议游玩时长> ?x. }
+SELECT ?x WHERE { <流动的永恒_（展览）> <举办地点> ?x. }
+select ?x where { <故宫博物院> <城市> ?x. }
+select ?x where { <北京国家大剧院> <附近酒店> ?x. ?x <距离值> "2公里". }
+select ?x where { <金狮国际酒店> <房型名称> ?x. ?x <容纳人数> "5". }
 select ?x where { <厦门悦华酒店> <入住年龄限制> ?x. }
-select ?x where { <天津梵高星空艺术馆（天河城旗舰店）> <优惠政策> ?x. }
+Skipping question '天河城附近的天津梵高星空艺术馆有什么优惠政策？' after 4 failed attempts.
 Skipping question '西安有几家皇冠假日品牌的酒店？' after 4 failed attempts.
-select ?x where { ?x <城市> <泰安>. ?x <隶属品牌> <华美达>. }
-select ?x where { ?x <附近> <南京博物院>. ?x <距离值> "1公里". ?x <类型> <酒店>. }
+select ?x where { ?x <城市> <泰安>. ?x <隶属于> <华美达>. }
+select ?x where { ?x <附近> <南京博物院>. ?x <类型> <酒店>. ?x <可住宿> "是". }
 select ?x where { <国家地理探险家中心> <营业时间> ?x. }

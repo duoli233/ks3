@@ -136,7 +136,7 @@ def read_json(file_path, num_items=301):
 
 
 # 步长为20，抽取样例数组
-def read_json_jump(file_path, jump_step=120):
+def read_json_jump(file_path, jump_step=110):
     if jump_step % 2 != 0:
         jump_step -= 1
     with open(file_path, 'r', encoding='utf-8') as file:

@@ -2,7 +2,6 @@ import requests
 from urllib import parse
 
 defaultServerIP = "pkubase.gstore.cn"
-defaultServerPort = "9000"
 
 
 class GstoreConnector:
@@ -231,6 +230,19 @@ class GstoreConnector:
             'db_name': db_name
         }
         return self.request[request_type](query_params)
+
+
+ip = "localhost"
+port = 20024
+username = "root"
+password = "123456"
+data_base = "pkubase"
+ga = GstoreConnector(ip, port, username, password)
+
+
+sparql = 'select ?x where { <莫妮卡·贝鲁奇> <代表作品> ?x. }'
+res = ga.query(data_base, "json", sparql)
+print(res)
 
 
 

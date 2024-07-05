@@ -3,7 +3,7 @@ import re
 import CreatM
 import Train
 import time
-
+import json
 
 # Gstore数据库配置
 ip = "localhost"
@@ -13,6 +13,7 @@ password = "123456"
 data_base = "pkubase"
 ga = GstoreConnector(ip, port, username, password)
 
+
 # 加载数据库
 # the_triple = ga.load(data_base)
 
@@ -21,31 +22,35 @@ class Search:
         self.search_value = []
 
     def search(self, queries):
-        query_pattern = re.compile(r'^select \?\w+ where \{ .* \}', re.IGNORECASE)
+
         # 生成搜索值
         search_value = []
         count = 0
-        maxcount = 200
+        maxcount = 100
         for message in queries:
             print(message)
-            # 符合要求，直接退出循环
-            if query_pattern.match(message.strip()):
-                triples = Train.split_sparql_triples(message)
-                # 查询语句不为空
-                if triples != []:
-                    # 里面实体符合规则
-                    if Train.has_variable_entity(triples):
-                        re_value = ga.query(data_base, "json", message)
-                        count += 1
-                        matches = re.findall(r'"value":"(.*?)"', re_value)
-                        print(matches)
-                        search_value.append(matches)
-                        if count >= maxcount:
-                            time.sleep(3)
-                            count = 0
-                        continue
-            search_value.append(" ")
+            re_value = ga.query(data_base, "json", message)
+            data_dict = json.loads(re_value)
+            # 未查询到数据
+            if data_dict['StatusCode'] == 1005:
+                search_value.append([])
+                continue
+            value = data_dict["results"]["bindings"]
+            # 未查询到数据
+            if value == []:
+                search_value.append([])
+                continue
+            count += 1
+            match = re.search(r'\?(\w+)', message).group(1)
+            values = [item[match]['value'] for item in value]
+            print(values)
+            search_value.append(values)
+            if count >= maxcount:
+                time.sleep(5)
+                count = 0
+                continue
         return search_value
+
 
 def write_answer(filepath, value):
     with open(filepath, 'w', encoding='utf-8') as file:
@@ -58,10 +63,8 @@ def write_answer(filepath, value):
             file.write('\n')
 
 
-
 if __name__ == '__main__':
     queries = Train.read_text(CreatM.file_path_search_word)
-    for i in queries:
-        print(i)
     value = Search().search(queries)
     write_answer(CreatM.file_path_answer, value)
+    print('搜素答案完毕')

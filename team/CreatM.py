@@ -105,7 +105,9 @@ if __name__ == "__main__":
 
     json_data.append({
         "role": "system",
-        "content": "You are a helpful assistant. Now, I need you to learn the following sentences and generate Gstore query statements based on their meanings. You do not need to answer the question, just provide the SPARQL query."
+        "content": "You are a helpful assistant. Now, "
+                   "I need you to learn the following sentences and generate Gstore query statements based on their meanings. "
+                   "You do not need to answer the question, just provide the SPARQL query."
     })
     for question, query in zip(questions, queries):
         json_data.append({

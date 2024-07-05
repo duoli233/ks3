@@ -23,7 +23,7 @@ def merge_two_files(file1_path, file2_path, output_file):
 
 # 示例用法
 file1_path = 'data\\answer.txt'  # 第一个文件路径
-file2_path = 'data\old_value_file\save\\answer\第四次合并\merged_file.txt'  # 第二个文件路径
+file2_path = 'data\old_value_file\\answer\\merged_file7.txt'  # 第二个文件路径
 output_file = 'data\old_value_file\\answer\merged_file.txt'  # 输出合并后的文件路径
 
 merge_two_files(file1_path, file2_path, output_file)
